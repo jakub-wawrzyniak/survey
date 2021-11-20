@@ -1,0 +1,33 @@
+* {
+  font-family: "Roboto";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --main-bgc: #f1f1f1;
+  --grayed-out: #777;
+}
+
+.toBeDone {
+  color: var(--grayed-out);
+}
+
+main#quest {
+  background-image: url("./imgs/questionareBackground.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flow-root;
+}
+
+.PageSelector {
+  margin: 3em 4em;
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 15px;
+  background-color: var(--main-bgc);
+}
