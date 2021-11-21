@@ -1,18 +1,29 @@
 import React, { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch, useSelector, shallowEqual } from "react-redux";
 import { createStore } from "redux";
 import { composeWithDevTools } from "redux-devtools-extension";
 import "./App.css";
 import questions from "./questions";
 
+function getEmptyAnswers() {
+  const out = {};
+  questions.forEach((q) => (out[q.id] = []));
+  return out;
+}
+
 const initalState = {
   appState: "Zaczynamy",
+  answers: getEmptyAnswers(),
 };
 
 const reducer = (state = initalState, action) => {
   switch (action.type) {
     case "appState/change":
       return { ...state, appState: action.payload };
+    case "answers/update":
+      const newState = { ...state, answers: { ...state.answers } };
+      newState.answers[action.payload.id] = action.payload.value;
+      return newState;
     default:
       return state;
   }
@@ -44,22 +55,42 @@ function PageSelector() {
   return <div className="PageSelector">{jsx}</div>;
 }
 
-function Button({ children }) {
-  const [isOn, setIsOn] = useState(false);
-  const handleClick = () => setIsOn((isOn) => !isOn);
+function Button({ children, isOn, toggle }) {
   return (
-    <button onClick={handleClick} className={isOn ? "on button" : "off button"}>
+    <button onClick={toggle} className={isOn ? "on button" : "off button"}>
       {children}
     </button>
   );
 }
 
+function getAnswerSelector(q) {
+  return (state) => state.answers[q.id];
+}
+
+function action(quesiton, newValue) {
+  return {
+    type: "answers/update",
+    payload: {
+      id: quesiton.id,
+      value: newValue,
+    },
+  };
+}
+
 function MultiChoice({ question, howManyAnswers = question.answers.length }) {
-  // if (howManyAnswers === undefined) howManyAnswers = ;
-  console.log(howManyAnswers);
+  const answerIds = useSelector(getAnswerSelector(question), shallowEqual);
+  const dispatch = useDispatch();
   const ansBtns = question.answers.map((ans, id) => {
+    const isOn = answerIds.includes(id);
+    const toggle = () => {
+      let newAnswerIds = [...answerIds];
+      if (isOn) newAnswerIds = newAnswerIds.filter((i) => i !== id);
+      else if (answerIds.length >= howManyAnswers) return;
+      else newAnswerIds.push(id);
+      dispatch(action(question, newAnswerIds));
+    };
     return (
-      <Button key={id}>
+      <Button key={id} isOn={isOn} toggle={toggle}>
         <h5 className="longAnswer">{ans}</h5>
       </Button>
     );
@@ -76,7 +107,7 @@ function Question({ question }) {
   if (question.default) {
     switch (question.type) {
       case "multichoice":
-        return <MultiChoice question={question} />;
+        return <MultiChoice question={question} howManyAnswers={2} />;
       default:
         break;
     }
