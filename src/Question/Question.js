@@ -93,6 +93,56 @@ function SingleChoice({ question }) {
   );
 }
 
+function OptionButton({ children, isOn, onClick }) {
+  return (
+    <button
+      onClick={onClick}
+      className={isOn ? "OptionButton on" : "OptionButton off"}
+    >
+      {children}
+    </button>
+  );
+}
+
+function Options({ question: q, id: ansId }) {
+  const dispatch = useDispatch();
+  const answers = useSelector((s) => s.answers[q.id]);
+  const answer = answers[ansId];
+  // undefined means the client didnt select an option yet
+  const buttons = q.options.map((op, opId) => {
+    const isOn = answer === opId;
+    const handleClick = () => {
+      const newValue = [...answers];
+      if (isOn) delete newValue[ansId];
+      else newValue[ansId] = opId;
+      dispatch(action(q, newValue));
+    };
+    return (
+      <OptionButton key={opId} isOn={isOn} onClick={handleClick}>
+        <h5>{op}</h5>
+      </OptionButton>
+    );
+  });
+  return <div className="optionsContainer">{buttons}</div>;
+}
+
+function MultiPoint({ question: q }) {
+  const answers = q.answers.map((ans, id) => {
+    return (
+      <div key={id}>
+        <h5 className="answerText">{ans}</h5>
+        <Options question={q} id={id} />
+      </div>
+    );
+  });
+  return (
+    <div className={"question"}>
+      <h4>{q.question}</h4>
+      <div>{answers}</div>
+    </div>
+  );
+}
+
 function Question({ question }) {
   if (question.default) {
     switch (question.type) {
@@ -100,6 +150,8 @@ function Question({ question }) {
         return <MultiChoice question={question} />;
       case "singlechoice":
         return <SingleChoice question={question} />;
+      case "multipoint":
+        return <MultiPoint question={question} />;
       default:
         break;
     }

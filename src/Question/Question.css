@@ -37,3 +37,11 @@
 .long .answerText {
   text-align: left;
 }
+
+.OptionButton.on {
+  background-color: red;
+}
+
+.OptionButton.off {
+  background-color: burlywood;
+}

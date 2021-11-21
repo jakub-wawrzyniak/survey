@@ -37,6 +37,23 @@ const questions = [
     answers: ["Kobieta", "Mężczyzna", "Inna"],
     default: true,
   },
+  {
+    id: 4,
+    type: "multipoint",
+    // length: "short",
+    question: "Z jakich środów transportu korzystasz?",
+    answers: [
+      "Samochód jako kierowca",
+      "Samochód jako pasażer",
+      "Komunikacja miejsca",
+      "Taksówki / uber",
+      "Skuter / motor",
+      "Rower",
+      "Hulajnogi elektryczne",
+    ],
+    options: ["Często", "Czasem", "Wcale"],
+    default: true,
+  },
 ];
 
 export default questions;
