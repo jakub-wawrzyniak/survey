@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { createStore } from "redux";
 import { composeWithDevTools } from "redux-devtools-extension";
 import "./App.css";
+import questions from "./questions";
 
 const initalState = {
   appState: "Zaczynamy",
@@ -35,20 +36,61 @@ function PageSelector() {
     const className = id > doneId ? "toBeDone" : "";
     const event = { type: "appState/change", payload: p };
     return (
-      <button onClick={() => dispatch(event)}>
-        <h4 key={p} className={className}>
-          {p}
-        </h4>
+      <button key={p} onClick={() => dispatch(event)}>
+        <h4 className={className}>{p}</h4>
       </button>
     );
   });
   return <div className="PageSelector">{jsx}</div>;
 }
 
+function Button({ children }) {
+  const [isOn, setIsOn] = useState(false);
+  const handleClick = () => setIsOn((isOn) => !isOn);
+  return (
+    <button onClick={handleClick} className={isOn ? "on button" : "off button"}>
+      {children}
+    </button>
+  );
+}
+
+function MultiChoice({ question, howManyAnswers = question.answers.length }) {
+  // if (howManyAnswers === undefined) howManyAnswers = ;
+  console.log(howManyAnswers);
+  const ansBtns = question.answers.map((ans, id) => {
+    return (
+      <Button key={id}>
+        <h5 className="longAnswer">{ans}</h5>
+      </Button>
+    );
+  });
+  return (
+    <div className={"Multichoice question"}>
+      <h4 className="questionHeader">{question.question}</h4>
+      <div className="longAnswers">{ansBtns}</div>
+    </div>
+  );
+}
+
+function Question({ question }) {
+  if (question.default) {
+    switch (question.type) {
+      case "multichoice":
+        return <MultiChoice question={question} />;
+      default:
+        break;
+    }
+  }
+  return <h3>Case for quest no {question.id} is not yet implemented :c</h3>;
+}
+
 function Questionare() {
   return (
     <main id="quest">
       <PageSelector />
+      <div id="questContainer">
+        <Question question={questions[0]} />
+      </div>
     </main>
   );
 }
