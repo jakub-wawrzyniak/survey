@@ -2,6 +2,7 @@ const questions = [
   {
     id: 1,
     type: "multichoice",
+    isLong: true,
     question:
       "Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat?",
     answers: [
@@ -15,7 +16,8 @@ const questions = [
   },
   {
     id: 2,
-    type: "long-singlechoice",
+    type: "singlechoice",
+    isLong: true,
     question:
       "Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat?",
     answers: [
