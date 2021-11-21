@@ -129,15 +129,15 @@ function Options({ question: q, id: ansId }) {
 function MultiPoint({ question: q }) {
   const answers = q.answers.map((ans, id) => {
     return (
-      <div key={id}>
-        <h5 className="answerText">{ans}</h5>
+      <div key={id} className="optionAnswer">
         <Options question={q} id={id} />
+        <h5 className="answerText">{ans}</h5>
       </div>
     );
   });
   return (
     <div className={"question"}>
-      <h4>{q.question}</h4>
+      <h4 className="questionHeader">{q.question}</h4>
       <div>{answers}</div>
     </div>
   );
