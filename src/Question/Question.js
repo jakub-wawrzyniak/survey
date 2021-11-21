@@ -26,7 +26,8 @@ function action(quesiton, newValue) {
   };
 }
 
-function MultiChoice({ question, howManyAnswers = question.answers.length }) {
+function MultiChoice({ question }) {
+  const howManyAnswers = question.howManyAnswers || question.answers.length;
   const getMultiChoiceButtonHandler = (
     question,
     answerIds,

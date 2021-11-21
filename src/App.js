@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { createStore } from "redux";
 import { composeWithDevTools } from "redux-devtools-extension";
 import "./App.css";
-import questions from "./questions";
+import { questions, pages } from "./texts";
 import Question from "./Question/Question";
 
 function getEmptyAnswers() {
@@ -32,14 +32,6 @@ const reducer = (state = initalState, action) => {
 const store = createStore(reducer, composeWithDevTools());
 
 function PageSelector() {
-  const pages = [
-    "Zaczynamy",
-    "O tobie",
-    "Ocena powietrza",
-    "Energetyka i Ogrzewanie",
-    "Transport",
-    "Kończymy",
-  ];
   const selector = (state) => pages.findIndex((e) => e === state.appState);
   const pageId = useSelector(selector);
   const dispatch = useDispatch();
