@@ -35,17 +35,11 @@ function MultiChoice({ question, howManyAnswers = question.answers.length }) {
     howManyAnswers
   ) => {
     const isOn = answerIds.includes(id);
-    if (howManyAnswers === answerIds.length && !isOn)
-      return () => {
-        console.log(`Btn no ${id} was clicked, refused to update state`);
-      };
+    if (howManyAnswers === answerIds.length && !isOn) return () => {};
     let newAnswerIds = [...answerIds];
     if (isOn) newAnswerIds = newAnswerIds.filter((i) => i !== id);
     else newAnswerIds.push(id);
-    return () => {
-      console.log(`Btn no ${id} was clicked`);
-      dispatch(action(question, newAnswerIds));
-    };
+    return () => dispatch(action(question, newAnswerIds));
   };
 
   return (
@@ -81,7 +75,7 @@ function QuestionTemplate({ question, howManyAnswers, getButtonHandler }) {
   return (
     <div className={"question"}>
       <h4 className="questionHeader">{question.question}</h4>
-      <div className="answersContainer">{ansBtns}</div>
+      <div className={"answersContainer " + question.length}>{ansBtns}</div>
     </div>
   );
 }

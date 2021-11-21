@@ -10,17 +10,23 @@
   margin-bottom: 0.5em;
 }
 
-.answersContainer {
+.answersContainer.long {
   display: flex;
   flex-direction: column;
   align-items: stretch;
+}
+
+.answersContainer.short {
+  display: flex;
+  flex-direction: row;
 }
 
 .AnswerButton {
   border: 1px solid var(--grayed-out);
   border-radius: var(--btn-radius);
   padding: 0.9em 1em;
-  margin: 0.3em 0;
+  margin: 0.3em;
+  flex: 1 1 0px;
 }
 
 .AnswerButton.on {
@@ -28,6 +34,6 @@
   border-color: var(--accent);
 }
 
-.answerText {
+.long .answerText {
   text-align: left;
 }

@@ -38,7 +38,7 @@ function PageSelector() {
     "Ocena powietrza",
     "Energetyka i Ogrzewanie",
     "Transport",
-    "Podsumowanie",
+    "Kończymy",
   ];
   const selector = (state) => pages.findIndex((e) => e === state.appState);
   const pageId = useSelector(selector);

@@ -2,7 +2,7 @@ const questions = [
   {
     id: 1,
     type: "multichoice",
-    isLong: true,
+    length: "long",
     question:
       "Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat?",
     answers: [
@@ -17,7 +17,7 @@ const questions = [
   {
     id: 2,
     type: "singlechoice",
-    isLong: true,
+    length: "short",
     question:
       "Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat?",
     answers: [
@@ -27,6 +27,14 @@ const questions = [
       "Jest nieco gorzej",
       "Jest znacznie gorzej",
     ],
+    default: true,
+  },
+  {
+    id: 3,
+    type: "singlechoice",
+    length: "short",
+    question: "Z jaką płcią się identyfikujesz?",
+    answers: ["Kobieta", "Mężczyzna", "Inna"],
     default: true,
   },
 ];
