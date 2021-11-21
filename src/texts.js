@@ -181,16 +181,6 @@ const questions = [
     page: pages[3],
   },
   {
-    id: 15,
-    type: "singlechoice",
-    length: "short",
-    question:
-      "Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?",
-    answers: ["Tak", "Nie"],
-    default: true,
-    page: pages[3],
-  },
-  {
     id: 16,
     type: "singlechoice",
     length: "short",

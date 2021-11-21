@@ -40,21 +40,58 @@ function PageSelector() {
     const event = { type: "appState/change", payload: p };
     return (
       <button key={p} onClick={() => dispatch(event)}>
-        <h4 className={className}>{p}</h4>
+        <h5 className={className}>{p}</h5>
       </button>
     );
   });
   return <div className="PageSelector">{jsx}</div>;
 }
 
+function ControlButtons() {
+  const selector = (s) => pages.findIndex((p) => p === s.appState);
+  const pageId = useSelector(selector);
+  const dispatch = useDispatch();
+  const isLast = pageId === pages.length - 1;
+  const isFirst = pageId === 0;
+  const turnPage = (way) => {
+    const newPageId = pageId + way;
+    if (newPageId >= pages.length) return;
+    if (newPageId < 0) return;
+    dispatch({
+      type: "appState/change",
+      payload: pages[newPageId],
+    });
+  };
+  return (
+    <div className="ControlButtons">
+      <button
+        className={isFirst ? "ControlButton off" : "ControlButton on"}
+        onClick={() => turnPage(-1)}
+      >
+        <h4>{"< Powrót"}</h4>
+      </button>
+      <button
+        className={isLast ? "ControlButton off" : "ControlButton on"}
+        onClick={() => turnPage(1)}
+      >
+        <h4>{"Dalej >"}</h4>
+      </button>
+    </div>
+  );
+}
+
 function Questionare() {
+  const page = useSelector((s) => s.appState);
   return (
     <main id="quest">
       <PageSelector />
       <div id="questContainer">
-        {questions.map((q) => (
-          <Question question={q} key={q.id} />
-        ))}
+        {questions
+          .filter((q) => q.page === page)
+          .map((q) => (
+            <Question question={q} key={q.id} />
+          ))}
+        <ControlButtons />
       </div>
     </main>
   );
