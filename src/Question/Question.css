@@ -61,6 +61,8 @@
 }
 
 .optionsContainer {
+  display: flex;
+  flex-flow: row;
   border: 1px solid var(--grayed-out);
   border-radius: var(--btn-radius);
   margin: 0.22em 1em 0.2em 0;
@@ -71,4 +73,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+}
+
+.OptionButton > h5 {
+  white-space: nowrap;
 }
