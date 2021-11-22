@@ -1,8 +1,10 @@
 import { useDispatch, useSelector } from "react-redux";
 import { createStore } from "redux";
-import { Fragment, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { composeWithDevTools } from "redux-devtools-extension";
 import "./App.css";
+import leftArrow from "./imgs/left-arrow.svg";
+import rightArrow from "./imgs/right-arrow.svg";
 import { questions, pages } from "./texts";
 import Question from "./Question/Question";
 
@@ -54,7 +56,48 @@ const reducer = (state = initalState, action) => {
 
 const store = createStore(reducer, composeWithDevTools());
 
-function PageSelector() {
+function useIsMobile() {
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 900);
+  const handleResize = () => setIsMobile(window.innerWidth < 900);
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+  return isMobile;
+}
+
+function MobilePageSelector() {
+  const page = useSelector((s) => s.appState);
+  const pageId = pages.findIndex((p) => p === page);
+  const dispatch = useDispatch();
+  const turnPage = (way) =>
+    dispatch({
+      type: "appState/change",
+      payload: pages[pageId + way],
+    });
+
+  return (
+    <div className="PageSelector mobile">
+      {pageId !== 0 ? (
+        <button onClick={() => turnPage(-1)}>
+          <img src={leftArrow} alt="<" />
+        </button>
+      ) : (
+        <button></button>
+      )}
+      <h5>{page}</h5>
+      {pageId !== pages.length - 1 ? (
+        <button onClick={() => turnPage(1)}>
+          <img src={rightArrow} alt=">" />
+        </button>
+      ) : (
+        <button></button>
+      )}
+    </div>
+  );
+}
+
+function DesktopPageSelector() {
   const selector = (state) => pages.findIndex((e) => e === state.appState);
   const pageId = useSelector(selector);
   const dispatch = useDispatch();
@@ -67,7 +110,12 @@ function PageSelector() {
       </button>
     );
   });
-  return <div className="PageSelector">{jsx}</div>;
+  return <div className="PageSelector desktop">{jsx}</div>;
+}
+
+function PageSelector() {
+  const isMobile = useIsMobile();
+  return isMobile ? <MobilePageSelector /> : <DesktopPageSelector />;
 }
 
 function ControlButton({ children, onClick, accent = false }) {

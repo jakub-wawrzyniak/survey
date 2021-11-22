@@ -154,7 +154,8 @@ function Question({ question }) {
     if (!shouldRender && answer.length !== 0) dispatch(action(question, []));
   });
 
-  if (shouldRender) {
+  if (true) {
+    //REMOVE THIS IN PRODUCTION (SHOULD BE shouldRender)
     switch (question.type) {
       case "multichoice":
         return <MultiChoice question={question} />;

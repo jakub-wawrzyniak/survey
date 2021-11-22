@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   --main-bgc: #f1f1f1;
-  --grayed-out: #777;
+  --grayed-out: #888;
   --gentle-dark: #333;
   --accent: #e2c7a7;
   --border-radius: 15px;
@@ -41,13 +41,37 @@ main#quest {
 }
 
 .PageSelector {
-  margin: 3em 4em;
+  width: 90%;
+  max-width: 1200px;
+  margin: 1em auto;
   padding: 1em;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
   border-radius: var(--border-radius);
   background-color: var(--main-bgc);
+}
+
+.PageSelector.mobile {
+  max-width: 390px;
+}
+
+.PageSelector.mobile > button {
+  height: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 0;
+}
+
+.mobile > button > img {
+  height: 100%;
+}
+
+.PageSelector.mobile > h5 {
+  flex: 3 1 0;
+  text-align: center;
 }
 
 #questContainer {

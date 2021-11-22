@@ -21,6 +21,19 @@
   flex-direction: row;
 }
 
+.answersContainer.medium {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.answersContainer.medium .AnswerButton {
+  flex: 1 1 0;
+}
+
+.medium > .AnswerButton > .answerText {
+  white-space: nowrap;
+}
+
 .AnswerButton {
   border: 1px solid var(--grayed-out);
   border-radius: var(--btn-radius);
