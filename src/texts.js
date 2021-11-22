@@ -1,3 +1,5 @@
+import { useSelector } from "react-redux";
+
 const pages = [
   "Zaczynamy",
   "O tobie",
@@ -7,6 +9,26 @@ const pages = [
   "Kończymy",
 ];
 
+const useIsBusLover = () => {
+  const selector = (s) => [0, 1].includes(s.answers[18][2]);
+  return useSelector(selector);
+};
+
+const useIsDriver = () => {
+  const selector = (s) => [0, 1].includes(s.answers[18][0]);
+  return useSelector(selector);
+};
+
+const useHasKopciuch = () => {
+  const selector = (s) => s.answers[10].includes(3);
+  return useSelector(selector);
+};
+
+const useHasSolarPanels = () => {
+  const selector = (s) => s.answers[16][0] === 0;
+  return useSelector(selector);
+};
+
 const questions = [
   {
     id: 1,
@@ -14,7 +36,7 @@ const questions = [
     length: "short",
     question: "Z jaką płcią się identyfikujesz?",
     answers: ["Kobieta", "Mężczyzna", "Inna"],
-    default: true,
+    useShouldRender: () => true,
     page: pages[1],
   },
   {
@@ -30,7 +52,7 @@ const questions = [
       "46 - 65 lat",
       "powyżej 65 lat",
     ],
-    default: true,
+    useShouldRender: () => true,
     page: pages[1],
   },
   {
@@ -42,7 +64,7 @@ const questions = [
       "w mieszkaniu (blok/kamienica)",
       "w domu (jednorodzinnym/szeregowiec)",
     ],
-    default: true,
+    useShouldRender: () => true,
     page: pages[1],
   },
   {
@@ -56,7 +78,7 @@ const questions = [
       "w okolicach Łodzi (Konstantynów Łódzki, Zgierz, etc)",
       "daleko od Łodzi, ale często tu bywam",
     ],
-    default: true,
+    useShouldRender: () => true,
     page: pages[1],
   },
   {
@@ -69,7 +91,7 @@ const questions = [
       "średnie / średnie branżowe",
       "wyższe",
     ],
-    default: true,
+    useShouldRender: () => true,
     page: pages[1],
   },
   {
@@ -79,7 +101,7 @@ const questions = [
     question:
       "Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo)",
     answers: ["1", "2", "3", "4", "5"],
-    default: true,
+    useShouldRender: () => true,
     page: pages[2],
   },
   {
@@ -89,7 +111,7 @@ const questions = [
     question:
       "Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra)",
     answers: ["1", "2", "3", "4", "5"],
-    default: true,
+    useShouldRender: () => true,
     page: pages[2],
   },
   {
@@ -105,7 +127,7 @@ const questions = [
       "Jest nieco gorzej",
       "Jest znacznie gorzej",
     ],
-    default: true,
+    useShouldRender: () => true,
     page: pages[2],
   },
   {
@@ -119,7 +141,7 @@ const questions = [
       "Chyba nie - ale kto wie, co będzie za kilka lat",
       "Nie - i nie spodziewam się, żeby miało w przyszłości",
     ],
-    default: true,
+    useShouldRender: () => true,
     page: pages[2],
   },
   {
@@ -137,7 +159,7 @@ const questions = [
       "Nie jestem pewien",
       "Inne",
     ],
-    default: true,
+    useShouldRender: () => true,
     page: pages[3],
   },
   {
@@ -147,7 +169,7 @@ const questions = [
     question:
       "Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?",
     answers: ["Tak", "Nie"],
-    default: true,
+    useShouldRender: () => true,
     page: pages[3],
   },
   {
@@ -157,7 +179,7 @@ const questions = [
     question:
       "Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?",
     answers: ["Tak", "Nie"],
-    default: true,
+    useShouldRender: () => !useHasKopciuch(),
     page: pages[3],
   },
   {
@@ -167,7 +189,7 @@ const questions = [
     question:
       "Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?",
     answers: ["Tak", "Nie"],
-    default: true,
+    useShouldRender: () => true,
     page: pages[3],
   },
   {
@@ -177,7 +199,7 @@ const questions = [
     question:
       "Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?",
     answers: ["Tak", "Nie"],
-    default: true,
+    useShouldRender: () => true,
     page: pages[3],
   },
   {
@@ -186,7 +208,7 @@ const questions = [
     length: "short",
     question: "Czy masz zainstalowane panele fotowoltaiczne?",
     answers: ["Tak", "Nie"],
-    default: true,
+    useShouldRender: () => true,
     page: pages[3],
   },
   {
@@ -195,7 +217,7 @@ const questions = [
     length: "short",
     question: "Czy masz możliwość zainstalowania paneli fotowoltaicznych?",
     answers: ["Tak", "Nie"],
-    default: true,
+    useShouldRender: () => !useHasSolarPanels(),
     page: pages[3],
   },
   {
@@ -212,7 +234,7 @@ const questions = [
       "Hulajnogi elektryczne",
     ],
     options: ["Często", "Czasem", "Wcale"],
-    default: true,
+    useShouldRender: () => true,
     page: pages[4],
   },
   {
@@ -221,8 +243,9 @@ const questions = [
     length: "short",
     question: "Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?",
     answers: ["0", "1", "2", "3", "4+"],
-    default: true,
+    default: false,
     page: pages[4],
+    useShouldRender: useIsDriver,
   },
   {
     id: 20,
@@ -238,8 +261,8 @@ const questions = [
       "Tak jest mi wygodnie",
       "Inne",
     ],
-    default: true,
     page: pages[4],
+    useShouldRender: useIsBusLover,
   },
   {
     id: 21,
@@ -254,8 +277,8 @@ const questions = [
       "Przewożę dużo osób",
       "Inne",
     ],
-    default: true,
     page: pages[4],
+    useShouldRender: () => !useIsBusLover(),
   },
   {
     id: 22,
@@ -263,7 +286,24 @@ const questions = [
     howManyAnswers: 3,
     length: "long",
     question:
-      "Jak poprawić MPK / Co by cię przekonało do korzystania z MPK? (max 3)",
+      "Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3)",
+    answers: [
+      "krótszy czas podróży",
+      "krótszy czas czekania na autobus",
+      "mniejszy dystans do / z przystanków",
+      "większa punktualność",
+      "mniej przesiadek",
+      "inne",
+    ],
+    page: pages[4],
+    useShouldRender: useIsBusLover,
+  },
+  {
+    id: 23,
+    type: "multichoice",
+    howManyAnswers: 3,
+    length: "long",
+    question: "Co by cię przekonało do korzystania z MPK? (max 3)",
     answers: [
       "krótszy czas podróży",
       "krótszy czas czekania na autobus",
@@ -273,11 +313,11 @@ const questions = [
       "inne",
       "nie dam się przekonać",
     ],
-    default: true,
     page: pages[4],
+    useShouldRender: () => !useIsBusLover(),
   },
   {
-    id: 23,
+    id: 24,
     type: "singlechoice",
     howManyAnswers: 3,
     length: "long",
@@ -290,11 +330,11 @@ const questions = [
       "+200% ceny biletu",
       "powyżej +200% ceny biletu",
     ],
-    default: true,
     page: pages[4],
+    useShouldRender: () => true,
   },
   {
-    id: 24,
+    id: 25,
     type: "multipoint",
     length: "long",
     question: "Jakie jest twoje nastawienie do poniższych rozwiązań?",
@@ -305,8 +345,8 @@ const questions = [
       "zwiększeniu cen biletów parkingowych",
     ],
     options: ["Jestem za", "Jakoś przeżyję", "Jestem przeciw"],
-    default: true,
     page: pages[4],
+    useShouldRender: () => true,
   },
 ];
 
