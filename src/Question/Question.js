@@ -1,6 +1,6 @@
 import "./Question.css";
 import { useDispatch, useSelector, shallowEqual } from "react-redux";
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 
 function AnswerButton({ children, isOn, onClick }) {
   return (
@@ -147,6 +147,13 @@ function MultiPoint({ question: q }) {
 
 function Question({ question }) {
   const shouldRender = question.useShouldRender();
+  const answer = useSelector((s) => s.answers[question.id]);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    if (!shouldRender && answer.length !== 0) dispatch(action(question, []));
+  });
+
   if (shouldRender) {
     switch (question.type) {
       case "multichoice":
@@ -159,6 +166,7 @@ function Question({ question }) {
         break;
     }
   } else return <Fragment></Fragment>;
+
   console.error("Unhandled type of question: a typo in texts.js?");
   return <h3>Case for quest no {question.id} is not yet implemented :c</h3>;
 }
