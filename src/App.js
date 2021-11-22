@@ -1,7 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import { createStore } from "redux";
 import { Fragment, useEffect, useState } from "react";
-import { composeWithDevTools } from "redux-devtools-extension";
 import "./App.css";
 import leftArrow from "./imgs/left-arrow.svg";
 import rightArrow from "./imgs/right-arrow.svg";
@@ -56,10 +55,7 @@ const reducer = (state = initalState, action) => {
     case "appState/change":
       const logTime = shouldLogTime(state.appState, action.payload);
       const log = [...state.timeLog];
-      if (logTime) {
-        log.push(Date.now());
-        console.log("loggin time...");
-      }
+      if (logTime) log.push(Date.now());
       return { ...state, appState: action.payload, timeLog: log };
     case "answers/update":
       const newState = { ...state, answers: { ...state.answers } };
@@ -72,7 +68,7 @@ const reducer = (state = initalState, action) => {
   }
 };
 
-const store = createStore(reducer, composeWithDevTools());
+const store = createStore(reducer);
 
 function useIsMobile() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 900);
@@ -274,7 +270,7 @@ function getNoOfAnswers() {
 }
 
 function HowManyAnsersInDB() {
-  const [howMany, setHowMany] = useState(" [loading...] ");
+  const [howMany, setHowMany] = useState(10);
   useEffect(() => {
     (async () => {
       try {
@@ -284,11 +280,10 @@ function HowManyAnsersInDB() {
         setHowMany(howMany);
       } catch (e) {
         console.error("Error while reading DB: ", e);
-        setHowMany("[error]");
+        setHowMany(11);
       }
     })();
   }, []);
-  console.log(howMany);
   return <Fragment>{howMany}</Fragment>;
 }
 
@@ -364,7 +359,3 @@ function App() {
 }
 
 export { App, store };
-
-console.log(shouldLogTime(pages[0], pages[1]));
-console.log(shouldLogTime(pages[0], pages[pages.length - 1]));
-console.log(shouldLogTime(pages[1], pages[2]));
