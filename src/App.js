@@ -10,7 +10,7 @@ import Question from "./Question/Question";
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { addDoc, collection, getFirestore } from "firebase/firestore";
+import { addDoc, getDocs, collection, getFirestore } from "firebase/firestore";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -123,9 +123,9 @@ function DesktopPageSelector() {
     const className = id > pageId ? "notVisited" : "";
     const event = { type: "appState/change", payload: p };
     return (
-      <Fragment>
+      <Fragment key={p}>
         {id !== 0 && <img src={rightArrow} alt=">" />}
-        <button key={p} onClick={() => dispatch(event)}>
+        <button onClick={() => dispatch(event)}>
           <h5 className={className}>{p}</h5>
         </button>
       </Fragment>
@@ -206,9 +206,9 @@ function StartSurvey() {
           </li>
           <li>
             <p>
-              Niektóre odpowiedzi decydują o dalszym przebiegu ankiety. Jeśli
-              pytanie jest oznaczone znakiem ( ! ), wypełnij je proszę, to dla
-              nas ważne.
+              Zamierzamy w przyszłości upublicznić wyniki ankiety, dlatego żadne
+              pytanie nie jest obowiązkowe. Podziel się z nami tym, z czym
+              chciałbyś się podzielić z innymi!
             </p>
           </li>
         </ul>
@@ -273,6 +273,25 @@ function getNoOfAnswers() {
   }, 0);
 }
 
+function HowManyAnsersInDB() {
+  const [howMany, setHowMany] = useState(" [loading...] ");
+  useEffect(() => {
+    (async () => {
+      try {
+        const docs = await getDocs(collection(db, "answers"));
+        let howMany = 0;
+        docs.forEach((_) => howMany++);
+        setHowMany(howMany);
+      } catch (e) {
+        console.error("Error while reading DB: ", e);
+        setHowMany("[error]");
+      }
+    })();
+  }, []);
+  console.log(howMany);
+  return <Fragment>{howMany}</Fragment>;
+}
+
 function EndSurvey() {
   const dispatch = useDispatch();
   const handleClick = () =>
@@ -301,8 +320,8 @@ function EndSurvey() {
           </li>
           <li>
             <p>
-              Jesteś jednym z naszych [x] ankietowanych! Miło nam, że dołączyłeś
-              do tego wąskiego grona
+              Jesteś jednym z naszych <HowManyAnsersInDB /> ankietowanych! Miło
+              nam, że dołączasz do tego wąskiego grona
             </p>
           </li>
         </ul>
