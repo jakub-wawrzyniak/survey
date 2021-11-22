@@ -81,6 +81,10 @@ main#quest {
   background-color: var(--main-bgc);
 }
 
+.PageSelector > img {
+  height: 0.9rem;
+}
+
 .PageSelector h5 {
   font-weight: 600;
 }

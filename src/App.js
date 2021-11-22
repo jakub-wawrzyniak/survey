@@ -105,9 +105,12 @@ function DesktopPageSelector() {
     const className = id > pageId ? "notVisited" : "";
     const event = { type: "appState/change", payload: p };
     return (
-      <button key={p} onClick={() => dispatch(event)}>
-        <h5 className={className}>{p}</h5>
-      </button>
+      <Fragment>
+        {id !== 0 && <img src={rightArrow} alt=">" />}
+        <button key={p} onClick={() => dispatch(event)}>
+          <h5 className={className}>{p}</h5>
+        </button>
+      </Fragment>
     );
   });
   return <div className="PageSelector desktop">{jsx}</div>;
