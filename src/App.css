@@ -2,7 +2,7 @@
   font-family: "Roboto";
   margin: 0;
   padding: 0;
-  box-sizing: content-box;
+  box-sizing: border-box;
   --main-bgc: #f1f1f1;
   --grayed-out: #777;
   --gentle-dark: #333;
@@ -66,22 +66,47 @@ main#quest {
 
 .ControlButton {
   padding: calc(0.9em + 1px) 1em;
-  margin-right: 0.3em;
+  width: 100%;
   flex: 1 1 0;
   border-radius: var(--btn-radius);
   background-color: var(--main-bgc);
 }
 
-.ControlButton:last-child {
+.ControlButton.accent {
   background-color: var(--accent);
-  margin-right: 0;
+}
+
+.ControlButtons .ControlButton:first-child {
+  margin-right: 0.3em;
+}
+
+.ControlButtons .ControlButton:last-child {
   margin-left: 0.3em;
 }
 
-.ControlButton.off {
+.infoComponent {
+  width: 100%;
+  margin: 1.5em 0;
+  padding: 2em 4em;
+  border-radius: var(--border-radius);
   background-color: var(--main-bgc);
 }
 
-.ControlButton.off > h4 {
-  color: var(--grayed-out);
+.infoComponent > p,
+.infoComponent > h3 {
+  text-align: center;
+}
+
+.infoComponent > h3 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+}
+
+.infoComponent ul {
+  margin: 1.5em 0;
+}
+
+.infoComponent ul li {
+  margin: 0.6em 0;
 }

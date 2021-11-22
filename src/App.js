@@ -1,5 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import { createStore } from "redux";
+import { Fragment } from "react";
 import { composeWithDevTools } from "redux-devtools-extension";
 import "./App.css";
 import { questions, pages } from "./texts";
@@ -47,41 +48,134 @@ function PageSelector() {
   return <div className="PageSelector">{jsx}</div>;
 }
 
+function ControlButton({ children, onClick, accent = false }) {
+  let className = "ControlButton";
+  if (accent) className += " accent";
+  return (
+    <button className={className} onClick={onClick}>
+      {children}
+    </button>
+  );
+}
+
 function ControlButtons() {
   const selector = (s) => pages.findIndex((p) => p === s.appState);
   const pageId = useSelector(selector);
   const dispatch = useDispatch();
-  const isLast = pageId === pages.length - 1;
-  const isFirst = pageId === 0;
-  const turnPage = (way) => {
-    const newPageId = pageId + way;
-    if (newPageId >= pages.length) return;
-    if (newPageId < 0) return;
+  const turnPage = (way) =>
     dispatch({
       type: "appState/change",
-      payload: pages[newPageId],
+      payload: pages[pageId + way],
     });
-  };
+
   return (
     <div className="ControlButtons">
-      <button
-        className={isFirst ? "ControlButton off" : "ControlButton on"}
-        onClick={() => turnPage(-1)}
-      >
-        <h4>{"Powrót"}</h4>
-      </button>
-      <button
-        className={isLast ? "ControlButton off" : "ControlButton on"}
-        onClick={() => turnPage(1)}
-      >
-        <h4>{"Dalej"}</h4>
-      </button>
+      <ControlButton onClick={() => turnPage(-1)}>
+        <h4>Powrót</h4>
+      </ControlButton>
+      <ControlButton accent={true} onClick={() => turnPage(1)}>
+        <h4>Dalej</h4>
+      </ControlButton>
     </div>
+  );
+}
+
+function StartSurvey() {
+  const dispatch = useDispatch();
+  const handleClick = () =>
+    dispatch({
+      type: "appState/change",
+      payload: pages[1],
+    });
+  return (
+    <Fragment>
+      <div className="infoComponent">
+        <h3>Kilka rzeczy, o których warto wspomnieć</h3>
+        <p>
+          Jest nam bardzo miło, że tu jesteś! Zanim przejdziemy do ankiety, jest
+          kilka rzeczy, o których musisz wiedzieć.
+        </p>
+        <ul>
+          <li>
+            <p>
+              <strong>
+                Ankieta jest adresowana do osób, które często bywają w Łodzi.
+              </strong>{" "}
+              Jeśli nie jesteś taką osobą - przykro nam, ta ankieta nie jest dla
+              Ciebie.
+            </p>
+          </li>
+          <li>
+            <p>
+              Ankieta jest w pełni anonimowa. Oprócz odpowiedzi, zbieramy tylko
+              czas przebywania na stronie.
+            </p>
+          </li>
+          <li>
+            <p>
+              Niektóre odpowiedzi decydują o dalszym przebiegu ankiety. Jeśli
+              pytanie jest oznaczone znakiem ( ! ), wypełnij je proszę, to dla
+              nas ważne.
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ControlButton accent={true} onClick={handleClick}>
+          <h4>Zaczynamy ankietę</h4>
+        </ControlButton>
+      </div>
+    </Fragment>
+  );
+}
+
+function EndSurvey() {
+  const dispatch = useDispatch();
+  const handleClick = () =>
+    dispatch({
+      type: "appState/change",
+      payload: pages[pages.length - 2],
+    });
+  return (
+    <Fragment>
+      <div className="infoComponent">
+        <h3>To już koniec ankiety</h3>
+        <p>
+          Jesteśmy wdzięczni, że poświęciłeś nam chwilę by wypełnić ankietę.
+          Możesz nam teraz wysłać swoje odpowiedzi, albo wrócić do nich i
+          przejrzeć je jeszcze raz.
+        </p>
+        <ul>
+          <li>
+            <p>
+              Wypełniłeś [x] pytań, poświęcając średnio [x]s na wypełnienie
+              każdego z nich
+            </p>
+          </li>
+          <li>
+            <p>
+              Jesteś jednym z naszych [x] ankietowanych! Miło nam, że dołączyłeś
+              do tego wąskiego grona
+            </p>
+          </li>
+        </ul>
+      </div>
+      <ControlButton onClick={handleClick}>
+        <h4>Powrót do pytań</h4>
+      </ControlButton>
+    </Fragment>
   );
 }
 
 function Questionare() {
   const page = useSelector((s) => s.appState);
+  const pageId = pages.findIndex((p) => p === page);
+  const Element =
+    pageId === 0
+      ? StartSurvey
+      : pageId === pages.length - 1
+      ? EndSurvey
+      : ControlButtons;
   return (
     <main id="quest">
       <PageSelector />
@@ -91,7 +185,10 @@ function Questionare() {
           .map((q) => (
             <Question question={q} key={q.id} />
           ))}
-        <ControlButtons />
+        <Element />
+        {/* {pageId === 0 && <StartSurvey />}
+        {pageId === pages.length - 1 && <EndSurvey />}
+        {pageId !== 0 && pageId !== pages.length - 1 && <ControlButtons />} */}
       </div>
     </main>
   );
