@@ -66,6 +66,7 @@ main#quest {
 
 .ControlButton {
   padding: calc(0.9em + 1px) 1em;
+  margin-bottom: 0.8em;
   width: 100%;
   flex: 1 1 0;
   border-radius: var(--btn-radius);
