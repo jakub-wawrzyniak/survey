@@ -37,12 +37,30 @@ const initalState = {
   appState: "Zaczynamy",
   answersSent: false,
   answers: getEmptyAnswers(),
+  timeLog: [],
+};
+
+const shouldLogTime = (page1, page2) => {
+  //Should we log time when switching between
+  //these two pages?
+
+  //Is the page first, of last?
+  const isEdge = (page) => {
+    return [0, pages.length - 1].includes(pages.findIndex((p) => p === page));
+  };
+  return isEdge(page1) !== isEdge(page2);
 };
 
 const reducer = (state = initalState, action) => {
   switch (action.type) {
     case "appState/change":
-      return { ...state, appState: action.payload };
+      const logTime = shouldLogTime(state.appState, action.payload);
+      const log = [...state.timeLog];
+      if (logTime) {
+        log.push(Date.now());
+        console.log("loggin time...");
+      }
+      return { ...state, appState: action.payload, timeLog: log };
     case "answers/update":
       const newState = { ...state, answers: { ...state.answers } };
       newState.answers[action.payload.id] = action.payload.value;
@@ -210,6 +228,7 @@ function SendButton() {
   const send = async () => {
     try {
       const answers = store.getState().answers;
+      answers.time = getAnswerTime();
       const multiPointQuests = questions.filter((q) => q.type === "multipoint");
       multiPointQuests.forEach((q) =>
         q.answers.forEach((_, id) => {
@@ -228,7 +247,7 @@ function SendButton() {
   if (answersSent)
     [accent, text, onClick] = [
       false,
-      "Odpowiedzi wysłane - dziękujemy :)",
+      "Odpowiedzi wysłane - dziękujemy!",
       () => {},
     ];
   else if (loading)
@@ -240,6 +259,20 @@ function SendButton() {
   );
 }
 
+function getAnswerTime() {
+  const timeLog = store.getState().timeLog;
+  return timeLog.reduce((acc, log, id) => {
+    return id % 2 === 0 ? acc - log : acc + log;
+  }, 0);
+}
+
+function getNoOfAnswers() {
+  const answers = store.getState().answers;
+  return Object.values(answers).reduce((acc, ans) => {
+    return ans.some((v) => v || v === 0) ? acc + 1 : acc;
+  }, 0);
+}
+
 function EndSurvey() {
   const dispatch = useDispatch();
   const handleClick = () =>
@@ -247,6 +280,9 @@ function EndSurvey() {
       type: "appState/change",
       payload: pages[pages.length - 2],
     });
+  const noOfAnswers = getNoOfAnswers();
+  const time = getAnswerTime() / 1000;
+  const avg = noOfAnswers ? (time / noOfAnswers).toFixed(1) : "- ";
   return (
     <Fragment>
       <div className="infoComponent">
@@ -259,8 +295,8 @@ function EndSurvey() {
         <ul>
           <li>
             <p>
-              Wypełniłeś [x] pytań, poświęcając średnio [x]s na wypełnienie
-              każdego z nich
+              Wypełniłeś {noOfAnswers} pytań, poświęcając średnio {avg}s na
+              wypełnienie każdego z nich
             </p>
           </li>
           <li>
@@ -309,3 +345,7 @@ function App() {
 }
 
 export { App, store };
+
+console.log(shouldLogTime(pages[0], pages[1]));
+console.log(shouldLogTime(pages[0], pages[pages.length - 1]));
+console.log(shouldLogTime(pages[1], pages[2]));
