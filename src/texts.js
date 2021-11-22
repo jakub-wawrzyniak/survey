@@ -213,6 +213,7 @@ const questions = [
     ],
     options: ["Często", "Czasem", "Wcale"],
     default: true,
+    page: pages[4],
   },
   {
     id: 19,

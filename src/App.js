@@ -68,13 +68,13 @@ function ControlButtons() {
         className={isFirst ? "ControlButton off" : "ControlButton on"}
         onClick={() => turnPage(-1)}
       >
-        <h4>{"< Powrót"}</h4>
+        <h4>{"Powrót"}</h4>
       </button>
       <button
         className={isLast ? "ControlButton off" : "ControlButton on"}
         onClick={() => turnPage(1)}
       >
-        <h4>{"Dalej >"}</h4>
+        <h4>{"Dalej"}</h4>
       </button>
     </div>
   );
