@@ -141,10 +141,12 @@ function ControlButtons() {
   return (
     <div className="ControlButtons">
       <ControlButton onClick={() => turnPage(-1)}>
+        <img src={leftArrow} alt="<" />
         <h4>Powrót</h4>
       </ControlButton>
       <ControlButton accent={true} onClick={() => turnPage(1)}>
         <h4>Dalej</h4>
+        <img src={rightArrow} alt=">" />
       </ControlButton>
     </div>
   );
@@ -268,6 +270,7 @@ function EndSurvey() {
       </div>
       <SendButton />
       <ControlButton onClick={handleClick}>
+        <img src={leftArrow} alt="<" />
         <h4>Powrót do pytań</h4>
       </ControlButton>
     </Fragment>
