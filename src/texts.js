@@ -58,7 +58,7 @@ const questions = [
   {
     id: 3,
     type: "singlechoice",
-    length: "short",
+    length: "medium",
     question: "Gdzie mieszkasz? (cz. 1)",
     answers: [
       "w mieszkaniu (blok/kamienica)",
@@ -119,14 +119,8 @@ const questions = [
     type: "singlechoice",
     length: "short",
     question:
-      "Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat?",
-    answers: [
-      "Jest znacznie lepiej",
-      "Jest nieco lepiej",
-      "Bez zmian",
-      "Jest nieco gorzej",
-      "Jest znacznie gorzej",
-    ],
+      "Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej)",
+    answers: ["1", "2", "3", "4", "5"],
     useShouldRender: () => true,
     page: pages[2],
   },
@@ -223,7 +217,7 @@ const questions = [
   {
     id: 18,
     type: "multipoint",
-    question: "Z jakich środów transportu korzystasz?",
+    question: "Jak często korzystasz z podanych środów transportu korzystasz?",
     answers: [
       "Samochód jako kierowca",
       "Samochód jako pasażer",
@@ -268,7 +262,7 @@ const questions = [
     id: 21,
     type: "multichoice",
     howManyAnswers: 2,
-    length: "short",
+    length: "medium",
     question: "Dlaczego nie korzystasz z komunikacji miejskiej (max 2)",
     answers: [
       "Tak jest najszybciej",
@@ -338,14 +332,14 @@ const questions = [
     id: 25,
     type: "multipoint",
     length: "long",
-    question: "Jakie jest twoje nastawienie do poniższych rozwiązań?",
+    question: "Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?",
     answers: [
-      "zwiększeniu liczby buspasów (również kosztem pasów dla kierowców)",
-      "ograniczaniu wjazdu samochodów do centrum",
-      "ulgom dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów)?",
-      "zwiększeniu cen biletów parkingowych",
+      "Zwiększenie liczby buspasów (również kosztem pasów dla kierowców)",
+      "Ograniczanie wjazdu samochodów do centrum",
+      "Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów)",
+      "Zwiększenie cen biletów parkingowych",
     ],
-    options: ["Jestem za", "Jestem przeciw"],
+    options: ["Za", "Przeciw"],
     page: pages[4],
     useShouldRender: () => true,
   },

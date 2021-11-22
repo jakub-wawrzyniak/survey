@@ -11,13 +11,41 @@
   --btn-radius: 10px;
 }
 
+h3 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+}
+
 h4 {
   font-size: 1rem;
+  font-weight: 500;
 }
 
 h5 {
   font-size: 0.9rem;
+  font-weight: 400;
   color: var(--gentle-dark);
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 550px) {
+  h3 {
+    font-size: 1.25rem;
+  }
+  h4 {
+    font-size: 0.9rem;
+  }
+  h5 {
+    font-size: 0.8rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
 }
 
 button {
@@ -36,7 +64,7 @@ main#quest {
   background-size: cover;
   background-attachment: fixed;
   min-height: 100vh;
-  min-width: 100vw;
+  min-width: 100%;
   display: flow-root;
 }
 
@@ -51,6 +79,10 @@ main#quest {
   align-items: center;
   border-radius: var(--border-radius);
   background-color: var(--main-bgc);
+}
+
+.PageSelector h5 {
+  font-weight: 600;
 }
 
 .PageSelector.mobile {
@@ -76,7 +108,7 @@ main#quest {
 
 #questContainer {
   margin: 0 auto;
-  width: 90%;
+  width: 95%;
   max-width: 700px;
 }
 
@@ -122,16 +154,17 @@ main#quest {
   text-align: center;
 }
 
-.infoComponent > h3 {
-  font-size: 1.4rem;
-  font-weight: 400;
-  margin-bottom: 0.5em;
-}
-
 .infoComponent ul {
   margin: 1.5em 0;
 }
 
 .infoComponent ul li {
   margin: 0.6em 0;
+}
+
+@media (max-width: 550px) {
+  .infoComponent {
+    margin: 1.5em 0;
+    padding: 2em 3em;
+  }
 }
