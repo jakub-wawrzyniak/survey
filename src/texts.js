@@ -29,6 +29,11 @@ const useHasSolarPanels = () => {
   return useSelector(selector);
 };
 
+const useHasCentralHeating = () => {
+  const selector = (s) => s.answers[10][0] === 0;
+  return useSelector(selector);
+};
+
 const questions = [
   {
     id: 1,
@@ -130,7 +135,7 @@ const questions = [
     length: "long",
     question: "Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?",
     answers: [
-      "Tak - mam stwierdzone schorzenia których występowanie zwiększa smog",
+      "Tak - mam stwierdzone schorzenia, których występowanie zwiększa smog",
       "Chyba tak - nie mam diagnozy, ale dostrzegam wpływ smogu na mnie",
       "Chyba nie - ale kto wie, co będzie za kilka lat",
       "Nie - i nie spodziewam się, żeby miało w przyszłości",
@@ -181,7 +186,7 @@ const questions = [
     question:
       "Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?",
     answers: ["Tak", "Nie"],
-    useShouldRender: () => true,
+    useShouldRender: () => !useHasCentralHeating(),
     page: pages[3],
   },
   {
@@ -217,7 +222,7 @@ const questions = [
   {
     id: 18,
     type: "multipoint",
-    question: "Jak często korzystasz z podanych środów transportu korzystasz?",
+    question: "Jak często korzystasz z podanych środów transportu?",
     answers: [
       "Samochód jako kierowca",
       "Samochód jako pasażer",

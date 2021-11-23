@@ -203,7 +203,7 @@ function StartSurvey() {
           <li>
             <p>
               Zamierzamy w przyszłości upublicznić wyniki ankiety, dlatego żadne
-              pytanie nie jest obowiązkowe. Podziel się z nami tym, z czym
+              pytanie nie jest obowiązkowe. Podziel się z nami tym, czym
               chciałbyś się podzielić z innymi!
             </p>
           </li>
