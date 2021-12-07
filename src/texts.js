@@ -1,4 +1,4 @@
-import { useSelector } from "react-redux";
+// import { useSelector } from "react-redux";
 
 const pages = [
   "Zaczynamy",
@@ -350,4 +350,5 @@ const questions = [
   },
 ];
 
-export { questions, pages };
+exports.questions = questions;
+//export { questions, pages };

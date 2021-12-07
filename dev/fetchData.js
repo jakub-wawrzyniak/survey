@@ -61,8 +61,46 @@ async function getDumpedData() {
   return rawData.map(dataDump).join("\n\n");
 }
 
+async function getAnalizedData() {
+  const rawData = await getData();
+  const singleChoiceQuestions = questions.filter(
+    (q) => q.type === "singlechoice"
+  );
+  const singleChoiceIds = singleChoiceQuestions.map((q) => q.id);
+  const singleChoiceAnswers = singleChoiceIds.map((id) => {
+    return {
+      howMany: 0,
+      id: id,
+      answers: question
+        .find((i) => i === id)
+        .answers.map((e, i) => {
+          return {};
+        }),
+    };
+  });
+
+  rawData.forEach((ans) => {
+    for (let key in ans) {
+      if (key === "time") continue;
+      switch (q.type) {
+        case "singlechoice":
+          strChoice = q.answers[choice[0]];
+          break;
+        // case "multichoice":
+        //   strChoice = choice.map((c) => q.answers[c]);
+        //   break;
+        // case "multipoint":
+        //   strChoice = choice.map((c, id) => q.answers[id] + ": " + q.options[c]);
+        //   break;
+        default:
+          continue;
+      }
+    }
+  });
+}
+
 async function saveData() {
-  const data = await getDumpedData();
+  const data = await getAnalizedData();
   fs.writeFileSync("./answers.txt", data);
 }
 

@@ -1,0 +1,1385 @@
+Z jaką płcią się identyfikujesz?: Mężczyzna
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w domu (jednorodzinnym/szeregowiec)
+Gdzie mieszkasz? (cz. 2): w okolicach Łodzi (Konstantynów Łódzki, Zgierz, etc)
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 4
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 3
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 3
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Kocioł na gaz,Kominek
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Nie
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Tak
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Często,Samochód jako pasażer: Czasem,Komunikacja miejsca: Wcale,Taksówki / uber: Wcale,Skuter / motor: Wcale,Rower: Wcale,Hulajnogi elektryczne: Wcale
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 1
+Dlaczego nie korzystasz z komunikacji miejskiej (max 2): Tak jest najszybciej,Tak jest najwygodniej
+Co by cię przekonało do korzystania z MPK? (max 3): krótszy czas podróży,krótszy czas czekania na autobus,mniejszy dystans do / z przystanków
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: powyżej +200% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Przeciw,Ograniczanie wjazdu samochodów do centrum: Za,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 176.789s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w domu (jednorodzinnym/szeregowiec)
+Gdzie mieszkasz? (cz. 2): w okolicach Łodzi (Konstantynów Łódzki, Zgierz, etc)
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 4
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 3
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 2
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Piec węglowy,Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Nie
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Tak
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Często,Samochód jako pasażer: Czasem,Komunikacja miejsca: Czasem,Taksówki / uber: Wcale,Skuter / motor: Wcale,Rower: Czasem,Hulajnogi elektryczne: Wcale
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 1
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Inne
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): mniej przesiadek,krótszy czas czekania na autobus
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: nie zaakceptuję podwyżki
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Za,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 158.106s
+
+Z jaką płcią się identyfikujesz?: Mężczyzna
+W jakim jesteś wieku?: 36 - 45 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w centrum Łodzi
+Jakie jest twoje wykształcenie?: wyższe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 5
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 3
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 3
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Nie
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Często,Samochód jako pasażer: Czasem,Komunikacja miejsca: Często,Taksówki / uber: Wcale,Skuter / motor: Wcale,Rower: Wcale,Hulajnogi elektryczne: Wcale
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 2
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Tak jest najtaniej
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): krótszy czas czekania na autobus,większa punktualność
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: poniżej +50% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Za,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 345.342s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w centrum Łodzi
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 5
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 2
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 3
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Tak - mam stwierdzone schorzenia, których występowanie zwiększa smog
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Wcale,Samochód jako pasażer: Czasem,Komunikacja miejsca: Często,Taksówki / uber: Czasem,Skuter / motor: Wcale,Rower: Czasem,Hulajnogi elektryczne: Wcale
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Nie mam samochodu,Tak jest najtaniej
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): krótszy czas podróży,większa punktualność,mniej przesiadek
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: +100% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Za,Ograniczanie wjazdu samochodów do centrum: Za,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 70.246s
+
+Z jaką płcią się identyfikujesz?: Mężczyzna
+W jakim jesteś wieku?: 26 - 35 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w centrum Łodzi
+Jakie jest twoje wykształcenie?: podstawowe / gimnazjalne / zawodowe
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 5
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 5
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Kominek
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Tak
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Tak
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Wcale,Samochód jako pasażer: Często,Komunikacja miejsca: Często,Taksówki / uber: Czasem,Skuter / motor: Czasem,Rower: Czasem,Hulajnogi elektryczne: Wcale
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Nie mam samochodu
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): inne
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: nie zaakceptuję podwyżki
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Przeciw,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Przeciw,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 311.301s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w domu (jednorodzinnym/szeregowiec)
+Gdzie mieszkasz? (cz. 2): w Łodzi, poza centrum
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 4
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 4
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 3
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Tak - mam stwierdzone schorzenia, których występowanie zwiększa smog
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Nie jestem pewien
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Nie
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Tak
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Wcale,Samochód jako pasażer: Często,Komunikacja miejsca: Czasem,Taksówki / uber: Czasem,Skuter / motor: Wcale,Rower: Wcale,Hulajnogi elektryczne: Wcale
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Nie mam samochodu,Inne
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): krótszy czas czekania na autobus,inne
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: nie zaakceptuję podwyżki
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Za,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 312.184s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w Łodzi, poza centrum
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 5
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 3
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 3
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba tak - nie mam diagnozy, ale dostrzegam wpływ smogu na mnie
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Wcale,Samochód jako pasażer: Czasem,Komunikacja miejsca: Często,Taksówki / uber: Czasem,Skuter / motor: Wcale,Rower: Czasem,Hulajnogi elektryczne: Wcale
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Nie mam samochodu,Tak jest ekologiczniej
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): krótszy czas podróży,większa punktualność,mniej przesiadek
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: poniżej +50% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Za,Ograniczanie wjazdu samochodów do centrum: Za,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 102.602s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w Łodzi, poza centrum
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 4
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 3
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 3
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Wcale,Samochód jako pasażer: Często,Komunikacja miejsca: Czasem,Taksówki / uber: Czasem,Skuter / motor: Wcale,Rower: Czasem,Hulajnogi elektryczne: Wcale
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Nie mam samochodu,Tak jest ekologiczniej
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): większa punktualność,inne,mniej przesiadek
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: nie zaakceptuję podwyżki
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Przeciw,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 149.901s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 46 - 65 lat
+Gdzie mieszkasz? (cz. 1): w domu (jednorodzinnym/szeregowiec)
+Gdzie mieszkasz? (cz. 2): w Łodzi, poza centrum
+Jakie jest twoje wykształcenie?: wyższe
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 3
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Kocioł na gaz
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Nie
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Tak
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Często,Samochód jako pasażer: Czasem,Komunikacja miejsca: Czasem,Taksówki / uber: Wcale,Skuter / motor: Wcale,Rower: Wcale,Hulajnogi elektryczne: Wcale
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 0
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Inne
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): mniej przesiadek,mniejszy dystans do / z przystanków,krótszy czas czekania na autobus
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: poniżej +50% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Za,Ograniczanie wjazdu samochodów do centrum: Za,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Przeciw,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 388.067s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w Łodzi, poza centrum
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 5
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 3
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 1
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Prąd elektryczny
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Nie
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Tak
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Wcale,Samochód jako pasażer: Czasem,Komunikacja miejsca: Często,Taksówki / uber: Czasem,Skuter / motor: Wcale,Rower: Czasem,Hulajnogi elektryczne: Wcale
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Nie mam samochodu,Tak jest najtaniej
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): krótszy czas podróży,większa punktualność,krótszy czas czekania na autobus
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: poniżej +50% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Przeciw,Ograniczanie wjazdu samochodów do centrum: Za,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 200.963s
+
+Z jaką płcią się identyfikujesz?: Mężczyzna
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w centrum Łodzi
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 4
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 3
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 2
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie,Nie jestem pewien
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Nie
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Tak
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Często,Samochód jako pasażer: Czasem,Komunikacja miejsca: Czasem,Taksówki / uber: Wcale,Skuter / motor: Wcale,Rower: Czasem,Hulajnogi elektryczne: Wcale
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 0
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Tak jest najtaniej,Tak jest mi wygodnie
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): krótszy czas czekania na autobus
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: poniżej +50% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Przeciw,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 186.379s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w Łodzi, poza centrum
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 5
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 3
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 3
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Nie - i nie spodziewam się, żeby miało w przyszłości
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Wcale,Samochód jako pasażer: Wcale,Komunikacja miejsca: Często,Taksówki / uber: Czasem,Skuter / motor: Wcale,Rower: Czasem,Hulajnogi elektryczne: Wcale
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Nie mam samochodu,Tak jest mi wygodnie
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): większa punktualność,inne
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: +50% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Za,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 152.918s
+
+Z jaką płcią się identyfikujesz?: Mężczyzna
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w centrum Łodzi
+Jakie jest twoje wykształcenie?: wyższe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 5
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 4
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 4
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Tak
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Czasem,Samochód jako pasażer: Czasem,Komunikacja miejsca: Często,Taksówki / uber: Często,Skuter / motor: Wcale,Rower: Czasem,Hulajnogi elektryczne: Często
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 1
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Tak jest najtaniej,Tak jest ekologiczniej
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): mniej przesiadek,krótszy czas czekania na autobus
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: poniżej +50% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Za,Ograniczanie wjazdu samochodów do centrum: Za,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 166.443s
+
+Z jaką płcią się identyfikujesz?: Mężczyzna
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w Łodzi, poza centrum
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 2
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 2
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 2
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Nie
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Często,Samochód jako pasażer: Wcale,Komunikacja miejsca: Wcale,Taksówki / uber: Wcale,Skuter / motor: Wcale,Rower: Wcale,Hulajnogi elektryczne: Wcale
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 0
+Dlaczego nie korzystasz z komunikacji miejskiej (max 2): Inne
+Co by cię przekonało do korzystania z MPK? (max 3): inne
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: nie zaakceptuję podwyżki
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Przeciw,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Przeciw,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 215.624s
+
+Z jaką płcią się identyfikujesz?: Mężczyzna
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w Łodzi, poza centrum
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 4
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 3
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 3
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba tak - nie mam diagnozy, ale dostrzegam wpływ smogu na mnie
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Wcale,Samochód jako pasażer: Czasem,Komunikacja miejsca: Często,Taksówki / uber: Wcale,Skuter / motor: Wcale,Rower: Wcale,Hulajnogi elektryczne: Wcale
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Nie mam samochodu,Tak jest najtaniej
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): większa punktualność,krótszy czas podróży,mniej przesiadek
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: poniżej +50% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Przeciw,Ograniczanie wjazdu samochodów do centrum: Za,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 309.779s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w centrum Łodzi
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 5
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 3
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 2
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba tak - nie mam diagnozy, ale dostrzegam wpływ smogu na mnie
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Czasem,Samochód jako pasażer: Często,Komunikacja miejsca: Czasem,Taksówki / uber: Czasem,Skuter / motor: Wcale,Rower: Wcale,Hulajnogi elektryczne: Wcale
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 1
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Nie mam gdzie parkować samochodu,Tak jest najtaniej
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): większa punktualność
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: nie zaakceptuję podwyżki
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Przeciw,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 429.11s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w Łodzi, poza centrum
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 5
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 4
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 5
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Często,Samochód jako pasażer: Często,Komunikacja miejsca: Czasem,Taksówki / uber: Czasem,Skuter / motor: Wcale,Rower: Czasem,Hulajnogi elektryczne: Wcale
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 1
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Nie mam gdzie parkować samochodu,Inne
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): krótszy czas podróży,krótszy czas czekania na autobus,większa punktualność
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: nie zaakceptuję podwyżki
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Przeciw,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 158.499s
+
+Z jaką płcią się identyfikujesz?: Mężczyzna
+W jakim jesteś wieku?: 46 - 65 lat
+Gdzie mieszkasz? (cz. 1): w domu (jednorodzinnym/szeregowiec)
+Gdzie mieszkasz? (cz. 2): w Łodzi, poza centrum
+Jakie jest twoje wykształcenie?: wyższe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 5
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 4
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 4
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba tak - nie mam diagnozy, ale dostrzegam wpływ smogu na mnie
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Kocioł na gaz,Kominek
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Tak
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Często,Samochód jako pasażer: Czasem,Komunikacja miejsca: Wcale,Taksówki / uber: Czasem,Skuter / motor: Wcale,Rower: Czasem,Hulajnogi elektryczne: Wcale
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 2
+Dlaczego nie korzystasz z komunikacji miejskiej (max 2): Tak jest najszybciej
+Co by cię przekonało do korzystania z MPK? (max 3): krótszy czas podróży
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: +50% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Za,Ograniczanie wjazdu samochodów do centrum: Za,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Za
+Czas wypełniania: 244.539s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w domu (jednorodzinnym/szeregowiec)
+Gdzie mieszkasz? (cz. 2): w Łodzi, poza centrum
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 4
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 4
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 5
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie,Kominek
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Tak
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Wcale,Samochód jako pasażer: Często,Komunikacja miejsca: Często,Taksówki / uber: Czasem,Skuter / motor: Wcale,Rower: Wcale,Hulajnogi elektryczne: Wcale
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Tak jest najtaniej,Tak jest ekologiczniej
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): mniej przesiadek,mniejszy dystans do / z przystanków
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: poniżej +50% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Za,Ograniczanie wjazdu samochodów do centrum: Za,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 124.309s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w Łodzi, poza centrum
+Jakie jest twoje wykształcenie?: podstawowe / gimnazjalne / zawodowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 4
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 2
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 1
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Czasem,Samochód jako pasażer: Czasem,Komunikacja miejsca: Często,Taksówki / uber: Czasem,Skuter / motor: Wcale,Rower: Wcale,Hulajnogi elektryczne: Wcale
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 1
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Nie mam samochodu
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): krótszy czas czekania na autobus,mniej przesiadek
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: poniżej +50% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Przeciw,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 365.462s
+
+Z jaką płcią się identyfikujesz?: Mężczyzna
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w centrum Łodzi
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 1
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 4
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 3
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Nie - i nie spodziewam się, żeby miało w przyszłości
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Wcale,Samochód jako pasażer: Czasem,Komunikacja miejsca: Często,Taksówki / uber: Czasem,Skuter / motor: Wcale,Rower: Wcale,Hulajnogi elektryczne: Czasem
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Nie mam samochodu,Tak jest mi wygodnie
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): większa punktualność,krótszy czas czekania na autobus,krótszy czas podróży
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: nie zaakceptuję podwyżki
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Przeciw,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 176.331s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w centrum Łodzi
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 5
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 3
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 3
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Piec węglowy,Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Czasem,Samochód jako pasażer: Czasem,Komunikacja miejsca: Czasem,Taksówki / uber: Wcale,Skuter / motor: Wcale,Rower: Czasem,Hulajnogi elektryczne: Wcale
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 2
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Nie mam gdzie parkować samochodu,Tak jest najtaniej
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): krótszy czas podróży,większa punktualność,mniej przesiadek
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: nie zaakceptuję podwyżki
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Za,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Przeciw,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 224.306s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w centrum Łodzi
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 4
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 2
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 2
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Tak
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Wcale,Samochód jako pasażer: Czasem,Komunikacja miejsca: Często,Taksówki / uber: Czasem,Skuter / motor: Wcale,Rower: Czasem,Hulajnogi elektryczne: Wcale
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Tak jest mi wygodnie,Tak jest ekologiczniej
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): krótszy czas czekania na autobus,większa punktualność
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: poniżej +50% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Za,Ograniczanie wjazdu samochodów do centrum: Za,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Za
+Czas wypełniania: 336.957s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w Łodzi, poza centrum
+Jakie jest twoje wykształcenie?: wyższe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 4
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 3
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 2
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Wcale,Samochód jako pasażer: Czasem,Komunikacja miejsca: Często,Taksówki / uber: Czasem,Skuter / motor: Wcale,Rower: Wcale,Hulajnogi elektryczne: Czasem
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Nie mam samochodu,Tak jest mi wygodnie
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): krótszy czas czekania na autobus,większa punktualność
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: poniżej +50% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Za,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 122.229s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w domu (jednorodzinnym/szeregowiec)
+Gdzie mieszkasz? (cz. 2): w okolicach Łodzi (Konstantynów Łódzki, Zgierz, etc)
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 5
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 3
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 2
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba tak - nie mam diagnozy, ale dostrzegam wpływ smogu na mnie
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Kocioł na gaz
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Nie
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Tak
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Tak
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Wcale,Samochód jako pasażer: Często,Komunikacja miejsca: Często,Taksówki / uber: Czasem,Skuter / motor: Wcale,Rower: Czasem,Hulajnogi elektryczne: Wcale
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Nie mam samochodu
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): krótszy czas podróży,mniejszy dystans do / z przystanków,mniej przesiadek
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: nie zaakceptuję podwyżki
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Za,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 168.36s
+
+Z jaką płcią się identyfikujesz?: Mężczyzna
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w Łodzi, poza centrum
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 5
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 3
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 2
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba tak - nie mam diagnozy, ale dostrzegam wpływ smogu na mnie
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Tak
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Często,Samochód jako pasażer: Czasem,Komunikacja miejsca: Czasem,Taksówki / uber: Wcale,Skuter / motor: Wcale,Rower: Czasem,Hulajnogi elektryczne: Wcale
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 1
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Inne
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): krótszy czas podróży,większa punktualność,krótszy czas czekania na autobus
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: nie zaakceptuję podwyżki
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Przeciw,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 196.189s
+
+Z jaką płcią się identyfikujesz?: Mężczyzna
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w domu (jednorodzinnym/szeregowiec)
+Gdzie mieszkasz? (cz. 2): w okolicach Łodzi (Konstantynów Łódzki, Zgierz, etc)
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 5
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 3
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 3
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Piec węglowy
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Tak
+Czy masz zainstalowane panele fotowoltaiczne?: Tak
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Czasem,Samochód jako pasażer: Wcale,Komunikacja miejsca: Często,Taksówki / uber: Czasem,Skuter / motor: Wcale,Rower: Wcale,Hulajnogi elektryczne: Wcale
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 3
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Tak jest najtaniej,Tak jest ekologiczniej
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): krótszy czas czekania na autobus,krótszy czas podróży
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: +50% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Za,Ograniczanie wjazdu samochodów do centrum: Za,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Przeciw,Zwiększenie cen biletów parkingowych: Za
+Czas wypełniania: 544.397s
+
+Z jaką płcią się identyfikujesz?: Mężczyzna
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w centrum Łodzi
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 4
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 2
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 3
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Nie jestem pewien
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Nie
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Tak
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Często,Samochód jako pasażer: Czasem,Komunikacja miejsca: Często,Taksówki / uber: Wcale,Skuter / motor: Wcale,Rower: Wcale,Hulajnogi elektryczne: Wcale
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 1
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Tak jest najtaniej,Nie mam gdzie parkować samochodu
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): mniej przesiadek
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: nie zaakceptuję podwyżki
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Za,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Przeciw,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 386.234s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 36 - 45 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w centrum Łodzi
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 4
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 4
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 4
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba tak - nie mam diagnozy, ale dostrzegam wpływ smogu na mnie
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: undefined,Samochód jako pasażer: Często,Komunikacja miejsca: Często,Taksówki / uber: undefined,Skuter / motor: undefined,Rower: undefined,Hulajnogi elektryczne: undefined
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Inne
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): krótszy czas czekania na autobus
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: nie zaakceptuję podwyżki
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Przeciw,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Przeciw,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 155.678s
+
+Z jaką płcią się identyfikujesz?: Mężczyzna
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w centrum Łodzi
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 5
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 2
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 3
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba tak - nie mam diagnozy, ale dostrzegam wpływ smogu na mnie
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Tak
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Tak
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Wcale,Samochód jako pasażer: Czasem,Komunikacja miejsca: Często,Taksówki / uber: Wcale,Skuter / motor: Wcale,Rower: Czasem,Hulajnogi elektryczne: Wcale
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Tak jest ekologiczniej,Nie mam samochodu
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): krótszy czas podróży,inne,krótszy czas czekania na autobus
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: +100% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Za,Ograniczanie wjazdu samochodów do centrum: Za,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Za
+Czas wypełniania: 305.388s
+
+
+
+Z jaką płcią się identyfikujesz?: Mężczyzna
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w centrum Łodzi
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 4
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 3
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 2
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Nie
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Nie
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Często,Samochód jako pasażer: Czasem,Komunikacja miejsca: Wcale,Taksówki / uber: Wcale,Skuter / motor: Wcale,Rower: Wcale,Hulajnogi elektryczne: Wcale
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 1
+Dlaczego nie korzystasz z komunikacji miejskiej (max 2): Tak jest najszybciej,Tak jest najwygodniej
+Co by cię przekonało do korzystania z MPK? (max 3): nie dam się przekonać,inne
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: nie zaakceptuję podwyżki
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Przeciw,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 252.153s
+
+Z jaką płcią się identyfikujesz?: Mężczyzna
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w domu (jednorodzinnym/szeregowiec)
+Gdzie mieszkasz? (cz. 2): w Łodzi, poza centrum
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 3
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 4
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 4
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba tak - nie mam diagnozy, ale dostrzegam wpływ smogu na mnie
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Prąd elektryczny
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Tak
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Wcale,Samochód jako pasażer: Czasem,Komunikacja miejsca: Często,Taksówki / uber: Wcale,Skuter / motor: Wcale,Rower: Wcale,Hulajnogi elektryczne: Wcale
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Nie mam samochodu,Tak jest najtaniej
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): krótszy czas czekania na autobus,większa punktualność
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: nie zaakceptuję podwyżki
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Przeciw,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Przeciw,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 206.8s
+
+Z jaką płcią się identyfikujesz?: Mężczyzna
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w domu (jednorodzinnym/szeregowiec)
+Gdzie mieszkasz? (cz. 2): w Łodzi, poza centrum
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 3
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 3
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 2
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba tak - nie mam diagnozy, ale dostrzegam wpływ smogu na mnie
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Kocioł na gaz
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Czasem,Samochód jako pasażer: Czasem,Komunikacja miejsca: Często,Taksówki / uber: Czasem,Skuter / motor: Wcale,Rower: Czasem,Hulajnogi elektryczne: Czasem
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 1
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Nie mam samochodu,Tak jest ekologiczniej
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): większa punktualność
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: poniżej +50% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Przeciw,Ograniczanie wjazdu samochodów do centrum: Za,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 136.762s
+
+Z jaką płcią się identyfikujesz?: Mężczyzna
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w Łodzi, poza centrum
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 4
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 3
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 3
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Tak - mam stwierdzone schorzenia, których występowanie zwiększa smog
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Wcale,Samochód jako pasażer: Czasem,Komunikacja miejsca: Często,Taksówki / uber: Czasem,Skuter / motor: Wcale,Rower: Wcale,Hulajnogi elektryczne: Wcale
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Tak jest najtaniej,Nie mam samochodu
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): większa punktualność,mniej przesiadek
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: +100% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Za,Ograniczanie wjazdu samochodów do centrum: Za,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 173.379s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w domu (jednorodzinnym/szeregowiec)
+Gdzie mieszkasz? (cz. 2): w okolicach Łodzi (Konstantynów Łódzki, Zgierz, etc)
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 4
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 2
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 4
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba tak - nie mam diagnozy, ale dostrzegam wpływ smogu na mnie
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Tak
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Często,Samochód jako pasażer: Często,Komunikacja miejsca: Czasem,Taksówki / uber: Wcale,Skuter / motor: Wcale,Rower: Wcale,Hulajnogi elektryczne: Wcale
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 2
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Inne
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): krótszy czas podróży
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: nie zaakceptuję podwyżki
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Przeciw,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 105.556s
+
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w domu (jednorodzinnym/szeregowiec)
+Gdzie mieszkasz? (cz. 2): w Łodzi, poza centrum
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 4
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 3
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 2
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Piec węglowy
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Tak
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Tak
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Czasem,Samochód jako pasażer: Często,Komunikacja miejsca: Często,Taksówki / uber: Czasem,Skuter / motor: Wcale,Rower: Czasem,Hulajnogi elektryczne: Czasem
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 1
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Tak jest mi wygodnie
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): większa punktualność,inne
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: poniżej +50% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Przeciw,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 216.877s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w domu (jednorodzinnym/szeregowiec)
+Gdzie mieszkasz? (cz. 2): w okolicach Łodzi (Konstantynów Łódzki, Zgierz, etc)
+Jakie jest twoje wykształcenie?: wyższe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 4
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 3
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 2
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Nie jestem pewien
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Tak
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Tak
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Wcale,Samochód jako pasażer: Często,Komunikacja miejsca: Często,Taksówki / uber: Wcale,Skuter / motor: Wcale,Rower: Wcale,Hulajnogi elektryczne: Wcale
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Nie mam samochodu,Tak jest mi wygodnie
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): krótszy czas czekania na autobus,większa punktualność,krótszy czas podróży
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: nie zaakceptuję podwyżki
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Przeciw,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 157.823s
+
+Z jaką płcią się identyfikujesz?: Mężczyzna
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w domu (jednorodzinnym/szeregowiec)
+Gdzie mieszkasz? (cz. 2): w okolicach Łodzi (Konstantynów Łódzki, Zgierz, etc)
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 4
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 4
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 3
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Nie - i nie spodziewam się, żeby miało w przyszłości
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Kominek,Kocioł na gaz
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Nie
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Nie
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Tak
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Wcale,Samochód jako pasażer: Czasem,Komunikacja miejsca: Często,Taksówki / uber: Czasem,Skuter / motor: Wcale,Rower: Czasem,Hulajnogi elektryczne: Czasem
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Nie mam samochodu,Tak jest najtaniej
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): większa punktualność,krótszy czas czekania na autobus
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: nie zaakceptuję podwyżki
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Przeciw,Ograniczanie wjazdu samochodów do centrum: Za,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Za
+Czas wypełniania: 154.653s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w domu (jednorodzinnym/szeregowiec)
+Gdzie mieszkasz? (cz. 2): w Łodzi, poza centrum
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 4
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 4
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 3
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Tak
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Tak
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Tak
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Często,Samochód jako pasażer: Czasem,Komunikacja miejsca: Czasem,Taksówki / uber: Często,Skuter / motor: Wcale,Rower: Wcale,Hulajnogi elektryczne: Czasem
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 1
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Inne
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): krótszy czas czekania na autobus
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: poniżej +50% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Przeciw,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Przeciw,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 155.049s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w Łodzi, poza centrum
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 4
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 4
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 3
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Wcale,Samochód jako pasażer: Czasem,Komunikacja miejsca: Często,Taksówki / uber: Czasem,Skuter / motor: Wcale,Rower: Wcale,Hulajnogi elektryczne: Wcale
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Tak jest mi wygodnie,Nie mam samochodu
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): krótszy czas podróży
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: +50% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Za,Ograniczanie wjazdu samochodów do centrum: Za,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 317.265s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w centrum Łodzi
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 3
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 3
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 3
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Prąd elektryczny
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Nie
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Nie
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Wcale,Samochód jako pasażer: Czasem,Komunikacja miejsca: Czasem,Taksówki / uber: Wcale,Skuter / motor: Wcale,Rower: Wcale,Hulajnogi elektryczne: Często
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Nie mam samochodu,Tak jest najtaniej
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): krótszy czas podróży,mniej przesiadek
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: nie zaakceptuję podwyżki
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): undefined,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 189.527s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w domu (jednorodzinnym/szeregowiec)
+Gdzie mieszkasz? (cz. 2): w okolicach Łodzi (Konstantynów Łódzki, Zgierz, etc)
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 5
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 3
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 3
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Tak
+Czy masz zainstalowane panele fotowoltaiczne?: Tak
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Często,Samochód jako pasażer: Często,Komunikacja miejsca: Czasem,Taksówki / uber: Wcale,Skuter / motor: Wcale,Rower: Wcale,Hulajnogi elektryczne: Wcale
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 1
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Tak jest najtaniej,Tak jest ekologiczniej
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): krótszy czas czekania na autobus,większa punktualność
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: poniżej +50% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Przeciw,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Przeciw,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 230.989s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w domu (jednorodzinnym/szeregowiec)
+Gdzie mieszkasz? (cz. 2): w Łodzi, poza centrum
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 5
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 2
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 1
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba tak - nie mam diagnozy, ale dostrzegam wpływ smogu na mnie
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Nie
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Tak
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Wcale,Samochód jako pasażer: Często,Komunikacja miejsca: Czasem,Taksówki / uber: Wcale,Skuter / motor: Wcale,Rower: Wcale,Hulajnogi elektryczne: Wcale
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Inne
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): większa punktualność,krótszy czas czekania na autobus
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: +50% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Za,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 632.1s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w domu (jednorodzinnym/szeregowiec)
+Gdzie mieszkasz? (cz. 2): w okolicach Łodzi (Konstantynów Łódzki, Zgierz, etc)
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 5
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 3
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 2
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Tak - mam stwierdzone schorzenia, których występowanie zwiększa smog
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Prąd elektryczny
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Nie
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Tak
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy masz zainstalowane panele fotowoltaiczne?: Tak
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Często,Samochód jako pasażer: Czasem,Komunikacja miejsca: Czasem,Taksówki / uber: Wcale,Skuter / motor: Wcale,Rower: Czasem,Hulajnogi elektryczne: Wcale
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 0
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Nie mam gdzie parkować samochodu,Tak jest ekologiczniej
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): większa punktualność,mniej przesiadek,mniejszy dystans do / z przystanków
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: nie zaakceptuję podwyżki
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): undefined,Ograniczanie wjazdu samochodów do centrum: undefined,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): undefined,Zwiększenie cen biletów parkingowych: undefined
+Czas wypełniania: 195.173s
+
+Z jaką płcią się identyfikujesz?: Mężczyzna
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w centrum Łodzi
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 4
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 4
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 4
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Tak
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Czasem,Samochód jako pasażer: Czasem,Komunikacja miejsca: Często,Taksówki / uber: Czasem,Skuter / motor: Wcale,Rower: Czasem,Hulajnogi elektryczne: Często
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 2
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Tak jest mi wygodnie,Tak jest najtaniej
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): krótszy czas podróży,mniejszy dystans do / z przystanków
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: poniżej +50% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Za,Ograniczanie wjazdu samochodów do centrum: Za,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 154.7s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w domu (jednorodzinnym/szeregowiec)
+Gdzie mieszkasz? (cz. 2): w Łodzi, poza centrum
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 3
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 3
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 2
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Nie jestem pewien
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Nie
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Tak
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Tak
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Wcale,Samochód jako pasażer: Czasem,Komunikacja miejsca: Często,Taksówki / uber: Czasem,Skuter / motor: Wcale,Rower: Wcale,Hulajnogi elektryczne: Czasem
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Nie mam samochodu,Tak jest ekologiczniej
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): krótszy czas podróży,większa punktualność
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: poniżej +50% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Za,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 127.34s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w centrum Łodzi
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 4
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 2
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 3
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba tak - nie mam diagnozy, ale dostrzegam wpływ smogu na mnie
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie,Prąd elektryczny
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Wcale,Samochód jako pasażer: Czasem,Komunikacja miejsca: Często,Taksówki / uber: Czasem,Skuter / motor: Wcale,Rower: Czasem,Hulajnogi elektryczne: Wcale
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Nie mam samochodu,Tak jest mi wygodnie
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): większa punktualność,krótszy czas czekania na autobus
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: poniżej +50% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Za,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 92.896s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w centrum Łodzi
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 3
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 3
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 4
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Nie
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Czasem,Samochód jako pasażer: Czasem,Komunikacja miejsca: Często,Taksówki / uber: Czasem,Skuter / motor: Wcale,Rower: Czasem,Hulajnogi elektryczne: Często
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 3
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Tak jest ekologiczniej
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): krótszy czas podróży,mniejszy dystans do / z przystanków,krótszy czas czekania na autobus
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: nie zaakceptuję podwyżki
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Za,Ograniczanie wjazdu samochodów do centrum: Za,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 121.675s
+
+Z jaką płcią się identyfikujesz?: Mężczyzna
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w Łodzi, poza centrum
+Jakie jest twoje wykształcenie?: wyższe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 4
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 1
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Często,Samochód jako pasażer: Czasem,Komunikacja miejsca: Często,Taksówki / uber: Czasem,Skuter / motor: Wcale,Rower: Często,Hulajnogi elektryczne: Często
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 1
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Tak jest najtaniej,Tak jest ekologiczniej
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): większa punktualność,mniejszy dystans do / z przystanków,krótszy czas podróży
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: +100% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): undefined,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 355.388s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 36 - 45 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w centrum Łodzi
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 3
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 3
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 3
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Nie
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Często,Samochód jako pasażer: Wcale,Komunikacja miejsca: Czasem,Taksówki / uber: undefined,Skuter / motor: undefined,Rower: undefined,Hulajnogi elektryczne: undefined
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 3
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Inne
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): większa punktualność
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: poniżej +50% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Za,Ograniczanie wjazdu samochodów do centrum: Za,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Za
+Czas wypełniania: 125.074s
+
+Z jaką płcią się identyfikujesz?: Mężczyzna
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w Łodzi, poza centrum
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 5
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 4
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 3
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Wcale,Samochód jako pasażer: Czasem,Komunikacja miejsca: Często,Taksówki / uber: Wcale,Skuter / motor: Wcale,Rower: Czasem,Hulajnogi elektryczne: Czasem
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Nie mam samochodu,Tak jest najtaniej
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): większa punktualność,krótszy czas podróży,krótszy czas czekania na autobus
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: poniżej +50% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Za,Ograniczanie wjazdu samochodów do centrum: Za,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 171.925s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w Łodzi, poza centrum
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 3
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 1
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 1
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Wcale,Samochód jako pasażer: Czasem,Komunikacja miejsca: Często,Taksówki / uber: Czasem,Skuter / motor: Wcale,Rower: Czasem,Hulajnogi elektryczne: Wcale
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Nie mam samochodu,Nie mam gdzie parkować samochodu
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): krótszy czas czekania na autobus,krótszy czas podróży,mniejszy dystans do / z przystanków
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: poniżej +50% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Przeciw,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 195.632s
+
+Z jaką płcią się identyfikujesz?: Mężczyzna
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w Łodzi, poza centrum
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 5
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 2
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 4
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Często,Samochód jako pasażer: Czasem,Komunikacja miejsca: Często,Taksówki / uber: Wcale,Skuter / motor: Wcale,Rower: Często,Hulajnogi elektryczne: Wcale
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 0
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Tak jest najtaniej,Tak jest ekologiczniej
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): większa punktualność,krótszy czas podróży
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: +50% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Za,Ograniczanie wjazdu samochodów do centrum: Za,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 261.673s
+
+Z jaką płcią się identyfikujesz?: Mężczyzna
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w centrum Łodzi
+Jakie jest twoje wykształcenie?: wyższe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 4
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 3
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 3
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Tak
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Wcale,Samochód jako pasażer: Czasem,Komunikacja miejsca: Często,Taksówki / uber: Czasem,Skuter / motor: Wcale,Rower: Czasem,Hulajnogi elektryczne: Wcale
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Tak jest najtaniej
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): większa punktualność
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: poniżej +50% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Za,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Za
+Czas wypełniania: 126.424s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 36 - 45 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w centrum Łodzi
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 3
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 2
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Kominek
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Nie
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Często,Samochód jako pasażer: Wcale,Komunikacja miejsca: Czasem,Taksówki / uber: Czasem,Skuter / motor: Wcale,Rower: Czasem,Hulajnogi elektryczne: Wcale
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 3
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Inne
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): mniej przesiadek
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: nie zaakceptuję podwyżki
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Za,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Przeciw,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 211.886s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w domu (jednorodzinnym/szeregowiec)
+Gdzie mieszkasz? (cz. 2): daleko od Łodzi, ale często tu bywam
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 5
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 3
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 2
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Tak
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Tak
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Często,Samochód jako pasażer: Często,Komunikacja miejsca: Czasem,Taksówki / uber: Czasem,Skuter / motor: Wcale,Rower: Czasem,Hulajnogi elektryczne: Wcale
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 2
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Nie mam gdzie parkować samochodu
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): większa punktualność,krótszy czas podróży,krótszy czas czekania na autobus
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: poniżej +50% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Przeciw,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 139.401s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w domu (jednorodzinnym/szeregowiec)
+Gdzie mieszkasz? (cz. 2): w Łodzi, poza centrum
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 5
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 3
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 3
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Nie jestem pewien
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Tak
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Tak
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Tak
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Czasem,Samochód jako pasażer: Często,Komunikacja miejsca: Często,Taksówki / uber: Wcale,Skuter / motor: Czasem,Rower: Czasem,Hulajnogi elektryczne: Wcale
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 1
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Nie mam gdzie parkować samochodu,Tak jest najtaniej
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): mniejszy dystans do / z przystanków,krótszy czas podróży
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: poniżej +50% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Za,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 447.47s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w Łodzi, poza centrum
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 5
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 3
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 3
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Często,Samochód jako pasażer: Często,Komunikacja miejsca: Czasem,Taksówki / uber: Wcale,Skuter / motor: Wcale,Rower: Wcale,Hulajnogi elektryczne: Wcale
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 0
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Nie mam gdzie parkować samochodu
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): krótszy czas czekania na autobus,mniej przesiadek,krótszy czas podróży
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: nie zaakceptuję podwyżki
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Przeciw,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 233.811s
+
+Z jaką płcią się identyfikujesz?: Mężczyzna
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w mieszkaniu (blok/kamienica)
+Gdzie mieszkasz? (cz. 2): w Łodzi, poza centrum
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 5
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 2
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 2
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Chyba nie - ale kto wie, co będzie za kilka lat
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie,Prąd elektryczny
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Tak
+Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Nie
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Czasem,Samochód jako pasażer: Czasem,Komunikacja miejsca: Często,Taksówki / uber: Wcale,Skuter / motor: Wcale,Rower: Czasem,Hulajnogi elektryczne: Wcale
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 1
+Dlaczego korzystasz z komunikacji miejskiej? (max 2): Tak jest najtaniej,Nie mam gdzie parkować samochodu
+Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3): krótszy czas podróży,większa punktualność,krótszy czas czekania na autobus
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: poniżej +50% ceny
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Przeciw,Ograniczanie wjazdu samochodów do centrum: Za,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 626.308s
+
+Z jaką płcią się identyfikujesz?: Kobieta
+W jakim jesteś wieku?: 18 - 25 lat
+Gdzie mieszkasz? (cz. 1): w domu (jednorodzinnym/szeregowiec)
+Gdzie mieszkasz? (cz. 2): daleko od Łodzi, ale często tu bywam
+Jakie jest twoje wykształcenie?: średnie / średnie branżowe
+Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo): 5
+Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra): 2
+Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej): 2
+Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?: Nie - i nie spodziewam się, żeby miało w przyszłości
+Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?: Centralne ogrzewanie,Piec węglowy
+Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?: Nie
+Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?: Tak
+Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?: Nie
+Czy masz zainstalowane panele fotowoltaiczne?: Nie
+Czy masz możliwość zainstalowania paneli fotowoltaicznych?: Tak
+Jak często korzystasz z podanych środów transportu?: Samochód jako kierowca: Często,Samochód jako pasażer: Często,Komunikacja miejsca: Wcale,Taksówki / uber: Czasem,Skuter / motor: Często,Rower: Wcale,Hulajnogi elektryczne: Czasem
+Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?: 2
+Dlaczego nie korzystasz z komunikacji miejskiej (max 2): Tak jest najwygodniej,Przewożę dużo rzeczy
+Co by cię przekonało do korzystania z MPK? (max 3): mniejszy dystans do / z przystanków,większa punktualność,mniej przesiadek
+Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?: nie zaakceptuję podwyżki
+Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?: Zwiększenie liczby buspasów (również kosztem pasów dla kierowców): Przeciw,Ograniczanie wjazdu samochodów do centrum: Przeciw,Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów): Za,Zwiększenie cen biletów parkingowych: Przeciw
+Czas wypełniania: 184.1s
