@@ -24,3 +24,4 @@ yarn-error.log*
 
 /dev/keys.json
 /dev/answers.txt
+/dev/notes.txt

@@ -1,11 +1,14 @@
 import { useDispatch, useSelector } from "react-redux";
 import { createStore } from "redux";
 import { Fragment, useEffect, useState } from "react";
-import "./App.css";
+import { QUESTIONS } from "./constants/questions";
+import { PAGES } from "./constants/pages";
+import { Question } from "./components/Question";
+import { useIsMobile } from "./utils/useIsMobile";
+import { shouldLogTime } from "./utils/timer";
 import leftArrow from "./imgs/left-arrow.svg";
 import rightArrow from "./imgs/right-arrow.svg";
-import { questions, pages } from "./texts";
-import Question from "./Question/Question";
+import "./App.css";
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
@@ -28,26 +31,15 @@ const db = getFirestore();
 
 function getEmptyAnswers() {
   const out = {};
-  questions.forEach((q) => (out[q.id] = []));
+  QUESTIONS.forEach((q) => (out[q.id] = []));
   return out;
 }
 
 const initalState = {
-  appState: "Zaczynamy",
+  appState: PAGES[0],
   answersSent: false,
-  answers: getEmptyAnswers(),
+  answers: getEmptyAnswers(), // FIXME
   timeLog: [],
-};
-
-const shouldLogTime = (page1, page2) => {
-  //Should we log time when switching between
-  //these two pages?
-
-  //Is the page first, of last?
-  const isEdge = (page) => {
-    return [0, pages.length - 1].includes(pages.findIndex((p) => p === page));
-  };
-  return isEdge(page1) !== isEdge(page2);
 };
 
 const reducer = (state = initalState, action) => {
@@ -70,27 +62,18 @@ const reducer = (state = initalState, action) => {
 
 const store = createStore(reducer);
 
-function useIsMobile() {
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 900);
-  const handleResize = () => setIsMobile(window.innerWidth < 900);
-  useEffect(() => {
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-  return isMobile;
-}
-
 function MobilePageSelector() {
   const page = useSelector((s) => s.appState);
-  const pageId = pages.findIndex((p) => p === page);
+  const pageId = PAGES.findIndex((p) => p === page);
   const dispatch = useDispatch();
   const turnPage = (way) =>
     dispatch({
       type: "appState/change",
-      payload: pages[pageId + way],
+      payload: PAGES[pageId + way],
     });
 
   return (
+    // FIXME: Markup
     <div className="PageSelector mobile">
       {pageId !== 0 ? (
         <button onClick={() => turnPage(-1)}>
@@ -100,7 +83,7 @@ function MobilePageSelector() {
         <button></button>
       )}
       <h5>{page}</h5>
-      {pageId !== pages.length - 1 ? (
+      {pageId !== PAGES.length - 1 ? (
         <button onClick={() => turnPage(1)}>
           <img src={rightArrow} alt=">" />
         </button>
@@ -112,10 +95,10 @@ function MobilePageSelector() {
 }
 
 function DesktopPageSelector() {
-  const selector = (state) => pages.findIndex((e) => e === state.appState);
+  const selector = (state) => PAGES.findIndex((e) => e === state.appState);
   const pageId = useSelector(selector);
   const dispatch = useDispatch();
-  const jsx = pages.map((p, id) => {
+  const jsx = PAGES.map((p, id) => {
     const className = id > pageId ? "notVisited" : "";
     const event = { type: "appState/change", payload: p };
     return (
@@ -146,13 +129,13 @@ function ControlButton({ children, onClick, accent = false }) {
 }
 
 function ControlButtons() {
-  const selector = (s) => pages.findIndex((p) => p === s.appState);
+  const selector = (s) => PAGES.findIndex((p) => p === s.appState);
   const pageId = useSelector(selector);
   const dispatch = useDispatch();
   const turnPage = (way) =>
     dispatch({
       type: "appState/change",
-      payload: pages[pageId + way],
+      payload: PAGES[pageId + way],
     });
 
   return (
@@ -174,7 +157,7 @@ function StartSurvey() {
   const handleClick = () =>
     dispatch({
       type: "appState/change",
-      payload: pages[1],
+      payload: PAGES[1],
     });
   return (
     <Fragment>
@@ -225,7 +208,7 @@ function SendButton() {
     try {
       const answers = store.getState().answers;
       answers.time = getAnswerTime();
-      const multiPointQuests = questions.filter((q) => q.type === "multipoint");
+      const multiPointQuests = QUESTIONS.filter((q) => q.type === "multipoint");
       multiPointQuests.forEach((q) =>
         q.answers.forEach((_, id) => {
           if (answers[q.id][id] === undefined) answers[q.id][id] = null;
@@ -292,7 +275,7 @@ function EndSurvey() {
   const handleClick = () =>
     dispatch({
       type: "appState/change",
-      payload: pages[pages.length - 2],
+      payload: PAGES[PAGES.length - 2],
     });
   const noOfAnswers = getNoOfAnswers();
   const time = getAnswerTime() / 1000;
@@ -332,22 +315,20 @@ function EndSurvey() {
 
 function Questionare() {
   const page = useSelector((s) => s.appState);
-  const pageId = pages.findIndex((p) => p === page);
+  const pageId = PAGES.findIndex((p) => p === page);
   const Element =
     pageId === 0
       ? StartSurvey
-      : pageId === pages.length - 1
+      : pageId === PAGES.length - 1
       ? EndSurvey
       : ControlButtons;
   return (
     <main id="quest">
       <PageSelector />
       <div id="questContainer">
-        {questions
-          .filter((q) => q.page === page)
-          .map((q) => (
-            <Question question={q} key={q.id} />
-          ))}
+        {QUESTIONS.filter((q) => q.page === page).map((q) => (
+          <Question question={q} key={q.id} />
+        ))}
         <Element />
       </div>
     </main>

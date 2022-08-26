@@ -1,54 +1,43 @@
-import { useSelector } from "react-redux";
+import { Question } from "../types";
+import { PAGES } from "./pages";
 
-const pages = [
-  "Zaczynamy",
-  "O tobie",
-  "Ocena powietrza",
-  "Energetyka i Ogrzewanie",
-  "Transport",
-  "Kończymy",
-];
-
-const useIsBusLover = () => {
-  const selector = (s) => [0, 1].includes(s.answers[18][2]);
-  return useSelector(selector);
+const isUsingBus = () => {
+  return true;
 };
 
-const useIsDriver = () => {
-  const selector = (s) => [0, 1].includes(s.answers[18][0]);
-  return useSelector(selector);
+const isDrivingCar = () => {
+  return true;
 };
 
-const useHasKopciuch = () => {
-  const selector = (s) => s.answers[10].includes(3);
-  return useSelector(selector);
+const hasCoalFurnace = () => {
+  return true;
 };
 
-const useHasSolarPanels = () => {
-  const selector = (s) => s.answers[16][0] === 0;
-  return useSelector(selector);
+const hasSolarPanels = () => {
+  return true;
 };
 
-const useHasCentralHeating = () => {
-  const selector = (s) => s.answers[10][0] === 0;
-  return useSelector(selector);
+const hasCentralHeating = () => {
+  return true;
 };
 
-const questions = [
+const QUESTIONS: Question[] = [
   {
     id: 1,
     type: "singlechoice",
+    pickedAnswer: null,
     length: "short",
-    question: "Z jaką płcią się identyfikujesz?",
+    title: "Z jaką płcią się identyfikujesz?",
     answers: ["Kobieta", "Mężczyzna", "Inna"],
-    useShouldRender: () => true,
-    page: pages[1],
+    showIf: () => true,
+    page: PAGES[1],
   },
   {
     id: 2,
     type: "singlechoice",
+    pickedAnswer: null,
     length: "medium",
-    question: "W jakim jesteś wieku?",
+    title: "W jakim jesteś wieku?",
     answers: [
       "< 18 lat",
       "18 - 25 lat",
@@ -57,116 +46,127 @@ const questions = [
       "46 - 65 lat",
       "> 65 lat",
     ],
-    useShouldRender: () => true,
-    page: pages[1],
+    showIf: () => true,
+    page: PAGES[1],
   },
+
   {
     id: 3,
     type: "singlechoice",
+    pickedAnswer: null,
     length: "medium",
-    question: "Gdzie mieszkasz? (cz. 1)",
+    title: "Gdzie mieszkasz? (cz. 1)",
     answers: [
       "w mieszkaniu (blok/kamienica)",
       "w domu (jednorodzinnym/szeregowiec)",
     ],
-    useShouldRender: () => true,
-    page: pages[1],
+    showIf: () => true,
+    page: PAGES[1],
   },
   {
     id: 4,
     type: "singlechoice",
+    pickedAnswer: null,
     length: "long",
-    question: "Gdzie mieszkasz? (cz. 2)",
+    title: "Gdzie mieszkasz? (cz. 2)",
     answers: [
       "w centrum Łodzi",
       "w Łodzi, poza centrum",
       "w okolicach Łodzi (Konstantynów Łódzki, Zgierz, etc)",
       "daleko od Łodzi, ale często tu bywam",
     ],
-    useShouldRender: () => true,
-    page: pages[1],
+    showIf: () => true,
+    page: PAGES[1],
   },
   {
     id: 5,
     type: "singlechoice",
+    pickedAnswer: null,
     length: "short",
-    question: "Jakie jest twoje wykształcenie?",
+    title: "Jakie jest twoje wykształcenie?",
     answers: [
       "podstawowe / gimnazjalne / zawodowe",
       "średnie / średnie branżowe",
       "wyższe",
     ],
-    useShouldRender: () => true,
-    page: pages[1],
+    showIf: () => true,
+    page: PAGES[1],
   },
+
   {
     id: 6,
     type: "singlechoice",
+    pickedAnswer: null,
     length: "short",
-    question:
+    title:
       "Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo)",
     answers: ["1", "2", "3", "4", "5"],
-    useShouldRender: () => true,
-    page: pages[2],
+    showIf: () => true,
+    page: PAGES[2],
   },
   {
     id: 7,
     type: "singlechoice",
+    pickedAnswer: null,
     length: "short",
-    question:
+    title:
       "Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra)",
     answers: ["1", "2", "3", "4", "5"],
-    useShouldRender: () => true,
-    page: pages[2],
+    showIf: () => true,
+    page: PAGES[2],
   },
   {
     id: 8,
     type: "singlechoice",
+    pickedAnswer: null,
     length: "short",
-    question:
+    title:
       "Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej)",
     answers: ["1", "2", "3", "4", "5"],
-    useShouldRender: () => true,
-    page: pages[2],
+    showIf: () => true,
+    page: PAGES[2],
   },
   {
     id: 9,
     type: "singlechoice",
+    pickedAnswer: null,
     length: "long",
-    question: "Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?",
+    title: "Czy zanieczyszczenie powietrza miało wpływ na Twoje zdrowie?",
     answers: [
       "Tak - mam stwierdzone schorzenia, których występowanie zwiększa smog",
       "Chyba tak - nie mam diagnozy, ale dostrzegam wpływ smogu na mnie",
       "Chyba nie - ale kto wie, co będzie za kilka lat",
       "Nie - i nie spodziewam się, żeby miało w przyszłości",
     ],
-    useShouldRender: () => true,
-    page: pages[2],
+    showIf: () => true,
+    page: PAGES[2],
   },
   {
     id: 16,
     type: "singlechoice",
+    pickedAnswer: null,
     length: "short",
-    question: "Czy masz zainstalowane panele fotowoltaiczne?",
+    title: "Czy masz zainstalowane panele fotowoltaiczne?",
     answers: ["Tak", "Nie"],
-    useShouldRender: () => true,
-    page: pages[3],
+    showIf: () => true,
+    page: PAGES[3],
   },
   {
     id: 17,
     type: "singlechoice",
+    pickedAnswer: null,
     length: "short",
-    question: "Czy masz możliwość zainstalowania paneli fotowoltaicznych?",
+    title: "Czy masz możliwość zainstalowania paneli fotowoltaicznych?",
     answers: ["Tak", "Nie"],
-    useShouldRender: () => !useHasSolarPanels(),
-    page: pages[3],
+    showIf: () => !hasSolarPanels(),
+    page: PAGES[3],
   },
   {
     id: 10,
     type: "multichoice",
+    pickedAnswer: [],
     length: "medium",
-    question:
-      "Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?",
+    title: "Z jakich sposobów ogrzewania swojego domu / mieszkania korzystasz?",
     answers: [
       "Centralne ogrzewanie",
       "Prąd elektryczny",
@@ -176,54 +176,59 @@ const questions = [
       "Nie jestem pewien",
       "Inne",
     ],
-    useShouldRender: () => true,
-    page: pages[3],
+    showIf: () => true,
+    page: PAGES[3],
   },
   {
     id: 11,
     type: "singlechoice",
+    pickedAnswer: null,
     length: "short",
-    question:
+    title:
       "Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?",
     answers: ["Tak", "Nie"],
-    useShouldRender: () => !useHasCentralHeating(),
-    page: pages[3],
+    showIf: () => !hasCentralHeating(),
+    page: PAGES[3],
   },
   {
     id: 12,
     type: "singlechoice",
+    pickedAnswer: null,
     length: "short",
-    question:
+    title:
       "Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?",
     answers: ["Tak", "Nie"],
-    useShouldRender: () => !useHasKopciuch(),
-    page: pages[3],
+    showIf: () => !hasCoalFurnace(),
+    page: PAGES[3],
   },
   {
     id: 13,
     type: "singlechoice",
+    pickedAnswer: null,
     length: "short",
-    question:
+    title:
       "Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?",
     answers: ["Tak", "Nie"],
-    useShouldRender: () => true,
-    page: pages[3],
+    showIf: () => true,
+    page: PAGES[3],
   },
   {
     id: 14,
     type: "singlechoice",
+    pickedAnswer: null,
     length: "short",
-    question:
+    title:
       "Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?",
     answers: ["Tak", "Nie"],
-    useShouldRender: () => true,
-    page: pages[3],
+    showIf: () => true,
+    page: PAGES[3],
   },
   {
     id: 18,
     type: "multipoint",
-    question: "Jak często korzystasz z podanych środów transportu?",
-    answers: [
+    pickedAnswer: {},
+    title: "Jak często korzystasz z podanych środów transportu?",
+    subquestions: [
       "Samochód jako kierowca",
       "Samochód jako pasażer",
       "Komunikacja miejsca",
@@ -233,25 +238,26 @@ const questions = [
       "Hulajnogi elektryczne",
     ],
     options: ["Często", "Czasem", "Wcale"],
-    useShouldRender: () => true,
-    page: pages[4],
+    showIf: () => true,
+    page: PAGES[4],
   },
   {
     id: 19,
     type: "singlechoice",
+    pickedAnswer: null,
     length: "short",
-    question: "Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?",
+    title: "Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?",
     answers: ["0", "1", "2", "3", "4+"],
-    default: false,
-    page: pages[4],
-    useShouldRender: useIsDriver,
+    page: PAGES[4],
+    showIf: isDrivingCar,
   },
   {
     id: 20,
     type: "multichoice",
-    howManyAnswers: 2,
+    pickedAnswer: [],
+    maxNoOfAnswers: 2,
     length: "medium",
-    question: "Dlaczego korzystasz z komunikacji miejskiej? (max 2)",
+    title: "Dlaczego korzystasz z komunikacji miejskiej?",
     answers: [
       "Nie mam samochodu",
       "Nie mam gdzie parkować samochodu",
@@ -260,15 +266,16 @@ const questions = [
       "Tak jest mi wygodnie",
       "Inne",
     ],
-    page: pages[4],
-    useShouldRender: useIsBusLover,
+    page: PAGES[4],
+    showIf: isUsingBus,
   },
   {
     id: 21,
     type: "multichoice",
-    howManyAnswers: 2,
+    pickedAnswer: [],
+    maxNoOfAnswers: 2,
     length: "medium",
-    question: "Dlaczego nie korzystasz z komunikacji miejskiej (max 2)",
+    title: "Dlaczego nie korzystasz z komunikacji miejskiej (max 2)",
     answers: [
       "Tak jest najszybciej",
       "Tak jest najwygodniej",
@@ -276,15 +283,16 @@ const questions = [
       "Przewożę dużo osób",
       "Inne",
     ],
-    page: pages[4],
-    useShouldRender: () => !useIsBusLover(),
+    page: PAGES[4],
+    showIf: () => !isUsingBus(),
   },
   {
     id: 22,
     type: "multichoice",
-    howManyAnswers: 3,
+    pickedAnswer: [],
+    maxNoOfAnswers: 3,
     length: "medium",
-    question:
+    title:
       "Gdybyś mógł poprawić komunikację miejską, co próbowałbyś osiągnąć? (max 3)",
     answers: [
       "krótszy czas podróży",
@@ -294,15 +302,16 @@ const questions = [
       "inne",
       "mniejszy dystans do / z przystanków",
     ],
-    page: pages[4],
-    useShouldRender: useIsBusLover,
+    page: PAGES[4],
+    showIf: isUsingBus,
   },
   {
     id: 23,
     type: "multichoice",
-    howManyAnswers: 3,
+    pickedAnswer: [],
+    maxNoOfAnswers: 3,
     length: "medium",
-    question: "Co by cię przekonało do korzystania z MPK? (max 3)",
+    title: "Co by cię przekonało do korzystania z MPK? (max 3)",
     answers: [
       "krótszy czas podróży",
       "krótszy czas czekania na autobus",
@@ -312,15 +321,15 @@ const questions = [
       "inne",
       "nie dam się przekonać",
     ],
-    page: pages[4],
-    useShouldRender: () => !useIsBusLover(),
+    page: PAGES[4],
+    showIf: () => !isUsingBus(),
   },
   {
     id: 24,
     type: "singlechoice",
-    howManyAnswers: 3,
+    pickedAnswer: null,
     length: "medium",
-    question:
+    title:
       "Jaką podwyżkę ceny biletu zaakceptujesz, jeśli poprawie ulegną zaznaczone przez ciebie powyżej sfery?",
     answers: [
       "nie zaakceptuję podwyżki",
@@ -330,25 +339,24 @@ const questions = [
       "+200% ceny",
       "powyżej +200% ceny",
     ],
-    page: pages[4],
-    useShouldRender: () => true,
+    page: PAGES[4],
+    showIf: () => true,
   },
   {
     id: 25,
     type: "multipoint",
-    length: "long",
-    question: "Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?",
-    answers: [
+    pickedAnswer: {},
+    title: "Jesteś za czy przeciw wprowadzaniu poniższych rozwiązań?",
+    subquestions: [
       "Zwiększenie liczby buspasów (również kosztem pasów dla kierowców)",
       "Ograniczanie wjazdu samochodów do centrum",
       "Wprowadzanie ulg dla pojazdów elektrycznych (darmowe parkingi w centrum, możliwość korzystania z buspasów)",
       "Zwiększenie cen biletów parkingowych",
     ],
     options: ["Za", "Przeciw"],
-    page: pages[4],
-    useShouldRender: () => true,
+    page: PAGES[4],
+    showIf: () => true,
   },
 ];
 
-// exports.questions = questions;
-export { questions, pages };
+export { QUESTIONS };

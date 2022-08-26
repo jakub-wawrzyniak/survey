@@ -1,0 +1,11 @@
+{
+    "include": [
+        "src/*"
+, "src/components/Question"    ],
+    "compilerOptions": {
+        "target": "es5",
+        "jsx": "react",
+        "baseUrl": "src",
+        "allowSyntheticDefaultImports": true
+    }
+}

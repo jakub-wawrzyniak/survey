@@ -145,7 +145,7 @@ function MultiPoint({ question: q }) {
   );
 }
 
-function Question({ question }) {
+export function Question({ question }) {
   const shouldRender = question.useShouldRender();
   const answer = useSelector((s) => s.answers[question.id]);
   const dispatch = useDispatch();
@@ -170,5 +170,3 @@ function Question({ question }) {
   console.error("Unhandled type of question: a typo in texts.js?");
   return <h3>Case for quest no {question.id} is not yet implemented :c</h3>;
 }
-
-export default Question;
