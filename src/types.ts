@@ -4,7 +4,7 @@ type AnswerSlice = string;
 type Length = "short" | "medium" | "long";
 export type Page = typeof PAGES[number];
 
-type QuestionMetadata = {
+export type QuestionMetadata = {
   id: number;
   page: Page;
   title: string;
@@ -48,3 +48,7 @@ export type PageData = {
   prevPageUrl?: string;
 };
 export type PageRecord = Record<Page, PageData>;
+
+export type Nestable = {
+  children: React.ReactNode;
+};

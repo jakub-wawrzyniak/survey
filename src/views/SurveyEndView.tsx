@@ -1,4 +1,7 @@
 import { ControlButton } from "../components/ControlButton";
+import { PAGES } from "../constants";
+import { usePage } from "../router";
+import { getUrlFromPage } from "../utils";
 
 export function SurveyEndView() {
   // const answers = useAppSelector((s) => s.questions) as Question[];
@@ -35,7 +38,7 @@ export function SurveyEndView() {
         </ul>
       </div>
       {/* <SendButton /> */}
-      <ControlButton onClick={() => {}}>
+      <ControlButton href={getUrlFromPage(PAGES[1])}>
         {/* <img src={leftArrow} alt="<" /> */}
         <h4>Powrót do pytań</h4>
       </ControlButton>

@@ -1,19 +1,22 @@
+import { Link } from "react-router-dom";
+
 type ControlButtonProps = {
   children: React.ReactNode;
-  onClick: () => void;
+  href: string;
   accent?: boolean;
 };
 
+// FIXME: Refactor name
 export function ControlButton({
   children,
-  onClick,
+  href,
   accent = false,
 }: ControlButtonProps) {
   let className = "ControlButton";
   if (accent) className += " accent";
   return (
-    <button className={className} onClick={onClick}>
+    <Link className={className} to={href}>
       {children}
-    </button>
+    </Link>
   );
 }

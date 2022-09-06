@@ -2,7 +2,6 @@ import { ControlButton } from "../components/ControlButton";
 import { usePage } from "../router/usePage";
 
 export function SurveyStartView() {
-  // console.log(typeof usePage);
   const { nextPageUrl } = usePage();
   return (
     <>
@@ -38,7 +37,7 @@ export function SurveyStartView() {
         </ul>
       </div>
       <div>
-        <ControlButton accent={true} onClick={() => {}}>
+        <ControlButton accent={true} href="">
           <h4>Zaczynamy ankietę</h4>
         </ControlButton>
       </div>
