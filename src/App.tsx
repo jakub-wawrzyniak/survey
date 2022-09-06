@@ -49,7 +49,7 @@ import { PageSelector } from "./components/PageSelector";
 //       ) : (
 //         <button></button>
 //       )}
-//       <h5>{page}</h5>
+//       <h5 className="h5">{page}</h5>
 //       {pageId !== PAGES.length - 1 ? (
 //         <button onClick={() => turnPage(1)}>
 //           <img src={rightArrow} alt=">" />
@@ -130,14 +130,14 @@ import { PageSelector } from "./components/PageSelector";
 //   return (
 //     <Fragment>
 //       <div className="infoComponent">
-//         <h3>Kilka rzeczy, o których warto wspomnieć</h3>
-//         <p>
+//         <h3 className="h3">>Kilka rzeczy, o których warto wspomnieć</h3>
+//         <p className="p>
 //           Jest nam bardzo miło, że tu jesteś! Zanim przejdziemy do ankiety, jest
 //           kilka rzeczy, o których musisz wiedzieć.
 //         </p>
-//         <ul>
+//         <ul className="ul">
 //           <li>
-//             <p>
+//             <p className="p>
 //               <strong>
 //                 Ankieta jest adresowana do osób, które często bywają w Łodzi.
 //               </strong>{" "}
@@ -146,13 +146,13 @@ import { PageSelector } from "./components/PageSelector";
 //             </p>
 //           </li>
 //           <li>
-//             <p>
+//             <p className="p>
 //               Ankieta jest w pełni anonimowa. Oprócz odpowiedzi, zbieramy tylko
 //               czas przebywania na stronie.
 //             </p>
 //           </li>
 //           <li>
-//             <p>
+//             <p className="p>
 //               Zamierzamy w przyszłości upublicznić wyniki ankiety, dlatego żadne
 //               pytanie nie jest obowiązkowe. Podziel się z nami tym, czym
 //               chciałbyś się podzielić z innymi!
@@ -237,21 +237,21 @@ import { PageSelector } from "./components/PageSelector";
 //   return (
 //     <Fragment>
 //       <div className="infoComponent">
-//         <h3>To już koniec ankiety</h3>
-//         <p>
+//         <h3 className="h3">>To już koniec ankiety</h3>
+//         <p className="p>
 //           Jesteśmy wdzięczni, że poświęciłeś nam chwilę by wypełnić ankietę.
 //           Możesz nam teraz wysłać swoje odpowiedzi, albo wrócić do nich i
 //           przejrzeć je jeszcze raz.
 //         </p>
-//         <ul>
+//         <ul className="ul">
 //           <li>
-//             <p>
+//             <p className="p>
 //               Wypełniłeś {noOfAnswers} pytań, poświęcając średnio {avg}s na
 //               wypełnienie każdego z nich
 //             </p>
 //           </li>
 //           <li>
-//             <p>
+//             <p className="p>
 //               Jesteś jednym z naszych <HowManyAnsersInDB /> ankietowanych! Miło
 //               nam, że dołączasz do tego wąskiego grona
 //             </p>
@@ -278,7 +278,7 @@ import { PageSelector } from "./components/PageSelector";
 //       : ControlButtons;
 //   return (
 //     <main id="quest">
-//       <PageSelector />
+//       <p className="pageSelector />
 //       <div id="questContainer">
 //         {QUESTIONS.filter((q) => q.page === page).map((q) => (
 //           <Question question={q} key={q.id} />

@@ -1,6 +1,4 @@
 import "./Question.css";
-import { useDispatch, useSelector, shallowEqual } from "react-redux";
-import { Fragment, useEffect } from "react";
 import {
   MultiChoiceQuestion,
   Nestable,
@@ -19,29 +17,15 @@ function AnswerButton({ children, isOn, onClick }: AnswerButtonProps) {
       onClick={onClick}
       className={isOn ? "AnswerButton on" : "AnswerButton off"}
     >
-      {children}
+      <h5 className="h5 answerText">{children}</h5>
     </button>
   );
 }
 
-// function getAnswerSelector(q) {
-//   return (state) => state.answers[q.id];
-// }
-
-// function action(quesiton, newValue) {
-//   return {
-//     type: "answers/update",
-//     payload: {
-//       id: quesiton.id,
-//       value: newValue,
-//     },
-//   };
-// }
-
 type Handle<T> = { question: T };
 function MultiChoice({ question }: Handle<MultiChoiceQuestion>) {
   const answerButtons = question.answers.map((ans, id) => (
-    <AnswerButton isOn={false} key={id} onClick={() => {}}>
+    <AnswerButton isOn={id % 2 == 0} key={id} onClick={() => {}}>
       {ans}
     </AnswerButton>
   ));
@@ -58,7 +42,7 @@ function QuestionTemplate({ children, question }: QuestionTemplateProps) {
 
   return (
     <div className={"question"}>
-      <h4 className="questionHeader">{question.title}</h4>
+      <h4 className="questionHeader h4">{question.title}</h4>
       <div className={"answersContainer " + length}>{children}</div>
     </div>
   );
@@ -66,7 +50,7 @@ function QuestionTemplate({ children, question }: QuestionTemplateProps) {
 
 function SingleChoice({ question }: Handle<SingleChoiceQuestion>) {
   const answerButtons = question.answers.map((ans, id) => (
-    <AnswerButton isOn={false} key={id} onClick={() => {}}>
+    <AnswerButton isOn={id % 2 == 0} key={id} onClick={() => {}}>
       {ans}
     </AnswerButton>
   ));
@@ -79,10 +63,10 @@ type OptionButtonProps = {
   value: string;
 };
 function OptionButton({ value }: OptionButtonProps) {
-  const isOn = false;
+  const isOn = Math.random() > 0.5;
   return (
     <button className={isOn ? "OptionButton on" : "OptionButton off"}>
-      <h5>{value}</h5>
+      <h5 className="h5">{value}</h5>
     </button>
   );
 }
@@ -114,14 +98,14 @@ function MultiPoint({ question }: Handle<MultiPointQuesion>) {
     return (
       <div key={id} className="optionAnswer">
         <Options question={question} subquestionId={id} />
-        <h5 className="answerText">{questionText}</h5>
+        <h5 className="h5 answerText">{questionText}</h5>
       </div>
     );
   });
 
   return (
     <div className={"question"}>
-      <h4 className="questionHeader">{question.title}</h4>
+      <h4 className="questionHeader h4">{question.title}</h4>
       <div>{subquestions}</div>
     </div>
   );

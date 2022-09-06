@@ -1,0 +1,16 @@
+Refactor:
+    Add styled components
+    Correct HTML
+    Code splitting
+
+    Attach redux
+    Add firebase (securely)
+    Refactor db and tooling
+
+Improvements:
+    WebP background img
+    Add landing
+    Prettier UI?
+        Shadows? Blur?
+    Transitions and animations
+

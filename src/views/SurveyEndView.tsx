@@ -15,21 +15,21 @@ export function SurveyEndView() {
   return (
     <>
       <div className="infoComponent">
-        <h3>To już koniec ankiety</h3>
-        <p>
+        <h3 className="h3">To już koniec ankiety</h3>
+        <p className="p">
           Jesteśmy wdzięczni, że poświęciłeś nam chwilę by wypełnić ankietę.
           Możesz nam teraz wysłać swoje odpowiedzi, albo wrócić do nich i
           przejrzeć je jeszcze raz.
         </p>
-        <ul>
-          <li>
-            <p>
+        <ul className="ul">
+          <li className="li">
+            <p className="p">
               Wypełniłeś {noOfAnswers} pytań, poświęcając średnio {avg}s na
               wypełnienie każdego z nich
             </p>
           </li>
-          <li>
-            <p>
+          <li className="li">
+            <p className="p">
               {/* Jesteś jednym z naszych <HowManyAnsersInDB /> ankietowanych! Miło */}
               Jesteś jednym z naszych 3 ankietowanych! Miło nam, że dołączasz do
               tego wąskiego grona
@@ -39,8 +39,8 @@ export function SurveyEndView() {
       </div>
       {/* <SendButton /> */}
       <ControlButton href={getUrlFromPage(PAGES[1])}>
-        {/* <img src={leftArrow} alt="<" /> */}
-        <h4>Powrót do pytań</h4>
+        {/* <img className="img" src={leftArrow} alt="<" /> */}
+        <h4 className="h4">Powrót do pytań</h4>
       </ControlButton>
     </>
   );

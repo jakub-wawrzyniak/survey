@@ -12,15 +12,15 @@ function MobilePageSelector() {
     <div className="PageSelector mobile">
       {page.prevPageUrl && (
         <button>
-          <img src={leftArrow} alt="<" />
+          <img className="img" src={leftArrow} alt="<" />
         </button>
       )}
 
-      <h5>{page.pageName}</h5>
+      <h5 className="h5">{page.pageName}</h5>
 
       {page.nextPageUrl && (
         <button>
-          <img src={rightArrow} alt=">" />
+          <img className="img" src={rightArrow} alt=">" />
         </button>
       )}
     </div>
@@ -34,9 +34,9 @@ function DesktopPageSelector() {
     const href = getUrlFromPage(p);
     return (
       <Fragment key={id}>
-        {id !== 0 && <img src={rightArrow} alt=">" />}
+        {id !== 0 && <img className="img" src={rightArrow} alt=">" />}
         <Link to={href}>
-          <h5 className={className}>{p}</h5>
+          <h5 className={"h5" + className}>{p}</h5>
         </Link>
       </Fragment>
     );

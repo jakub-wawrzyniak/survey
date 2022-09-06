@@ -11,43 +11,47 @@
   --btn-radius: 10px;
 }
 
+button {
+  border: none;
+}
+
 body {
   overflow-y: scroll;
 }
 
-h3 {
+.h3 {
   font-size: 1.4rem;
   font-weight: 400;
   margin-bottom: 0.5em;
 }
 
-h4 {
+.h4 {
   font-size: 1rem;
   font-weight: 500;
 }
 
-h5 {
+.h5 {
   font-size: 0.9rem;
   font-weight: 400;
   color: var(--gentle-dark);
 }
 
-p {
+.p {
   font-size: 0.9rem;
 }
 
 @media (max-width: 550px) {
-  h3 {
+  .h3 {
     font-size: 1.25rem;
   }
-  h4 {
+  .h4 {
     font-size: 0.9rem;
   }
-  h5 {
+  .h5 {
     font-size: 0.8rem;
   }
 
-  p {
+  .p {
     font-size: 0.8rem;
   }
 }
@@ -90,11 +94,11 @@ main#quest {
   background-color: var(--main-bgc);
 }
 
-.PageSelector > img {
+.PageSelector > .img {
   height: 0.9rem;
 }
 
-.PageSelector h5 {
+.PageSelector .h5 {
   font-weight: 600;
 }
 
@@ -110,11 +114,11 @@ main#quest {
   flex: 1 1 0;
 }
 
-.mobile > a > img {
+.mobile > a > .img {
   height: 100%;
 }
 
-.PageSelector.mobile > h5 {
+.PageSelector.mobile > .h5 {
   flex: 3 1 0;
   text-align: center;
 }
@@ -146,7 +150,7 @@ main#quest {
   align-items: center;
 }
 
-.ControlButton > img {
+.ControlButton > .img {
   height: 0.9rem;
 }
 
@@ -174,16 +178,16 @@ main#quest {
   background-color: var(--main-bgc);
 }
 
-.infoComponent > p,
-.infoComponent > h3 {
+.infoComponent > .p,
+.infoComponent > .h3 {
   text-align: center;
 }
 
-.infoComponent ul {
+.infoComponent .ul {
   margin: 1.5em 0;
 }
 
-.infoComponent ul li {
+.infoComponent .ul .li {
   margin: 0.6em 0;
 }
 

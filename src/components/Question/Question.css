@@ -75,11 +75,11 @@
   justify-content: flex-start;
 }
 
-h5.answerText {
+.h5.answerText {
   margin: 0.5em 0;
 }
 
-.OptionButton > h5 {
+.OptionButton > .h5 {
   white-space: nowrap;
 }
 
