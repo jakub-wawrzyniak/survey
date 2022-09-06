@@ -48,9 +48,10 @@ p {
   }
 }
 
-button {
+a {
   border: none;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .notVisited {
@@ -58,7 +59,7 @@ button {
 }
 
 main#quest {
-  background-image: url("./imgs/questionareBackground.jpg");
+  background-image: url("./assets/questionareBackground.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -93,7 +94,7 @@ main#quest {
   max-width: 390px;
 }
 
-.PageSelector.mobile > button {
+.PageSelector.mobile > a {
   height: 0.9rem;
   display: flex;
   justify-content: center;
@@ -101,7 +102,7 @@ main#quest {
   flex: 1 1 0;
 }
 
-.mobile > button > img {
+.mobile > a > img {
   height: 100%;
 }
 
