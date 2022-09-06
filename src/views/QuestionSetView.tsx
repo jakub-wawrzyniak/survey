@@ -1,4 +1,4 @@
-import { AnyQuestion } from "../components/Question";
+import { QuestionAny } from "../components/QuestionAny";
 import { Question } from "../types";
 
 type QuestionSet = {
@@ -8,7 +8,7 @@ export function QuestionSetView({ questions }: QuestionSet) {
   return (
     <>
       {questions.map((question, id) => (
-        <AnyQuestion key={id} question={question} />
+        <QuestionAny key={id} question={question} />
       ))}
     </>
   );
