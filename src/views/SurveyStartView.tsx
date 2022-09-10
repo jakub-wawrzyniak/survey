@@ -1,4 +1,8 @@
-import { ControlLink, ControlLinkArrow } from "../components/ControlLink";
+import {
+  ControlLink,
+  ControlLinkArrow,
+  ControlLinkCentered,
+} from "../components/ControlLink";
 import { FIRST_QUESTION_PAGE } from "../constants";
 import { getUrlFromPage } from "../utils";
 import {
@@ -42,12 +46,10 @@ export function SurveyStartView() {
           </InfoListElement>
         </InfoList>
       </InfoContainer>
-      <div>
-        <ControlLink $accent to={getUrlFromPage(FIRST_QUESTION_PAGE)}>
-          <TextButton>Zaczynamy ankietę</TextButton>
-          <ControlLinkArrow />
-        </ControlLink>
-      </div>
+      <ControlLinkCentered $accent to={getUrlFromPage(FIRST_QUESTION_PAGE)}>
+        <TextButton>Zaczynamy ankietę</TextButton>
+        <ControlLinkArrow />
+      </ControlLinkCentered>
     </>
   );
 }

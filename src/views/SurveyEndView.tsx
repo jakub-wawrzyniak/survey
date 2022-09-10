@@ -1,4 +1,8 @@
-import { ControlLink, ControlLinkArrow } from "../components/ControlLink";
+import {
+  ControlLink,
+  ControlLinkArrow,
+  ControlLinkCentered,
+} from "../components/ControlLink";
 import { FIRST_QUESTION_PAGE } from "../constants";
 import { getUrlFromPage } from "../utils";
 import {
@@ -43,10 +47,10 @@ export function SurveyEndView() {
         </InfoList>
       </InfoContainer>
       {/* <SendButton /> */}
-      <ControlLink to={getUrlFromPage(FIRST_QUESTION_PAGE)}>
+      <ControlLinkCentered to={getUrlFromPage(FIRST_QUESTION_PAGE)}>
         <ControlLinkArrow />
         <TextButton>Powrót do pytań</TextButton>
-      </ControlLink>
+      </ControlLinkCentered>
     </>
   );
 }
