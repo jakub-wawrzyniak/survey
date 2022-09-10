@@ -1,7 +1,12 @@
 import { ControlLink, ControlLinkArrow } from "../components/ControlLink";
 import { FIRST_QUESTION_PAGE } from "../constants";
 import { getUrlFromPage } from "../utils";
-import arrow from "/src/assets/right-arrow.svg";
+import {
+  InfoContainer,
+  InfoList,
+  InfoListElement,
+} from "../components/InfoComponents";
+import { TextRegular, TextTitle, TextButton } from "../components/Text";
 
 export function SurveyEndView() {
   // const answers = useAppSelector((s) => s.questions) as Question[];
@@ -14,33 +19,33 @@ export function SurveyEndView() {
   const avg = 5;
   return (
     <>
-      <div className="infoComponent">
-        <h3 className="h3">To już koniec ankiety</h3>
-        <p className="p">
+      <InfoContainer>
+        <TextTitle>To już koniec ankiety</TextTitle>
+        <TextRegular>
           Jesteśmy wdzięczni, że poświęciłeś nam chwilę by wypełnić ankietę.
           Możesz nam teraz wysłać swoje odpowiedzi, albo wrócić do nich i
           przejrzeć je jeszcze raz.
-        </p>
-        <ul className="ul">
-          <li className="li">
-            <p className="p">
+        </TextRegular>
+        <InfoList>
+          <InfoListElement>
+            <TextRegular>
               Wypełniłeś {noOfAnswers} pytań, poświęcając średnio {avg}s na
               wypełnienie każdego z nich
-            </p>
-          </li>
-          <li className="li">
-            <p className="p">
+            </TextRegular>
+          </InfoListElement>
+          <InfoListElement>
+            <TextRegular>
               {/* Jesteś jednym z naszych <HowManyAnsersInDB /> ankietowanych! Miło */}
               Jesteś jednym z naszych 3 ankietowanych! Miło nam, że dołączasz do
               tego wąskiego grona
-            </p>
-          </li>
-        </ul>
-      </div>
+            </TextRegular>
+          </InfoListElement>
+        </InfoList>
+      </InfoContainer>
       {/* <SendButton /> */}
       <ControlLink to={getUrlFromPage(FIRST_QUESTION_PAGE)}>
-        <ControlLinkArrow src={arrow} alt="" />
-        <h4 className="h4">Powrót do pytań</h4>
+        <ControlLinkArrow />
+        <TextButton>Powrót do pytań</TextButton>
       </ControlLink>
     </>
   );

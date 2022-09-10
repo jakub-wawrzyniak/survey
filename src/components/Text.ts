@@ -12,6 +12,7 @@ export const TextTitle = styled.h2`
   font-size: 1.4rem;
   font-weight: 400;
   margin-bottom: 0.5em;
+  text-align: center;
   @media (max-width: 550px) {
     font-size: 1.25rem;
   }

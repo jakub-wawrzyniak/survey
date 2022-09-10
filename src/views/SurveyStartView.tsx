@@ -1,46 +1,50 @@
 import { ControlLink, ControlLinkArrow } from "../components/ControlLink";
 import { FIRST_QUESTION_PAGE } from "../constants";
-import { usePage } from "../router/usePage";
 import { getUrlFromPage } from "../utils";
+import {
+  InfoContainer,
+  InfoList,
+  InfoListElement,
+} from "../components/InfoComponents";
+import { TextRegular, TextTitle, TextButton } from "../components/Text";
 
 export function SurveyStartView() {
-  const { nextPageUrl } = usePage();
   return (
     <>
-      <div className="infoComponent">
-        <h3 className="h3">Kilka rzeczy, o których warto wspomnieć</h3>
-        <p className="p">
+      <InfoContainer>
+        <TextTitle>Kilka rzeczy, o których warto wspomnieć</TextTitle>
+        <TextRegular>
           Jest nam bardzo miło, że tu jesteś! Zanim przejdziemy do ankiety, jest
           kilka rzeczy, o których musisz wiedzieć.
-        </p>
-        <ul className="ul">
-          <li className="li">
-            <p className="p">
+        </TextRegular>
+        <InfoList>
+          <InfoListElement>
+            <TextRegular>
               <strong>
                 Ankieta jest adresowana do osób, które często bywają w Łodzi.
               </strong>{" "}
-              Jeśli nie jesteś taką osobą - przykro nam, ta ankieta nie jest dla
-              Ciebie.
-            </p>
-          </li>
-          <li className="li">
-            <p className="p">
+              JeśInfoListElement nie jesteś taką osobą - przykro nam, ta ankieta
+              nie jest dla Ciebie.
+            </TextRegular>
+          </InfoListElement>
+          <InfoListElement>
+            <TextRegular>
               Ankieta jest w pełni anonimowa. Oprócz odpowiedzi, zbieramy tylko
               czas przebywania na stronie.
-            </p>
-          </li>
-          <li className="li">
-            <p className="p">
-              Zamierzamy w przyszłości upublicznić wyniki ankiety, dlatego żadne
-              pytanie nie jest obowiązkowe. Podziel się z nami tym, czym
-              chciałbyś się podzielić z innymi!
-            </p>
-          </li>
-        </ul>
-      </div>
+            </TextRegular>
+          </InfoListElement>
+          <InfoListElement>
+            <TextRegular>
+              Zamierzamy w przyszłości upubInfoListElementcznić wyniki ankiety,
+              dlatego żadne pytanie nie jest obowiązkowe. Podziel się z nami
+              tym, czym chciałbyś się podzieInfoListElementć z innymi!
+            </TextRegular>
+          </InfoListElement>
+        </InfoList>
+      </InfoContainer>
       <div>
         <ControlLink $accent to={getUrlFromPage(FIRST_QUESTION_PAGE)}>
-          <h4 className="h4">Zaczynamy ankietę</h4>
+          <TextButton>Zaczynamy ankietę</TextButton>
           <ControlLinkArrow />
         </ControlLink>
       </div>
