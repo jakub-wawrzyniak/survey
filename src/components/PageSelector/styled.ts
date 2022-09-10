@@ -12,10 +12,14 @@ export const ArrowMobile = styled(Arrow)`
   height: 100%;
 `;
 
-export const NavLink = styled(Link)``;
+export const NavLink = styled(Link)`
+  flex-grow: 1;
+`;
 
 export const NavText = styled(TextSmall)<{ $grayedOut?: boolean }>`
   font-weight: 600;
+  text-align: center;
+  ${(p) => p.$grayedOut && `color: ${COLORS.grayedOut};`}
 `;
 
 export const NavDesktop = styled.nav`

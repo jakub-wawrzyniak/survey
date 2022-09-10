@@ -1,5 +1,4 @@
 import {
-  ControlLink,
   ControlLinkArrow,
   ControlLinkCentered,
 } from "../components/ControlLink";
