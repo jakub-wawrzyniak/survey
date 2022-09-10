@@ -23,8 +23,8 @@ export function SurveyStartView() {
               <strong>
                 Ankieta jest adresowana do osób, które często bywają w Łodzi.
               </strong>{" "}
-              JeśInfoListElement nie jesteś taką osobą - przykro nam, ta ankieta
-              nie jest dla Ciebie.
+              Jeśli nie jesteś taką osobą - przykro nam, ta ankieta nie jest dla
+              Ciebie.
             </TextRegular>
           </InfoListElement>
           <InfoListElement>
@@ -35,9 +35,9 @@ export function SurveyStartView() {
           </InfoListElement>
           <InfoListElement>
             <TextRegular>
-              Zamierzamy w przyszłości upubInfoListElementcznić wyniki ankiety,
-              dlatego żadne pytanie nie jest obowiązkowe. Podziel się z nami
-              tym, czym chciałbyś się podzieInfoListElementć z innymi!
+              Zamierzamy w przyszłości upublicznić wyniki ankiety, dlatego żadne
+              pytanie nie jest obowiązkowe. Podziel się z nami tym, czym
+              chciałbyś się podzielić z innymi!
             </TextRegular>
           </InfoListElement>
         </InfoList>

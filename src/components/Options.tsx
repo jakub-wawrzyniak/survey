@@ -1,5 +1,14 @@
+import styled from "styled-components";
 import { MultiPointQuesion } from "../types";
 import { OptionButton } from "./OptionButton";
+
+const Container = styled.div`
+  display: flex;
+  flex-flow: row;
+  border: 1px solid var(--grayed-out);
+  border-radius: var(--btn-radius);
+  margin: 0.22em 1em 0.2em 0;
+`;
 
 type OptionsProps = {
   question: MultiPointQuesion;
@@ -23,5 +32,5 @@ export function Options({ question, subquestionId }: OptionsProps) {
     return <OptionButton key={opId} value={op} />;
   });
 
-  return <div className="optionsContainer">{buttons}</div>;
+  return <Container>{buttons}</Container>;
 }
