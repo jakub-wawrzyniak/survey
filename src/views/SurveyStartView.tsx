@@ -1,5 +1,7 @@
-import { ControlButton } from "../components/ControlButton";
+import { ControlLink, ControlLinkArrow } from "../components/ControlLink";
+import { FIRST_QUESTION_PAGE } from "../constants";
 import { usePage } from "../router/usePage";
+import { getUrlFromPage } from "../utils";
 
 export function SurveyStartView() {
   const { nextPageUrl } = usePage();
@@ -37,9 +39,10 @@ export function SurveyStartView() {
         </ul>
       </div>
       <div>
-        <ControlButton accent={true} href="">
+        <ControlLink $accent to={getUrlFromPage(FIRST_QUESTION_PAGE)}>
           <h4 className="h4">Zaczynamy ankietę</h4>
-        </ControlButton>
+          <ControlLinkArrow />
+        </ControlLink>
       </div>
     </>
   );

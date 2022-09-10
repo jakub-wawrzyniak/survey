@@ -9,3 +9,4 @@ export const PAGES = [
 
 export const START_PAGE = PAGES[0];
 export const END_PAGE = PAGES[PAGES.length - 1];
+export const FIRST_QUESTION_PAGE = PAGES[1];

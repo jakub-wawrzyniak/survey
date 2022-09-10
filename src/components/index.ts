@@ -1,4 +1,4 @@
 export * from "./PageSelector";
 export * from "./ButtonAnswer";
-export * from "./ControlButton";
+export * from "./ControlLink";
 export * from "./QuestionTemplate";

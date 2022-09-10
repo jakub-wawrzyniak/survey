@@ -1,3 +1,4 @@
+import { ControlLinks } from "../components/ControlLinks";
 import { QuestionAny } from "../components/QuestionAny";
 import { Question } from "../types";
 
@@ -10,6 +11,7 @@ export function QuestionSetView({ questions }: QuestionSet) {
       {questions.map((question, id) => (
         <QuestionAny key={id} question={question} />
       ))}
+      <ControlLinks />
     </>
   );
 }

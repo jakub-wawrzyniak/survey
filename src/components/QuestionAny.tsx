@@ -2,7 +2,6 @@ import { Question } from "../types";
 import { QuestionMultiChoice } from "./QuestionMultiChoice";
 import { QuestionMultiPoint } from "./QuestionMultiPoint";
 import { QuestionSingleChoice } from "./QuestionSingleChoice";
-import "./Question.css";
 
 type Props = { question: Question };
 export function QuestionAny({ question }: Props) {

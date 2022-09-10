@@ -36,7 +36,7 @@ function DesktopPageSelector() {
       <Fragment key={id}>
         {id !== 0 && <img className="img" src={rightArrow} alt=">" />}
         <Link to={href}>
-          <h5 className={"h5" + className}>{p}</h5>
+          <h5 className={"h5 " + className}>{p}</h5>
         </Link>
       </Fragment>
     );
