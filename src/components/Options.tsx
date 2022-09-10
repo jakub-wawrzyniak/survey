@@ -1,12 +1,13 @@
 import styled from "styled-components";
+import { BORDER_RADIUS, COLORS } from "../constants";
 import { MultiPointQuesion } from "../types";
 import { OptionButton } from "./OptionButton";
 
 const Container = styled.div`
   display: flex;
   flex-flow: row;
-  border: 1px solid var(--grayed-out);
-  border-radius: var(--btn-radius);
+  border: 1px solid ${COLORS.grayedOut};
+  border-radius: ${BORDER_RADIUS.button};
   margin: 0.22em 1em 0.2em 0;
 `;
 

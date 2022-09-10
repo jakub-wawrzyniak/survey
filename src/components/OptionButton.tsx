@@ -7,6 +7,10 @@ const StyledButton = styled.button<{ $isOn: boolean }>`
   padding: 0.9em 0.9em;
   border-radius: ${BORDER_RADIUS.button};
   background-color: ${(p) => (p.$isOn ? COLORS.accent : COLORS.mainBackground)};
+
+  @media (max-width: 390px) {
+    padding: 0.7em;
+  }
 `;
 
 type OptionButtonProps = {

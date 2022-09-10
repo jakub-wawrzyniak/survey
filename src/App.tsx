@@ -3,20 +3,31 @@ import styled, { createGlobalStyle } from "styled-components";
 import { AppRoutes } from "./router";
 import { PageSelector } from "./components/PageSelector";
 import background from "/src/assets/questionareBackground.jpg";
-import "./App.css";
 
 const GlobalStyle = createGlobalStyle`
+  * {
+    box-sizing: border-box;
+  }
+
   body {
+    margin: 0;
+    padding: 0;
     overflow-y: scroll;
     background-image: url(${background});
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  min-height: 100vh;
-  min-width: 100%;
-  display: flow-root;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    min-width: 100%;
+    display: flow-root;
   }
+
+  a {
+    text-decoration: none;
+    color: unset;
+  }
+
 `;
 
 export const Wrapper = styled.div`

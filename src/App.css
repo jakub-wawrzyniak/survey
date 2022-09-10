@@ -1,25 +1,22 @@
 * {
-  font-family: "Roboto";
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
   box-sizing: border-box;
-  --main-bgc: #f1f1f1;
+  /* --main-bgc: #f1f1f1;
   --grayed-out: #888;
   --gentle-dark: #333;
   --accent: #e2c7a7;
   --border-radius: 15px;
   --btn-radius: 10px;
+  --main-bgc: red;*/
+  --grayed-out: red;
+  --gentle-dark: red;
+  --accent: red;
+  --border-radius: 15px;
+  --btn-radius: 10px;
 }
 
-button {
-  border: none;
-}
-
-body {
-  overflow-y: scroll;
-}
-
-.h3 {
+/* .h3 {
   font-size: 1.4rem;
   font-weight: 400;
   margin-bottom: 0.5em;
@@ -53,9 +50,9 @@ body {
   .p {
     font-size: 0.8rem;
   }
-}
+} */
 
-a {
+/* a {
   border: none;
   cursor: pointer;
   text-decoration: none;
@@ -91,9 +88,9 @@ main#quest {
   align-items: center;
   border-radius: var(--border-radius);
   background-color: var(--main-bgc);
-}
+} */
 
-.PageSelector > .img {
+/* .PageSelector > .img {
   height: 0.9rem;
 }
 
@@ -120,14 +117,14 @@ main#quest {
 .PageSelector.mobile > .h5 {
   flex: 3 1 0;
   text-align: center;
-}
+} */
 
 
 
 /*------------- QUESTIONS.CSS---------------*/
 
 
-.question {
+/* .question {
   margin: 1.5em 0;
   padding: 1em 2em;
   border-radius: var(--border-radius);
@@ -193,7 +190,7 @@ main#quest {
 
 .OptionButton > .h5 {
   white-space: nowrap;
-}
+} */
 
 @media (max-width: 550px) {
   .question {

@@ -1,7 +1,7 @@
 import { PAGES } from "./constants/pages";
 
 type AnswerSlice = string;
-type Length = "short" | "medium" | "long";
+export type Length = "short" | "medium" | "long";
 export type Page = typeof PAGES[number];
 
 export type QuestionMetadata = {

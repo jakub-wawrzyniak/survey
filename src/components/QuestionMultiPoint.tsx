@@ -1,21 +1,28 @@
 import { Options } from "./Options";
 import { MultiPointQuesion } from "../types";
+import styled from "styled-components";
+import { TextHeader, TextSmall } from "./Text";
+import { QuestionTemplate } from "./QuestionTemplate";
+
+const Subquestion = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+`;
 
 type Props = { question: MultiPointQuesion };
 export function QuestionMultiPoint({ question }: Props) {
   const subquestions = question.subquestions.map((questionText, id) => {
     return (
-      <div key={id} className="optionAnswer">
+      <Subquestion key={id}>
         <Options question={question} subquestionId={id} />
-        <h5 className="h5 answerText">{questionText}</h5>
-      </div>
+        <TextSmall>{questionText}</TextSmall>
+      </Subquestion>
     );
   });
 
   return (
-    <div className={"question"}>
-      <h4 className="questionHeader h4">{question.title}</h4>
-      <div>{subquestions}</div>
-    </div>
+    <QuestionTemplate question={question}>{subquestions}</QuestionTemplate>
   );
 }

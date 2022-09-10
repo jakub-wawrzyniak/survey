@@ -22,7 +22,7 @@ export const ControlLinkArrow = styled.img.attrs({ src: arrow, alt: "" })`
 export const ControlLink = styled(Link).attrs({ onClick: scrollToTop })<{
   $accent?: boolean;
 }>`
-  padding: calc(0.9em + 1px) 1em;
+  padding: 0.9em 1em;
   margin-bottom: 0.8em;
   width: 100%;
   border-radius: ${BORDER_RADIUS.button};
@@ -34,6 +34,10 @@ export const ControlLink = styled(Link).attrs({ onClick: scrollToTop })<{
   align-items: center;
   justify-content: center;
   gap: 1em;
+
+  @media (max-width: 390px) {
+    padding: 0.7em;
+  }
 `;
 
 /**
