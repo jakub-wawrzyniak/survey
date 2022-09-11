@@ -1,6 +1,6 @@
 import { Nestable } from "../types";
 import { TextAnswer } from "./Text";
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 import { BORDER_RADIUS, COLORS } from "../constants";
 import { useId } from "react";
 
@@ -59,8 +59,8 @@ export function ButtonAnswer({
   const id = useId();
   return (
     <>
-      <Input id={id} type={type} checked={isOn} />
-      <Label htmlFor={id} onClick={onClick}>
+      <Input id={id} type={type} checked={isOn} onClick={onClick} />
+      <Label htmlFor={id}>
         <TextAnswer>{children}</TextAnswer>
       </Label>
     </>
