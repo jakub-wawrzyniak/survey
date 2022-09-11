@@ -2,20 +2,36 @@ import { Nestable } from "../types";
 import { TextAnswer } from "./Text";
 import styled, { css } from "styled-components";
 import { BORDER_RADIUS, COLORS } from "../constants";
+import { useId } from "react";
 
-const StyledButton = styled.button<{ isPicked: boolean }>`
+const Input = styled.input`
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+`;
+
+const Label = styled.label`
+  display: flex;
+  align-items: center;
+
   border: 1px solid ${COLORS.grayedOut};
   border-radius: ${BORDER_RADIUS.button};
   padding: 0.9em 1em;
   margin: 0.3em;
   flex: 1 1 0px;
 
-  ${(p) =>
-    p.isPicked &&
-    css`
-      background-color: ${COLORS.accent};
-      border-color: ${COLORS.accent};
-    `}
+  :hover {
+    cursor: pointer;
+  }
+
+  ${Input}:checked + & {
+    background-color: ${COLORS.accent};
+    border-color: ${COLORS.accent};
+  }
+
+  ${Input}:focus + & {
+    outline: 3px solid ${COLORS.outline};
+  }
 
   @media (max-width: 550px) {
     padding: 0.5em 0.7em;
@@ -31,11 +47,22 @@ const StyledButton = styled.button<{ isPicked: boolean }>`
 type AnswerButtonProps = Nestable & {
   isOn: boolean;
   onClick: () => void;
+  type: "radio" | "checkbox";
+  name?: string;
 };
-export function ButtonAnswer({ children, isOn, onClick }: AnswerButtonProps) {
+export function ButtonAnswer({
+  children,
+  type,
+  isOn,
+  onClick,
+}: AnswerButtonProps) {
+  const id = useId();
   return (
-    <StyledButton onClick={onClick} isPicked={isOn}>
-      <TextAnswer>{children}</TextAnswer>
-    </StyledButton>
+    <>
+      <Input id={id} type={type} checked={isOn} />
+      <Label htmlFor={id} onClick={onClick}>
+        <TextAnswer>{children}</TextAnswer>
+      </Label>
+    </>
   );
 }

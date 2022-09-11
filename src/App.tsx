@@ -27,7 +27,6 @@ const GlobalStyle = createGlobalStyle`
     text-decoration: none;
     color: unset;
   }
-
 `;
 
 export const Wrapper = styled.div`

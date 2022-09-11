@@ -5,7 +5,7 @@ import { QuestionTemplate } from "./QuestionTemplate";
 type Props = { question: SingleChoiceQuestion };
 export function QuestionSingleChoice({ question }: Props) {
   const answerButtons = question.answers.map((ans, id) => (
-    <ButtonAnswer isOn={id % 2 == 0} key={id} onClick={() => {}}>
+    <ButtonAnswer type="radio" isOn={id % 2 == 0} key={id} onClick={() => {}}>
       {ans}
     </ButtonAnswer>
   ));

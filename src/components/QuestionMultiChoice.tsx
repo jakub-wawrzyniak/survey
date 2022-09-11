@@ -5,7 +5,12 @@ import { QuestionTemplate } from "./QuestionTemplate";
 type Props = { question: MultiChoiceQuestion };
 export function QuestionMultiChoice({ question }: Props) {
   const answerButtons = question.answers.map((ans, id) => (
-    <ButtonAnswer isOn={id % 2 == 0} key={id} onClick={() => {}}>
+    <ButtonAnswer
+      key={id}
+      type="checkbox"
+      isOn={id % 2 == 0}
+      onClick={() => {}}
+    >
       {ans}
     </ButtonAnswer>
   ));

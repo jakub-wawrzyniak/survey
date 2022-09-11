@@ -1,7 +1,5 @@
 Refactor:
-    Add styled components
     Correct HTML
-    Code splitting
 
     Attach redux
     Add firebase (securely)

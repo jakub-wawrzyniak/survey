@@ -3,7 +3,7 @@ import { BORDER_RADIUS, COLORS } from "../constants";
 import { Length, Nestable, Question } from "../types";
 import { TextHeader, TextAnswer } from "./Text";
 
-const QuestionContainer = styled.div`
+const QuestionContainer = styled.form`
   margin: 1.5em 0;
   padding: 1em 2em;
   border-radius: ${BORDER_RADIUS.default};
@@ -36,6 +36,9 @@ const answerContainers: Record<Length, ReturnType<typeof styled.div>> = {
   short: styled.div`
     display: flex;
     flex-direction: row;
+    ${TextAnswer} {
+      text-align: center;
+    }
   `,
 };
 
@@ -51,7 +54,7 @@ export function QuestionTemplate({
   }
 
   return (
-    <QuestionContainer>
+    <QuestionContainer onChange={(e: unknown) => console.log(e)}>
       <TextHeader>{question.title}</TextHeader>
       {answers}
     </QuestionContainer>

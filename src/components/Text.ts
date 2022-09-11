@@ -57,4 +57,6 @@ export const TextSmall = styled.p`
 
 export const TextAnswer = styled(TextSmall)`
   margin: 0.5em 0;
+  text-align: center;
+  flex-grow: 1;
 `;
