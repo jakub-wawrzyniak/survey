@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import { BORDER_RADIUS, COLORS } from "../constants";
+import { useAppDispatch, useAppSelector } from "../redux";
+import { selectQuestion, toggleMultiPoint } from "../redux/questionSlice";
 import { MultiPointQuesion } from "../types";
 import { OptionButton } from "./OptionButton";
 
@@ -16,21 +18,25 @@ type OptionsProps = {
   subquestionId: number;
 };
 export function Options({ question, subquestionId }: OptionsProps) {
-  // const dispatch = useDispatch();
-  // const answers = useSelector((s) => s.answers[q.id]);
-  // const answer = answers[ansId];
-  // undefined means the client didnt select an option yet
-  const buttons = question.options.map((op, opId) => {
-    // const isOn = answer === opId;
-    // const isOn = false;
-    // const handleClick = () => {
-    //   const newValue = [...answers];
-    //   if (isOn) delete newValue[ansId];
-    //   else newValue[ansId] = opId;
-    //   dispatch(action(q, newValue));
-    // };
+  const { pickedAnswer } = useAppSelector(
+    selectQuestion(question.id)
+  ) as MultiPointQuesion;
+  const dispatch = useAppDispatch();
+  const toggleOption = (optionId: number) => {
+    const payload = { optionId, subquestionId, questionId: question.id };
+    dispatch(toggleMultiPoint(payload));
+  };
 
-    return <OptionButton key={opId} value={op} />;
+  const buttons = question.options.map((op, opId) => {
+    return (
+      <OptionButton
+        key={opId}
+        isOn={pickedAnswer[subquestionId] === opId}
+        onClick={() => toggleOption(opId)}
+      >
+        {op}
+      </OptionButton>
+    );
   });
 
   return <Container>{buttons}</Container>;

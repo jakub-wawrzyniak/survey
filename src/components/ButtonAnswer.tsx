@@ -59,7 +59,13 @@ export function ButtonAnswer({
   const id = useId();
   return (
     <>
-      <Input id={id} type={type} checked={isOn} onClick={onClick} />
+      <Input
+        id={id}
+        type={type}
+        checked={isOn}
+        onChange={onClick}
+        onClick={isOn ? onClick : () => {}} // Allows unsetting the option, without loosing accesibility
+      />
       <Label htmlFor={id}>
         <TextAnswer>{children}</TextAnswer>
       </Label>

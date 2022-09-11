@@ -1,6 +1,11 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { QUESTIONS } from "../constants/questions";
-import { MultiChoiceQuestion, Question, SingleChoiceQuestion } from "../types";
+import {
+  MultiChoiceQuestion,
+  MultiPointQuesion,
+  Question,
+  SingleChoiceQuestion,
+} from "../types";
 import { RootState } from "./store";
 
 type TogglePayload = {
@@ -9,26 +14,55 @@ type TogglePayload = {
 };
 type SingleChoiceAnswer = PayloadAction<TogglePayload>;
 type MultiChoiceAnswer = SingleChoiceAnswer;
-type MultiPointAnswer = PayloadAction<{
+
+type MultiPointPayload = {
   questionId: number;
   subquestionId: number;
   optionId: number;
-}>;
+};
+type MultiPointAnswer = PayloadAction<MultiPointPayload>;
 
-function validateToggleAction(
+function validateAction(
   state: Record<number, Question>,
-  payload: TogglePayload,
+  { questionId, answerId }: TogglePayload,
   expectedType: "singlechoice" | "multichoice"
 ) {
-  const { questionId, answerId } = payload;
   const question = state[questionId];
-  if (question === undefined)
-    throw `Couldn't find a question with id=${questionId}`;
-  if (question.type !== expectedType)
-    throw `An attempt was made to toggle a question with id=${questionId}. Expected that question to be of type ${expectedType}, but it was ${question.type} instead.`;
-  if (question.answers.length <= answerId)
-    throw `Cannot toggle answerId=${answerId}, because max id for questionId=${questionId} is ${question.answers.length}`;
+  checkExists(question, questionId);
+  checkType(question, expectedType);
+  checkAnswerId(question as SingleChoiceQuestion, answerId);
   return { question, answerId };
+}
+
+function checkExists(q: Question | undefined, id: number) {
+  if (q !== undefined) return;
+  throw `Couldn't find a question with id=${id}`;
+}
+
+function checkType(q: Question, type: Question["type"]) {
+  if (q.type === type) return;
+  throw `An attempt was made to submit answer to question with id=${q.id}. Expected that question to be of type ${type}, but it was ${q.type} instead.`;
+}
+
+function checkAnswerId(
+  q: MultiChoiceQuestion | SingleChoiceQuestion,
+  answerId: number
+) {
+  if (q.answers.length > answerId) return;
+  throw `Cannot toggle answerId=${answerId}, because max id for questionId=${q.id} is ${q.answers.length}`;
+}
+
+function checkSubquestionId(
+  q: MultiPointQuesion,
+  { subquestionId }: MultiPointPayload
+) {
+  if (q.subquestions.length > subquestionId) return;
+  throw `Cannot toggle answer for questionId=${q.id} subquestionId=${subquestionId}, because this question has only ${q.subquestions.length} subquestions`;
+}
+
+function checkOptionId(q: MultiPointQuesion, { optionId }: MultiPointPayload) {
+  if (q.options.length > optionId) return;
+  throw `Cannot toggle answer for questionId=${q.id} option=${optionId}, because this question has only ${q.options.length} options`;
 }
 
 function getInitState(): Record<number, Question> {
@@ -42,7 +76,7 @@ const questionSlice = createSlice({
   initialState: getInitState(),
   reducers: {
     toggleSingleChoice(state, { payload }: SingleChoiceAnswer) {
-      const { question, answerId } = validateToggleAction(
+      const { question, answerId } = validateAction(
         state,
         payload,
         "singlechoice"
@@ -53,7 +87,7 @@ const questionSlice = createSlice({
     },
 
     toggleMultiChoice(state, { payload }: MultiChoiceAnswer) {
-      const { question, answerId } = validateToggleAction(
+      const { question, answerId } = validateAction(
         state,
         payload,
         "multichoice"
@@ -66,10 +100,24 @@ const questionSlice = createSlice({
         console.log("cant add answer");
       else q.pickedAnswer.push(answerId);
     },
+
+    toggleMultiPoint(state, { payload }: MultiPointAnswer) {
+      const question = state[payload.questionId] as MultiPointQuesion;
+      checkExists(question, payload.questionId);
+      checkType(question, "multipoint");
+      checkSubquestionId(question, payload);
+      checkOptionId(question, payload);
+
+      const { subquestionId, optionId } = payload;
+      if (question.pickedAnswer[subquestionId] === optionId) {
+        delete question.pickedAnswer[subquestionId];
+      } else question.pickedAnswer[subquestionId] = optionId;
+    },
   },
 });
 
-export const { toggleSingleChoice, toggleMultiChoice } = questionSlice.actions;
+export const { toggleSingleChoice, toggleMultiChoice, toggleMultiPoint } =
+  questionSlice.actions;
 
 export const selectQuestion = (questionId: number) => (state: RootState) => {
   const question = state.questions[questionId];
