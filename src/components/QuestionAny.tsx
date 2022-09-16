@@ -1,3 +1,5 @@
+import { useAppSelector } from "../redux";
+import { selectShouldShowQuestion } from "../redux/questionSlice";
 import { Question } from "../types";
 import { QuestionMultiChoice } from "./QuestionMultiChoice";
 import { QuestionMultiPoint } from "./QuestionMultiPoint";
@@ -5,16 +7,11 @@ import { QuestionSingleChoice } from "./QuestionSingleChoice";
 
 type Props = { question: Question };
 export function QuestionAny({ question }: Props) {
-  // const shouldRender = question.useShouldRender();
-  // const answer = useSelector((s) => s.answers[question.id]);
-  // const dispatch = useDispatch();
+  const { id, type } = question;
+  const shouldRender = useAppSelector(selectShouldShowQuestion(id));
+  if (!shouldRender) return;
 
-  // useEffect(() => {
-  // if (!shouldRender && answer.length !== 0) dispatch(action(question, []));
-  // });
-
-  // if (shouldRender) {
-  switch (question.type) {
+  switch (type) {
     case "multichoice":
       return <QuestionMultiChoice question={question} />;
     case "singlechoice":
@@ -22,9 +19,6 @@ export function QuestionAny({ question }: Props) {
     case "multipoint":
       return <QuestionMultiPoint question={question} />;
     default:
-      break;
+      throw "Unhandled type of question: a typo in texts.js?";
   }
-  // } else return <Fragment></Fragment>;
-
-  throw "Unhandled type of question: a typo in texts.js?";
 }

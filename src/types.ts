@@ -4,11 +4,20 @@ type AnswerSlice = string;
 export type Length = "short" | "medium" | "long";
 export type Page = typeof PAGES[number];
 
+export type ShowQuestionIf = {
+  method: "some" | "every";
+  negate?: boolean;
+  toCheck: {
+    questionId: number;
+    expectedAnswer: number | [number, number];
+  }[];
+};
+
 export type QuestionMetadata = {
   id: number;
   page: Page;
   title: string;
-  showIf: (answers: AnswerSlice) => boolean;
+  showIf?: ShowQuestionIf;
 };
 
 export type SingleChoiceQuestion = QuestionMetadata & {
@@ -28,7 +37,7 @@ export type MultiChoiceQuestion = QuestionMetadata & {
   pickedAnswer: number[];
 };
 
-export type MultiPointQuesion = QuestionMetadata & {
+export type MultiPointQuestion = QuestionMetadata & {
   type: "multipoint";
   subquestions: string[];
   options: string[];
@@ -38,7 +47,7 @@ export type MultiPointQuesion = QuestionMetadata & {
 
 export type Question =
   | MultiChoiceQuestion
-  | MultiPointQuesion
+  | MultiPointQuestion
   | SingleChoiceQuestion;
 
 export type PageData = {

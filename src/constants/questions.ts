@@ -1,25 +1,68 @@
-import { Question } from "../types";
+import { Question, ShowQuestionIf } from "../types";
 import { PAGES } from "./pages";
 
-const isUsingBus = () => {
-  return true;
+function not(showIf: ShowQuestionIf): ShowQuestionIf {
+  return {
+    ...showIf,
+    negate: !showIf.negate,
+  };
+}
+
+const isUsingBus: ShowQuestionIf = {
+  method: "some",
+  negate: true,
+  toCheck: [
+    {
+      questionId: 18,
+      expectedAnswer: [2, 2],
+    },
+  ],
+};
+const notUsingBus = not(isUsingBus);
+
+const isDrivingCar: ShowQuestionIf = {
+  method: "some",
+  negate: true,
+  toCheck: [
+    {
+      questionId: 18,
+      expectedAnswer: [0, 2],
+    },
+  ],
 };
 
-const isDrivingCar = () => {
-  return true;
+const hasCoalFurnace: ShowQuestionIf = {
+  method: "some",
+  toCheck: [
+    {
+      questionId: 10,
+      expectedAnswer: 3,
+    },
+  ],
 };
+const noCoalFurnace = not(hasCoalFurnace);
 
-const hasCoalFurnace = () => {
-  return true;
+const hasSolarPanels: ShowQuestionIf = {
+  method: "some",
+  toCheck: [
+    {
+      questionId: 16,
+      expectedAnswer: 0,
+    },
+  ],
 };
+const noSolarPanels = not(hasSolarPanels);
 
-const hasSolarPanels = () => {
-  return true;
+const hasCentralHeating: ShowQuestionIf = {
+  method: "some",
+  toCheck: [
+    {
+      questionId: 10,
+      expectedAnswer: 0,
+    },
+  ],
 };
-
-const hasCentralHeating = () => {
-  return true;
-};
+const noCentralHeating = not(hasCentralHeating);
 
 const QUESTIONS: Question[] = [
   {
@@ -29,7 +72,6 @@ const QUESTIONS: Question[] = [
     length: "short",
     title: "Z jaką płcią się identyfikujesz?",
     answers: ["Kobieta", "Mężczyzna", "Inna"],
-    showIf: () => true,
     page: PAGES[1],
   },
   {
@@ -46,10 +88,8 @@ const QUESTIONS: Question[] = [
       "46 - 65 lat",
       "> 65 lat",
     ],
-    showIf: () => true,
     page: PAGES[1],
   },
-
   {
     id: 3,
     type: "singlechoice",
@@ -60,7 +100,6 @@ const QUESTIONS: Question[] = [
       "w mieszkaniu (blok/kamienica)",
       "w domu (jednorodzinnym/szeregowiec)",
     ],
-    showIf: () => true,
     page: PAGES[1],
   },
   {
@@ -75,7 +114,6 @@ const QUESTIONS: Question[] = [
       "w okolicach Łodzi (Konstantynów Łódzki, Zgierz, etc)",
       "daleko od Łodzi, ale często tu bywam",
     ],
-    showIf: () => true,
     page: PAGES[1],
   },
   {
@@ -89,7 +127,6 @@ const QUESTIONS: Question[] = [
       "średnie / średnie branżowe",
       "wyższe",
     ],
-    showIf: () => true,
     page: PAGES[1],
   },
 
@@ -101,7 +138,6 @@ const QUESTIONS: Question[] = [
     title:
       "Jak istotna jest dla Ciebie jakość powietrza, którym oddychasz? (1 - wcale, 5 - bardzo)",
     answers: ["1", "2", "3", "4", "5"],
-    showIf: () => true,
     page: PAGES[2],
   },
   {
@@ -112,7 +148,6 @@ const QUESTIONS: Question[] = [
     title:
       "Jak oceniasz jakość powietrza w Łodzi w skali całego roku? (1 - bardzo zła, 5 - bardzo dobra)",
     answers: ["1", "2", "3", "4", "5"],
-    showIf: () => true,
     page: PAGES[2],
   },
   {
@@ -123,7 +158,6 @@ const QUESTIONS: Question[] = [
     title:
       "Jak oceniasz obecną jakość powietrza w porównaniu do tej sprzed 5 lat? (1 - jest znacznie gorzej, 5 - jest znacznie lepiej)",
     answers: ["1", "2", "3", "4", "5"],
-    showIf: () => true,
     page: PAGES[2],
   },
   {
@@ -138,7 +172,6 @@ const QUESTIONS: Question[] = [
       "Chyba nie - ale kto wie, co będzie za kilka lat",
       "Nie - i nie spodziewam się, żeby miało w przyszłości",
     ],
-    showIf: () => true,
     page: PAGES[2],
   },
   {
@@ -148,7 +181,6 @@ const QUESTIONS: Question[] = [
     length: "short",
     title: "Czy masz zainstalowane panele fotowoltaiczne?",
     answers: ["Tak", "Nie"],
-    showIf: () => true,
     page: PAGES[3],
   },
   {
@@ -158,7 +190,7 @@ const QUESTIONS: Question[] = [
     length: "short",
     title: "Czy masz możliwość zainstalowania paneli fotowoltaicznych?",
     answers: ["Tak", "Nie"],
-    showIf: () => !hasSolarPanels(),
+    showIf: noSolarPanels,
     page: PAGES[3],
   },
   {
@@ -176,7 +208,6 @@ const QUESTIONS: Question[] = [
       "Nie jestem pewien",
       "Inne",
     ],
-    showIf: () => true,
     page: PAGES[3],
   },
   {
@@ -187,7 +218,7 @@ const QUESTIONS: Question[] = [
     title:
       "Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?",
     answers: ["Tak", "Nie"],
-    showIf: () => !hasCentralHeating(),
+    showIf: noCentralHeating,
     page: PAGES[3],
   },
   {
@@ -198,7 +229,7 @@ const QUESTIONS: Question[] = [
     title:
       "Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?",
     answers: ["Tak", "Nie"],
-    showIf: () => !hasCoalFurnace(),
+    showIf: noCoalFurnace,
     page: PAGES[3],
   },
   {
@@ -209,7 +240,6 @@ const QUESTIONS: Question[] = [
     title:
       "Czy słyszałeś o dofinansowaniach do wymiany starych pieców węglowych?",
     answers: ["Tak", "Nie"],
-    showIf: () => true,
     page: PAGES[3],
   },
   {
@@ -220,7 +250,6 @@ const QUESTIONS: Question[] = [
     title:
       "Czy wiesz ile kosztuje wymiana pieca węglowego lub jaka część kosztów jest refundowana w ramach programu?",
     answers: ["Tak", "Nie"],
-    showIf: () => true,
     page: PAGES[3],
   },
   {
@@ -238,7 +267,6 @@ const QUESTIONS: Question[] = [
       "Hulajnogi elektryczne",
     ],
     options: ["Często", "Czasem", "Wcale"],
-    showIf: () => true,
     page: PAGES[4],
   },
   {
@@ -284,7 +312,7 @@ const QUESTIONS: Question[] = [
       "Inne",
     ],
     page: PAGES[4],
-    showIf: () => !isUsingBus(),
+    showIf: notUsingBus,
   },
   {
     id: 22,
@@ -322,7 +350,7 @@ const QUESTIONS: Question[] = [
       "nie dam się przekonać",
     ],
     page: PAGES[4],
-    showIf: () => !isUsingBus(),
+    showIf: notUsingBus,
   },
   {
     id: 24,
@@ -340,7 +368,6 @@ const QUESTIONS: Question[] = [
       "powyżej +200% ceny",
     ],
     page: PAGES[4],
-    showIf: () => true,
   },
   {
     id: 25,
@@ -355,7 +382,6 @@ const QUESTIONS: Question[] = [
     ],
     options: ["Za", "Przeciw"],
     page: PAGES[4],
-    showIf: () => true,
   },
 ];
 

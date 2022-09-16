@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { BORDER_RADIUS, COLORS } from "../constants";
 import { useAppDispatch, useAppSelector } from "../redux";
 import { selectQuestion, toggleMultiPoint } from "../redux/questionSlice";
-import { MultiPointQuesion } from "../types";
+import { MultiPointQuestion } from "../types";
 import { OptionButton } from "./OptionButton";
 
 const Container = styled.div`
@@ -14,13 +14,13 @@ const Container = styled.div`
 `;
 
 type OptionsProps = {
-  question: MultiPointQuesion;
+  question: MultiPointQuestion;
   subquestionId: number;
 };
 export function Options({ question, subquestionId }: OptionsProps) {
   const { pickedAnswer } = useAppSelector(
     selectQuestion(question.id)
-  ) as MultiPointQuesion;
+  ) as MultiPointQuestion;
   const dispatch = useAppDispatch();
   const toggleOption = (optionId: number) => {
     const payload = { optionId, subquestionId, questionId: question.id };

@@ -2,8 +2,9 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { QUESTIONS } from "../constants/questions";
 import {
   MultiChoiceQuestion,
-  MultiPointQuesion,
+  MultiPointQuestion,
   Question,
+  ShowQuestionIf,
   SingleChoiceQuestion,
 } from "../types";
 import { RootState } from "./store";
@@ -53,14 +54,14 @@ function checkAnswerId(
 }
 
 function checkSubquestionId(
-  q: MultiPointQuesion,
+  q: MultiPointQuestion,
   { subquestionId }: MultiPointPayload
 ) {
   if (q.subquestions.length > subquestionId) return;
   throw `Cannot toggle answer for questionId=${q.id} subquestionId=${subquestionId}, because this question has only ${q.subquestions.length} subquestions`;
 }
 
-function checkOptionId(q: MultiPointQuesion, { optionId }: MultiPointPayload) {
+function checkOptionId(q: MultiPointQuestion, { optionId }: MultiPointPayload) {
   if (q.options.length > optionId) return;
   throw `Cannot toggle answer for questionId=${q.id} option=${optionId}, because this question has only ${q.options.length} options`;
 }
@@ -102,7 +103,7 @@ const questionSlice = createSlice({
     },
 
     toggleMultiPoint(state, { payload }: MultiPointAnswer) {
-      const question = state[payload.questionId] as MultiPointQuesion;
+      const question = state[payload.questionId] as MultiPointQuestion;
       checkExists(question, payload.questionId);
       checkType(question, "multipoint");
       checkSubquestionId(question, payload);
@@ -121,9 +122,52 @@ export const { toggleSingleChoice, toggleMultiChoice, toggleMultiPoint } =
 
 export const selectQuestion = (questionId: number) => (state: RootState) => {
   const question = state.questions[questionId];
-  if (question === undefined)
-    throw `No question with id ${questionId} was found`;
+  checkExists(question, questionId);
   return question;
 };
+
+const checkIsNumber = (value: unknown, question: Question) => {
+  if (typeof value === "number") return;
+  throw `An expectedAnswer of type ${typeof value} was provided for questionId=${
+    question.id
+  }, but that question is ${
+    question.type
+  }, hence the expectedAnswer should have a type 'number'`;
+};
+
+type Condition = ShowQuestionIf["toCheck"][number];
+const testShowCondition =
+  (state: RootState) =>
+  (condition: Condition): boolean => {
+    const question = selectQuestion(condition.questionId)(state);
+    const { expectedAnswer } = condition;
+    if (Array.isArray(expectedAnswer)) {
+      checkType(question, "multipoint");
+      const q = question as MultiPointQuestion;
+      const [key, value] = expectedAnswer;
+      return q.pickedAnswer[key] === value;
+    }
+
+    checkIsNumber(expectedAnswer, question);
+
+    if (question.type === "multichoice") {
+      return question.pickedAnswer.includes(expectedAnswer);
+    } else if (question.type === "singlechoice") {
+      return question.pickedAnswer === expectedAnswer;
+    }
+
+    throw "A condition for a multichoice question must be an array of two numbers [subquestionId, optionId]";
+  };
+
+export const selectShouldShowQuestion =
+  (questionId: number) =>
+  (state: RootState): boolean => {
+    const question = selectQuestion(questionId)(state);
+    if (question.showIf === undefined) return true;
+    const { toCheck, method, negate } = question.showIf;
+    let shouldShow = toCheck[method](testShowCondition(state));
+    if (negate) shouldShow = !shouldShow;
+    return shouldShow;
+  };
 
 export default questionSlice.reducer;

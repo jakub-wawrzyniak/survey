@@ -1,5 +1,5 @@
 import { Options } from "./Options";
-import { MultiPointQuesion } from "../types";
+import { MultiPointQuestion } from "../types";
 import styled from "styled-components";
 import { TextHeader, TextSmall } from "./Text";
 import { QuestionTemplate } from "./QuestionTemplate";
@@ -11,7 +11,7 @@ const Subquestion = styled.div`
   justify-content: flex-start;
 `;
 
-type Props = { question: MultiPointQuesion };
+type Props = { question: MultiPointQuestion };
 export function QuestionMultiPoint({ question }: Props) {
   const subquestions = question.subquestions.map((questionText, id) => {
     return (
