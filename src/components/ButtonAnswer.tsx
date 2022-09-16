@@ -57,6 +57,14 @@ export function ButtonAnswer({
   onClick,
 }: AnswerButtonProps) {
   const id = useId();
+
+  let inputClick;
+  if (type === "radio" && isOn) {
+    // I was to allow users to unclick picked option. By default radio buttons
+    // do not allow this behaviour, this is a workaround.
+    inputClick = onClick;
+  }
+
   return (
     <>
       <Input
@@ -64,7 +72,7 @@ export function ButtonAnswer({
         type={type}
         checked={isOn}
         onChange={onClick}
-        onClick={isOn ? onClick : () => {}} // Allows unsetting the option, without loosing accesibility
+        onClick={inputClick}
       />
       <Label htmlFor={id}>
         <TextAnswer>{children}</TextAnswer>
