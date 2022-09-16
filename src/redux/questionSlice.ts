@@ -1,4 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { EMPTY_ANSWERS } from "../constants/emptyAnswers";
 import { QUESTIONS } from "../constants/questions";
 import {
   MultiChoiceQuestion,
@@ -9,6 +10,7 @@ import {
 } from "../types";
 import { RootState } from "./store";
 
+type QuestionState = Pick<RootState, "questions">;
 type TogglePayload = {
   questionId: number;
   answerId: number;
@@ -66,6 +68,14 @@ function checkOptionId(q: MultiPointQuestion, { optionId }: MultiPointPayload) {
   throw `Cannot toggle answer for questionId=${q.id} option=${optionId}, because this question has only ${q.options.length} options`;
 }
 
+function clearNotShownQuestions(state: Record<number, Question>) {
+  for (const { id } of QUESTIONS) {
+    const question = state[id];
+    const isShown = selectShouldShowQuestion(id)({ questions: state });
+    if (!isShown) question.pickedAnswer = EMPTY_ANSWERS[question.type]();
+  }
+}
+
 function getInitState(): Record<number, Question> {
   const state: Record<number, Question> = {};
   QUESTIONS.forEach((q) => (state[q.id] = q));
@@ -85,6 +95,7 @@ const questionSlice = createSlice({
 
       if (question.pickedAnswer === answerId) question.pickedAnswer = null;
       else question.pickedAnswer = answerId;
+      clearNotShownQuestions(state);
     },
 
     toggleMultiChoice(state, { payload }: MultiChoiceAnswer) {
@@ -97,9 +108,9 @@ const questionSlice = createSlice({
 
       const foundId = q.pickedAnswer.findIndex((ans) => ans === answerId);
       if (foundId >= 0) q.pickedAnswer.splice(foundId, 1);
-      else if (q.maxNoOfAnswers && q.maxNoOfAnswers <= q.pickedAnswer.length)
-        console.log("cant add answer");
-      else q.pickedAnswer.push(answerId);
+      else if (q.maxNoOfAnswers && q.maxNoOfAnswers <= q.pickedAnswer.length) {
+      } else q.pickedAnswer.push(answerId);
+      clearNotShownQuestions(state);
     },
 
     toggleMultiPoint(state, { payload }: MultiPointAnswer) {
@@ -113,6 +124,7 @@ const questionSlice = createSlice({
       if (question.pickedAnswer[subquestionId] === optionId) {
         delete question.pickedAnswer[subquestionId];
       } else question.pickedAnswer[subquestionId] = optionId;
+      clearNotShownQuestions(state);
     },
   },
 });
@@ -120,11 +132,12 @@ const questionSlice = createSlice({
 export const { toggleSingleChoice, toggleMultiChoice, toggleMultiPoint } =
   questionSlice.actions;
 
-export const selectQuestion = (questionId: number) => (state: RootState) => {
-  const question = state.questions[questionId];
-  checkExists(question, questionId);
-  return question;
-};
+export const selectQuestion =
+  (questionId: number) => (state: QuestionState) => {
+    const question = state.questions[questionId];
+    checkExists(question, questionId);
+    return question;
+  };
 
 const checkIsNumber = (value: unknown, question: Question) => {
   if (typeof value === "number") return;
@@ -137,7 +150,7 @@ const checkIsNumber = (value: unknown, question: Question) => {
 
 type Condition = ShowQuestionIf["toCheck"][number];
 const testShowCondition =
-  (state: RootState) =>
+  (state: QuestionState) =>
   (condition: Condition): boolean => {
     const question = selectQuestion(condition.questionId)(state);
     const { expectedAnswer } = condition;
@@ -161,7 +174,7 @@ const testShowCondition =
 
 export const selectShouldShowQuestion =
   (questionId: number) =>
-  (state: RootState): boolean => {
+  (state: QuestionState): boolean => {
     const question = selectQuestion(questionId)(state);
     if (question.showIf === undefined) return true;
     const { toCheck, method, negate } = question.showIf;
