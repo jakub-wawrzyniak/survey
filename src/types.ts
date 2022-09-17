@@ -1,20 +1,12 @@
 import { PAGES } from "./constants/pages";
 
-type AnswerSlice = string;
 export type Length = "short" | "medium" | "long";
 export type Page = typeof PAGES[number];
-
-export type ShowQuestionIf = {
-  negate?: boolean;
-  questionId: number;
-  expectedAnswer: number | [number, number];
-};
 
 export type QuestionMetadata = {
   id: number;
   page: Page;
   title: string;
-  showIf?: ShowQuestionIf;
 };
 
 export type SingleChoiceQuestion = QuestionMetadata & {
@@ -58,3 +50,6 @@ export type PageRecord = Record<Page, PageData>;
 export type Nestable = {
   children: React.ReactNode;
 };
+
+export type QuestionRecord = Record<number, Question>;
+export type ShowIf = (record: QuestionRecord) => boolean;

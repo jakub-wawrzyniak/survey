@@ -54,7 +54,7 @@ export function QuestionTemplate({
   }
 
   return (
-    <QuestionContainer onChange={(e: unknown) => console.log(e)}>
+    <QuestionContainer>
       <TextHeader>{question.title}</TextHeader>
       {answers}
     </QuestionContainer>

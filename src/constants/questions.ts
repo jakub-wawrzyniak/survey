@@ -1,43 +1,5 @@
-import { Question, ShowQuestionIf } from "../types";
+import { Question } from "../types";
 import { PAGES } from "./pages";
-
-function not(showIf: ShowQuestionIf): ShowQuestionIf {
-  return {
-    ...showIf,
-    negate: !showIf.negate,
-  };
-}
-
-const isUsingBus: ShowQuestionIf = {
-  negate: true,
-  questionId: 18,
-  expectedAnswer: [2, 2],
-};
-const notUsingBus = not(isUsingBus);
-
-const isDrivingCar: ShowQuestionIf = {
-  negate: true,
-  questionId: 18,
-  expectedAnswer: [0, 2],
-};
-
-const hasCoalFurnace: ShowQuestionIf = {
-  questionId: 10,
-  expectedAnswer: 3,
-};
-const noCoalFurnace = not(hasCoalFurnace);
-
-const hasSolarPanels: ShowQuestionIf = {
-  questionId: 16,
-  expectedAnswer: 0,
-};
-const noSolarPanels = not(hasSolarPanels);
-
-const hasCentralHeating: ShowQuestionIf = {
-  questionId: 10,
-  expectedAnswer: 0,
-};
-const noCentralHeating = not(hasCentralHeating);
 
 const QUESTIONS: Question[] = [
   {
@@ -165,7 +127,6 @@ const QUESTIONS: Question[] = [
     length: "short",
     title: "Czy masz możliwość zainstalowania paneli fotowoltaicznych?",
     answers: ["Tak", "Nie"],
-    showIf: noSolarPanels,
     page: PAGES[3],
   },
   {
@@ -193,7 +154,6 @@ const QUESTIONS: Question[] = [
     title:
       "Czy centralne ogrzewanie jest dostępne jako możliwość tam, gdzie mieszkasz?",
     answers: ["Tak", "Nie"],
-    showIf: noCentralHeating,
     page: PAGES[3],
   },
   {
@@ -204,7 +164,6 @@ const QUESTIONS: Question[] = [
     title:
       "Czy Twoje mieszkanie / dom było wcześniej ogrzewane piecem węglowym?",
     answers: ["Tak", "Nie"],
-    showIf: noCoalFurnace,
     page: PAGES[3],
   },
   {
@@ -252,7 +211,6 @@ const QUESTIONS: Question[] = [
     title: "Gdy kierujesz autem, ilu pasażerów zwykle zabierasz?",
     answers: ["0", "1", "2", "3", "4+"],
     page: PAGES[4],
-    showIf: isDrivingCar,
   },
   {
     id: 20,
@@ -270,7 +228,6 @@ const QUESTIONS: Question[] = [
       "Inne",
     ],
     page: PAGES[4],
-    showIf: isUsingBus,
   },
   {
     id: 21,
@@ -287,7 +244,6 @@ const QUESTIONS: Question[] = [
       "Inne",
     ],
     page: PAGES[4],
-    showIf: notUsingBus,
   },
   {
     id: 22,
@@ -306,7 +262,6 @@ const QUESTIONS: Question[] = [
       "mniejszy dystans do / z przystanków",
     ],
     page: PAGES[4],
-    showIf: isUsingBus,
   },
   {
     id: 23,
@@ -325,7 +280,6 @@ const QUESTIONS: Question[] = [
       "nie dam się przekonać",
     ],
     page: PAGES[4],
-    showIf: notUsingBus,
   },
   {
     id: 24,

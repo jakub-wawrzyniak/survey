@@ -1,11 +1,12 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { EMPTY_ANSWERS } from "../constants/emptyAnswers";
 import { QUESTIONS } from "../constants/questions";
+import { SHOW_QUESTION_IF } from "../constants/showQuestionsIf";
 import {
   MultiChoiceQuestion,
   MultiPointQuestion,
   Question,
-  ShowQuestionIf,
+  QuestionRecord,
   SingleChoiceQuestion,
 } from "../types";
 import { RootState } from "./store";
@@ -26,7 +27,7 @@ type MultiPointPayload = {
 type MultiPointAnswer = PayloadAction<MultiPointPayload>;
 
 function validateAction(
-  state: Record<number, Question>,
+  state: QuestionRecord,
   { questionId, answerId }: TogglePayload,
   expectedType: "singlechoice" | "multichoice"
 ) {
@@ -68,7 +69,7 @@ function checkOptionId(q: MultiPointQuestion, { optionId }: MultiPointPayload) {
   throw `Cannot toggle answer for questionId=${q.id} option=${optionId}, because this question has only ${q.options.length} options`;
 }
 
-function clearNotShownQuestions(state: Record<number, Question>) {
+function clearNotShownQuestions(state: QuestionRecord) {
   for (const { id } of QUESTIONS) {
     const question = state[id];
     const isShown = selectShouldShowQuestion(id)({ questions: state });
@@ -87,8 +88,8 @@ function isQuestionEmpty({ type, pickedAnswer }: Question) {
   }
 }
 
-function getInitState(): Record<number, Question> {
-  const state: Record<number, Question> = {};
+function getInitState(): QuestionRecord {
+  const state: QuestionRecord = {};
   QUESTIONS.forEach((q) => (state[q.id] = q));
   return state;
 }
@@ -150,69 +151,12 @@ export const selectQuestion =
     return question;
   };
 
-const checkIsNumber = (value: unknown, question: Question) => {
-  if (typeof value === "number") return;
-  throw `An expectedAnswer of type ${typeof value} was provided for questionId=${
-    question.id
-  }, but that question is ${
-    question.type
-  }, hence the expectedAnswer should have a type 'number'`;
-};
-
-const isConditionNullish = (
-  condition: ShowQuestionIf,
-  state: QuestionState
-) => {
-  const { type, pickedAnswer: answer } = selectQuestion(condition.questionId)(
-    state
-  );
-  switch (type) {
-    case "singlechoice":
-      return answer === null;
-    case "multichoice":
-      return answer.length === 0;
-    case "multipoint":
-      const expected = condition.expectedAnswer as [number, number];
-      const optionId = expected[0];
-      return answer[optionId] === undefined;
-  }
-};
-
-const testShowCondition = (
-  condition: ShowQuestionIf,
-  state: QuestionState
-): boolean => {
-  const question = selectQuestion(condition.questionId)(state);
-  const { expectedAnswer } = condition;
-  if (Array.isArray(expectedAnswer)) {
-    checkType(question, "multipoint");
-    const q = question as MultiPointQuestion;
-    const [key, value] = expectedAnswer;
-    return q.pickedAnswer[key] === value;
-  }
-
-  checkIsNumber(expectedAnswer, question);
-  const { pickedAnswer: answer, type } = question;
-
-  if (type === "multichoice") {
-    return answer.includes(expectedAnswer);
-  } else if (type === "singlechoice") {
-    return answer === expectedAnswer;
-  }
-
-  throw "A condition for a multichoice question must be an array of two numbers [subquestionId, optionId]";
-};
-
 export const selectShouldShowQuestion =
   (questionId: number) =>
   (state: QuestionState): boolean => {
-    const question = selectQuestion(questionId)(state);
-    const { showIf } = question;
+    const showIf = SHOW_QUESTION_IF[questionId];
     if (showIf === undefined) return true;
-    if (isConditionNullish(showIf, state)) return false;
-
-    let shouldShow = testShowCondition(showIf, state);
-    if (showIf.negate) shouldShow = !shouldShow;
+    const shouldShow = showIf(state.questions);
     return shouldShow;
   };
 
