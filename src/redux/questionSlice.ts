@@ -9,6 +9,13 @@ import {
   QuestionRecord,
   SingleChoiceQuestion,
 } from "../types";
+import {
+  checkAnswerId,
+  checkExists,
+  checkOptionId,
+  checkSubquestionId,
+  checkType,
+} from "../utils";
 import { RootState } from "./store";
 
 type QuestionState = Pick<RootState, "questions">;
@@ -36,37 +43,6 @@ function validateAction(
   checkType(question, expectedType);
   checkAnswerId(question as SingleChoiceQuestion, answerId);
   return { question, answerId };
-}
-
-function checkExists(q: Question | undefined, id: number) {
-  if (q !== undefined) return;
-  throw `Couldn't find a question with id=${id}`;
-}
-
-function checkType(q: Question, type: Question["type"]) {
-  if (q.type === type) return;
-  throw `An attempt was made to submit answer to question with id=${q.id}. Expected that question to be of type ${type}, but it was ${q.type} instead.`;
-}
-
-function checkAnswerId(
-  q: MultiChoiceQuestion | SingleChoiceQuestion,
-  answerId: number
-) {
-  if (q.answers.length > answerId) return;
-  throw `Cannot toggle answerId=${answerId}, because max id for questionId=${q.id} is ${q.answers.length}`;
-}
-
-function checkSubquestionId(
-  q: MultiPointQuestion,
-  { subquestionId }: MultiPointPayload
-) {
-  if (q.subquestions.length > subquestionId) return;
-  throw `Cannot toggle answer for questionId=${q.id} subquestionId=${subquestionId}, because this question has only ${q.subquestions.length} subquestions`;
-}
-
-function checkOptionId(q: MultiPointQuestion, { optionId }: MultiPointPayload) {
-  if (q.options.length > optionId) return;
-  throw `Cannot toggle answer for questionId=${q.id} option=${optionId}, because this question has only ${q.options.length} options`;
 }
 
 function clearNotShownQuestions(state: QuestionRecord) {

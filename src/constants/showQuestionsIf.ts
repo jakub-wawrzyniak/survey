@@ -5,6 +5,7 @@ import {
   ShowIf,
   SingleChoiceQuestion,
 } from "../types";
+import { checkType } from "../utils";
 
 const not = (dontShowIf: ShowIf) => {
   const showIf: ShowIf = (r) => !dontShowIf(r);
@@ -13,6 +14,7 @@ const not = (dontShowIf: ShowIf) => {
 
 const transportAnswers = (record: QuestionRecord) => {
   const question = record[18] as MultiPointQuestion;
+  checkType(question, "multipoint");
   const { pickedAnswer } = question;
 
   const neverAnswer = 2;
@@ -43,14 +45,17 @@ const isDrivingCar: ShowIf = (record) => {
 };
 
 const hasCoalFurnace: ShowIf = (record) => {
-  const { pickedAnswer } = record[10] as MultiChoiceQuestion;
-  return pickedAnswer.includes(3);
+  const question = record[10] as MultiChoiceQuestion;
+  checkType(question, "multichoice");
+  return question.pickedAnswer.includes(3);
 };
 
 const noCoalFurnace = not(hasCoalFurnace);
 
 const solarPanelAnswers = (record: QuestionRecord) => {
-  const { pickedAnswer: answer } = record[16] as SingleChoiceQuestion;
+  const question = record[16] as SingleChoiceQuestion;
+  checkType(question, "singlechoice");
+  const { pickedAnswer: answer } = question;
   return { answer, yes: 0, no: 1 };
 };
 
@@ -65,8 +70,9 @@ const noSolarPanels: ShowIf = (record) => {
 };
 
 const hasCentralHeating: ShowIf = (record) => {
-  const { pickedAnswer } = record[10] as MultiChoiceQuestion;
-  return pickedAnswer.includes(0);
+  const question = record[10] as MultiChoiceQuestion;
+  checkType(question, "multichoice");
+  return question.pickedAnswer.includes(0);
 };
 
 const noCentralHeating = not(hasCentralHeating);
