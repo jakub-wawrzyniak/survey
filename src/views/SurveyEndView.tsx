@@ -10,16 +10,27 @@ import {
   InfoListElement,
 } from "../components/InfoComponents";
 import { TextRegular, TextTitle, TextButton } from "../components/Text";
+import { useAppSelector } from "../redux";
+import { selectAnswerTime } from "../redux/metadataSlice";
+import { selectHowManyAnswered } from "../redux/questionSlice";
+
+function getAvgTime(noOfAnswers: number, answerTime: number) {
+  if (noOfAnswers === 0) return "- sekund";
+  const avgTime = answerTime / noOfAnswers;
+  const seconds = (avgTime % 60).toFixed(0);
+  const minutes = (avgTime / 60).toFixed(0);
+
+  let time = "";
+  if (minutes !== "0") time += `${minutes} minut `;
+  time += `${seconds} sekund`;
+
+  return time;
+}
 
 export function SurveyEndView() {
-  // const answers = useAppSelector((s) => s.questions) as Question[];
-  // const timeLog = useAppSelector((s) => s.timeLog) as number[];
-  // const handleClick = () => dispatch(changePage(PAGES[1]));
-  const noOfAnswers = 3;
-  // const noOfAnswers = answers.filter((ans) => ans.pickedAnswer).length;
-  // const time = getAnswerTime(timeLog) / 1000;
-  //   const avg = noOfAnswers ? (time / noOfAnswers).toFixed(1) : "- ";
-  const avg = 5;
+  const answerTime = useAppSelector(selectAnswerTime);
+  const noOfAnswers = useAppSelector(selectHowManyAnswered);
+  const avgTime = getAvgTime(noOfAnswers, answerTime);
   return (
     <>
       <InfoContainer>
@@ -32,7 +43,7 @@ export function SurveyEndView() {
         <InfoList>
           <InfoListElement>
             <TextRegular>
-              Wypełniłeś {noOfAnswers} pytań, poświęcając średnio {avg}s na
+              Wypełniłeś {noOfAnswers} pytań, poświęcając średnio {avgTime} na
               wypełnienie każdego z nich
             </TextRegular>
           </InfoListElement>

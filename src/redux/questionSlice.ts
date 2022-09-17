@@ -136,4 +136,11 @@ export const selectShouldShowQuestion =
     return shouldShow;
   };
 
+export const selectHowManyAnswered = (state: QuestionState) => {
+  return QUESTIONS.filter(({ id }) => {
+    const question = selectQuestion(id)(state);
+    return !isQuestionEmpty(question);
+  }).length;
+};
+
 export default questionSlice.reducer;

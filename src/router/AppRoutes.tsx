@@ -5,6 +5,8 @@ import { getUrlFromPage } from "../utils";
 import { QuestionSetView } from "../views/QuestionSetView";
 import { SurveyEndView } from "../views/SurveyEndView";
 import { SurveyStartView } from "../views/SurveyStartView";
+import { usePage } from "./usePage";
+import { useTimeLogger } from "./useTimeLogger";
 
 type QuestionsOnPage = Record<Page, Question[]>;
 
@@ -30,6 +32,7 @@ const questionViews = PAGES.filter((page) => questionsOnPage[page]).map(
 );
 
 export function AppRoutes() {
+  useTimeLogger();
   return (
     <Routes>
       <Route path={""} element={<Navigate replace to={startUrl} />} />
