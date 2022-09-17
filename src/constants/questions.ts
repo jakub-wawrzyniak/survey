@@ -9,58 +9,33 @@ function not(showIf: ShowQuestionIf): ShowQuestionIf {
 }
 
 const isUsingBus: ShowQuestionIf = {
-  method: "some",
   negate: true,
-  toCheck: [
-    {
-      questionId: 18,
-      expectedAnswer: [2, 2],
-    },
-  ],
+  questionId: 18,
+  expectedAnswer: [2, 2],
 };
 const notUsingBus = not(isUsingBus);
 
 const isDrivingCar: ShowQuestionIf = {
-  method: "some",
   negate: true,
-  toCheck: [
-    {
-      questionId: 18,
-      expectedAnswer: [0, 2],
-    },
-  ],
+  questionId: 18,
+  expectedAnswer: [0, 2],
 };
 
 const hasCoalFurnace: ShowQuestionIf = {
-  method: "some",
-  toCheck: [
-    {
-      questionId: 10,
-      expectedAnswer: 3,
-    },
-  ],
+  questionId: 10,
+  expectedAnswer: 3,
 };
 const noCoalFurnace = not(hasCoalFurnace);
 
 const hasSolarPanels: ShowQuestionIf = {
-  method: "some",
-  toCheck: [
-    {
-      questionId: 16,
-      expectedAnswer: 0,
-    },
-  ],
+  questionId: 16,
+  expectedAnswer: 0,
 };
 const noSolarPanels = not(hasSolarPanels);
 
 const hasCentralHeating: ShowQuestionIf = {
-  method: "some",
-  toCheck: [
-    {
-      questionId: 10,
-      expectedAnswer: 0,
-    },
-  ],
+  questionId: 10,
+  expectedAnswer: 0,
 };
 const noCentralHeating = not(hasCentralHeating);
 

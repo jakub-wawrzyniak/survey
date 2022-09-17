@@ -76,6 +76,17 @@ function clearNotShownQuestions(state: Record<number, Question>) {
   }
 }
 
+function isQuestionEmpty({ type, pickedAnswer }: Question) {
+  switch (type) {
+    case "multichoice":
+      return pickedAnswer.length === 0;
+    case "multipoint":
+      return Object.values(pickedAnswer).length === 0;
+    case "singlechoice":
+      return pickedAnswer === null;
+  }
+}
+
 function getInitState(): Record<number, Question> {
   const state: Record<number, Question> = {};
   QUESTIONS.forEach((q) => (state[q.id] = q));
@@ -148,38 +159,60 @@ const checkIsNumber = (value: unknown, question: Question) => {
   }, hence the expectedAnswer should have a type 'number'`;
 };
 
-type Condition = ShowQuestionIf["toCheck"][number];
-const testShowCondition =
-  (state: QuestionState) =>
-  (condition: Condition): boolean => {
-    const question = selectQuestion(condition.questionId)(state);
-    const { expectedAnswer } = condition;
-    if (Array.isArray(expectedAnswer)) {
-      checkType(question, "multipoint");
-      const q = question as MultiPointQuestion;
-      const [key, value] = expectedAnswer;
-      return q.pickedAnswer[key] === value;
-    }
+const isConditionNullish = (
+  condition: ShowQuestionIf,
+  state: QuestionState
+) => {
+  const { type, pickedAnswer: answer } = selectQuestion(condition.questionId)(
+    state
+  );
+  switch (type) {
+    case "singlechoice":
+      return answer === null;
+    case "multichoice":
+      return answer.length === 0;
+    case "multipoint":
+      const expected = condition.expectedAnswer as [number, number];
+      const optionId = expected[0];
+      return answer[optionId] === undefined;
+  }
+};
 
-    checkIsNumber(expectedAnswer, question);
+const testShowCondition = (
+  condition: ShowQuestionIf,
+  state: QuestionState
+): boolean => {
+  const question = selectQuestion(condition.questionId)(state);
+  const { expectedAnswer } = condition;
+  if (Array.isArray(expectedAnswer)) {
+    checkType(question, "multipoint");
+    const q = question as MultiPointQuestion;
+    const [key, value] = expectedAnswer;
+    return q.pickedAnswer[key] === value;
+  }
 
-    if (question.type === "multichoice") {
-      return question.pickedAnswer.includes(expectedAnswer);
-    } else if (question.type === "singlechoice") {
-      return question.pickedAnswer === expectedAnswer;
-    }
+  checkIsNumber(expectedAnswer, question);
+  const { pickedAnswer: answer, type } = question;
 
-    throw "A condition for a multichoice question must be an array of two numbers [subquestionId, optionId]";
-  };
+  if (type === "multichoice") {
+    return answer.includes(expectedAnswer);
+  } else if (type === "singlechoice") {
+    return answer === expectedAnswer;
+  }
+
+  throw "A condition for a multichoice question must be an array of two numbers [subquestionId, optionId]";
+};
 
 export const selectShouldShowQuestion =
   (questionId: number) =>
   (state: QuestionState): boolean => {
     const question = selectQuestion(questionId)(state);
-    if (question.showIf === undefined) return true;
-    const { toCheck, method, negate } = question.showIf;
-    let shouldShow = toCheck[method](testShowCondition(state));
-    if (negate) shouldShow = !shouldShow;
+    const { showIf } = question;
+    if (showIf === undefined) return true;
+    if (isConditionNullish(showIf, state)) return false;
+
+    let shouldShow = testShowCondition(showIf, state);
+    if (showIf.negate) shouldShow = !shouldShow;
     return shouldShow;
   };
 

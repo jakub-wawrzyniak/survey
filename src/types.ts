@@ -5,12 +5,9 @@ export type Length = "short" | "medium" | "long";
 export type Page = typeof PAGES[number];
 
 export type ShowQuestionIf = {
-  method: "some" | "every";
   negate?: boolean;
-  toCheck: {
-    questionId: number;
-    expectedAnswer: number | [number, number];
-  }[];
+  questionId: number;
+  expectedAnswer: number | [number, number];
 };
 
 export type QuestionMetadata = {
