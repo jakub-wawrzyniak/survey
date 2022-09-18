@@ -13,7 +13,7 @@ export const submitAnswers = createAsyncThunk<void, void, { state: RootState }>(
   async (_, thunkAPI) => {
     const firebase = await import("../firebase/config");
     const state = thunkAPI.getState();
-    firebase.submitAnswers(state);
+    await firebase.submitAnswers(state);
   }
 );
 
