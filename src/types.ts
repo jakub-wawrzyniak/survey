@@ -53,3 +53,6 @@ export type Nestable = {
 
 export type QuestionRecord = Record<number, Question>;
 export type ShowIf = (record: QuestionRecord) => boolean;
+
+export type AnswerRecord = Record<number, Question["pickedAnswer"]>;
+export type Submition = { answers: AnswerRecord; answerTime: number };

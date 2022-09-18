@@ -9,7 +9,7 @@ type Props = { question: Question };
 export function QuestionAny({ question }: Props) {
   const { id, type } = question;
   const shouldRender = useAppSelector(selectShouldShowQuestion(id));
-  if (!shouldRender) return;
+  if (!shouldRender) return null;
 
   switch (type) {
     case "multichoice":

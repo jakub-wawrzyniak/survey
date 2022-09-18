@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { usePage } from "../router";
-import { ControlLink, ControlLinkArrow } from "./ControlLink";
+import { ControlLink, ControlLinkArrow } from "./ControlClickable";
 import { TextButton } from "./Text";
 
 const Wrapper = styled.div`

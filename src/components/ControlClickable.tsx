@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { Link } from "react-router-dom";
 import arrow from "/src/assets/right-arrow.svg";
 import { BORDER_RADIUS, COLORS } from "../constants";
@@ -19,12 +19,15 @@ export const ControlLinkArrow = styled.img.attrs({ src: arrow, alt: "" })`
   }
 `;
 
-export const ControlLink = styled(Link).attrs({ onClick: scrollToTop })<{
-  $accent?: boolean;
-}>`
+type IsActive = { $accent?: boolean };
+const clickable = css<IsActive>`
   padding: 0.9em 1em;
   margin-bottom: 0.8em;
   width: 100%;
+  padding: 0.9em 1em;
+  margin-bottom: 0.8em;
+  width: 100%;
+  border: none;
   border-radius: ${BORDER_RADIUS.button};
   flex: 1 0 0;
   background-color: ${(p) =>
@@ -35,9 +38,23 @@ export const ControlLink = styled(Link).attrs({ onClick: scrollToTop })<{
   justify-content: center;
   gap: 1em;
 
+  :hover {
+    cursor: pointer;
+  }
+
   @media (max-width: 390px) {
     padding: 0.7em;
   }
+`;
+
+export const ControlButton = styled.button<IsActive>`
+  ${clickable}
+`;
+
+export const ControlLink = styled(Link).attrs<IsActive>({
+  onClick: scrollToTop,
+})`
+  ${clickable}
 `;
 
 /**

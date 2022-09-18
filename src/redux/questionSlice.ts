@@ -16,6 +16,7 @@ import {
   checkSubquestionId,
   checkType,
 } from "../utils";
+import { isQuestionEmpty } from "../utils/questionHelpers";
 import { RootState } from "./store";
 
 type QuestionState = Pick<RootState, "questions">;
@@ -50,17 +51,6 @@ function clearNotShownQuestions(state: QuestionRecord) {
     const question = state[id];
     const isShown = selectShouldShowQuestion(id)({ questions: state });
     if (!isShown) question.pickedAnswer = EMPTY_ANSWERS[question.type]();
-  }
-}
-
-function isQuestionEmpty({ type, pickedAnswer }: Question) {
-  switch (type) {
-    case "multichoice":
-      return pickedAnswer.length === 0;
-    case "multipoint":
-      return Object.values(pickedAnswer).length === 0;
-    case "singlechoice":
-      return pickedAnswer === null;
   }
 }
 

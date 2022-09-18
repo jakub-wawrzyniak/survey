@@ -1,7 +1,7 @@
 import {
   ControlLinkArrow,
   ControlLinkCentered,
-} from "../components/ControlLink";
+} from "../components/ControlClickable";
 import { FIRST_QUESTION_PAGE } from "../constants";
 import { getUrlFromPage } from "../utils";
 import {

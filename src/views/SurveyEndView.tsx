@@ -1,7 +1,7 @@
 import {
   ControlLinkArrow,
   ControlLinkCentered,
-} from "../components/ControlLink";
+} from "../components/ControlClickable";
 import { FIRST_QUESTION_PAGE } from "../constants";
 import { getUrlFromPage } from "../utils";
 import {
@@ -13,6 +13,7 @@ import { TextRegular, TextTitle, TextButton } from "../components/Text";
 import { useAppSelector } from "../redux";
 import { selectAnswerTime } from "../redux/metadataSlice";
 import { selectHowManyAnswered } from "../redux/questionSlice";
+import { ButtonSubmit } from "../components";
 
 function getAvgTime(noOfAnswers: number, answerTime: number) {
   if (noOfAnswers === 0) return "- sekund";
@@ -56,7 +57,7 @@ export function SurveyEndView() {
           </InfoListElement>
         </InfoList>
       </InfoContainer>
-      {/* <SendButton /> */}
+      <ButtonSubmit />
       <ControlLinkCentered to={getUrlFromPage(FIRST_QUESTION_PAGE)}>
         <ControlLinkArrow />
         <TextButton>Powrót do pytań</TextButton>
