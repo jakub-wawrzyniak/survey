@@ -23,7 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 
-/dev/keys.json
+/dev/*.json
 /dev/answers.txt
 /dev/notes.txt
 /dev/todo.txt
