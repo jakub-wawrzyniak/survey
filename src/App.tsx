@@ -2,7 +2,7 @@ import { BrowserRouter } from "react-router-dom";
 import styled, { createGlobalStyle } from "styled-components";
 import { AppRoutes } from "./router";
 import { PageSelector } from "./components/PageSelector";
-import background from "/src/assets/questionareBackground.jpg";
+import background from "/src/assets/questionareBackground.webp";
 
 const GlobalStyle = createGlobalStyle`
   * {

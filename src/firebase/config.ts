@@ -1,13 +1,7 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { connectAuthEmulator, getAuth, signInAnonymously } from "firebase/auth";
-import {
-  getFirestore,
-  writeBatch,
-  doc,
-  increment,
-  connectFirestoreEmulator,
-} from "firebase/firestore";
+import { getAuth, signInAnonymously } from "firebase/auth";
+import { getFirestore, writeBatch, doc, increment } from "firebase/firestore";
 import { getPerformance } from "firebase/performance";
 import { getAnalytics } from "firebase/analytics";
 import { getSubmition } from "./utils";
@@ -22,12 +16,18 @@ const firebaseConfig = {
   appId: "1:467835212184:web:22b2c6695b64acbc159bed",
 };
 
+async function connectEmulators() {
+  const { connectFirestoreEmulator } = await import("firebase/firestore");
+  const { connectAuthEmulator } = await import("firebase/auth");
+  connectFirestoreEmulator(db, "localhost", 8080);
+  connectAuthEmulator(auth, "http://localhost:9099");
+}
+
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const cred = signInAnonymously(auth);
 const db = getFirestore(app);
-connectFirestoreEmulator(db, "localhost", 8080);
-connectAuthEmulator(auth, "http://localhost:9099");
+if (import.meta.env.DEV) connectEmulators();
 getPerformance(app);
 getAnalytics(app);
 
