@@ -59,4 +59,15 @@ function saveMigratedAnswers() {
   backupAnswers("migratedAnswers", submitions);
 }
 
-saveMigratedAnswers();
+function loadMigratedAnswers() {
+  const json = fs.readFileSync("./dev/migratedAnswers.json");
+  return JSON.parse(json as any) as Submition[];
+}
+
+async function uploadMigratedAnswers() {
+  const submitions = loadMigratedAnswers();
+  const uploads = submitions.map((sub) => db.collection("answers").add(sub));
+  await Promise.all(uploads);
+}
+
+uploadMigratedAnswers();
